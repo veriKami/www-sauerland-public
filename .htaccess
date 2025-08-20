@@ -1,0 +1,114 @@
+#: ---------------------------------------------------------
+#: HTML
+#: ---------------------------------------------------------
+RewriteEngine On
+RewriteBase /
+
+# if any html exists based on current path then serve it
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME}.html -f
+RewriteRule ^(.*)$ $1.html [L]
+
+# if index.html exists then serve it if filepath is empty (checked by RewriteRule ^$)
+RewriteCond %{DOCUMENT_ROOT}/index.html -f
+RewriteRule ^$ /index.html [L]
+
+#: ---------------------------------------------------------
+# DirectorySlash Off
+# Options -Indexes
+
+# RewriteEngine On
+# RewriteBase /
+
+# # Najpierw sprawdź, czy istnieje plik .html o tej nazwie
+# RewriteCond %{REQUEST_FILENAME}.html -f
+# # RewriteRule ^([^/]+)/?$ $1.html [L]
+# RewriteRule ^(.*)$ $1.html [L]
+
+# # Jeśli nie ma pliku .html, ale jest katalog, przekieruj z / na koniec
+# RewriteCond %{REQUEST_FILENAME} -d
+# # RewriteRule ^([^/]+)/?$ $1/ [L]
+# RewriteRule ^(.*)/?$ $1/ [L]
+
+#: ---------------------------------------------------------
+
+#: DISABLE CACHING
+#: ---------------------------------------------------------
+<IfModule mod_headers.c>
+    Header set Cache-Control "no-cache, no-store, must-revalidate"
+    Header set Pragma "no-cache"
+    Header set Expires 0
+</IfModule>
+<FilesMatch "\.(css|flv|gif|htm|html|ico|jpe|jpeg|jpg|js|mp3|mp4|png|pdf|swf|txt)$">
+    <IfModule mod_expires.c>
+        ExpiresActive Off
+    </IfModule>
+    <IfModule mod_headers.c>
+        FileETag None
+        Header unset ETag
+        Header unset Pragma
+        Header unset Cache-Control
+        Header unset Last-Modified
+        Header set Pragma "no-cache"
+        Header set Cache-Control "max-age=0, no-cache, no-store, must-revalidate"
+        Header set Expires "Thu, 1 Jan 1970 00:00:00 GMT"
+    </IfModule>
+</FilesMatch>
+
+#: ---------------------------------------------------------
+#: HTML
+#: ---------------------------------------------------------
+# RewriteEngine On
+# RewriteBase /
+
+# # MultiViews off
+
+# # if any html exists based on current path then serve it
+# # RewriteCond %{REQUEST_FILENAME} !-f
+# RewriteCond %{REQUEST_FILENAME} !-d
+# RewriteCond %{REQUEST_FILENAME}.html -f
+# RewriteRule ^(.*)$ $1.html [L]
+
+# # if index.html exists then serve it if filepath is empty (checked by RewriteRule ^$)
+# RewriteCond %{DOCUMENT_ROOT}/index.html -f
+# RewriteRule ^$ /index.html [L]
+
+#: ---------------------------------------------------------
+# DirectorySlash Off
+# Options -Indexes
+
+# RewriteEngine On
+
+# # Najpierw sprawdź, czy istnieje plik .html o tej nazwie
+# RewriteCond %{REQUEST_FILENAME}.html -f
+# # RewriteRule ^([^/]+)/?$ $1.html [L]
+# RewriteRule ^(.*)$ $1.html [L]
+
+# # Jeśli nie ma pliku .html, ale jest katalog, przekieruj z / na koniec
+# RewriteCond %{REQUEST_FILENAME} -d
+# # RewriteRule ^([^/]+)/?$ $1/ [L]
+# RewriteRule ^(.*)/?$ $1/ [L]
+
+#: ---------------------------------------------------------
+# DirectorySlash Off
+# Options -Indexes
+
+# RewriteEngine On
+
+# # 1. Jeśli żądany URL pasuje do istniejącego pliku .html, użyj go
+# RewriteCond %{REQUEST_FILENAME} !-d          # Nie jest katalogiem
+# RewriteCond %{REQUEST_FILENAME}\.html -f      # Ale plik .html istnieje
+# RewriteRule ^([^/]+)/?$ $1.html [L]          # Przekieruj na plik .html
+
+# # 2. Jeśli URL pasuje do katalogu, dodaj / na końcu
+# RewriteCond %{REQUEST_FILENAME} -d            # Jest katalogiem
+# RewriteRule ^([^/]+)/?$ $1/ [L]              # Dodaj / i załaduj index z katalogu
+
+# # 3. Jeśli ktoś wejdzie bez .html, a plik istnieje, przekieruj (opcjonalne)
+# RewriteCond %{REQUEST_FILENAME} !-d           # Nie jest katalogiem
+# RewriteCond %{REQUEST_FILENAME}\.html -f      # Plik .html istnieje
+# RewriteCond %{REQUEST_URI} !\.html$           # URL nie kończy się na .html
+# RewriteRule ^(.+)$ $1.html [L,R=301]          # Przekieruj na wersję z .html
+
+#: ---------------------------------------------------------

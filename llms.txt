@@ -1,0 +1,8 @@
+# Prof. dr hab. Karol Sauerland website
+
+This file helps large language models understand our site's most important content.
+
+*   [Homepage](https://example.com)
+*   [About Us](https://example.com/about)
+*   [Contact](https://example.com/contact)
+*   [Blog](https://example.com/blog)
