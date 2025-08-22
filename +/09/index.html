@@ -60,15 +60,15 @@ _h2[data-astro-cid-2j44jlrm]{margin-bottom:5px}_li[data-astro-cid-2j44jlrm]::mar
 </div>
 <script>
 const images = [
-'bydg.doc.png',
-'SAUERLAND_6525677_255x255px.png',
-'SAUERLAND_H5M2904_255x400px.png',
-'SAUERLAND_H5M3011_255x300px.png',
-'SAUERLAND_pwm_255x340px.png'
+"bydg.doc.png",
+"SAUERLAND_6525677_255x255px.png",
+"SAUERLAND_H5M2904_255x400px.png",
+"SAUERLAND_H5M3011_255x300px.png",
+"SAUERLAND_pwm_255x340px.png"
 ];
 const randomImage = images[Math.floor(Math.random() * images.length)];
 // document.getElementById('img_logo').src = `/img/${randomImage}`;
-const el = document.getElementById('logo_a');
+const el = document.getElementById("logo_a");
 const img = document.createElement("img");
 img.src = "/img/" + randomImage;
 img.id = "img_logo";
@@ -80,19 +80,19 @@ el.appendChild(img);
 //   document.getElementById('menu').style.display = 'block';
 // });
 let delay = 55;
-document.querySelectorAll(['#logo', 'h1.menu', 'ul.menu'])
-.forEach(el => {el.style.display = 'none';});
-document.querySelectorAll(['#logo', 'h1.menu', 'ul.menu'])
+document.querySelectorAll(["#logo", "h1.menu", "ul.menu"])
+.forEach(el => {el.style.display = "none";});
+document.querySelectorAll(["#logo", "h1.menu", "ul.menu"])
 .forEach(el => {
 delay += 222;
 setTimeout(() => {
-el.style.display = '';
+el.style.display = "";
 // if (typeof Element.prototype.animate !== 'function') {
-if (typeof Element.prototype.animate === 'function') {
+if (typeof Element.prototype.animate === "function") {
 el.animate([{ opacity: 0 }, { opacity: 1 }],
-{ duration: 400, easing: 'ease-in' });
+{ duration: 400, easing: "ease-in" });
 } else {
-el.style.opacity = '1';
+el.style.opacity = "1";
 }
 }, delay);
 });
@@ -103,8 +103,10 @@ el.style.opacity = '1';
 <div id="navigate" style="float:right;">
 <div style="margin: 10px 0 0px;">
 <a href="/txt/ausgewahlte" alt="teksty zebrane">teksty zebrane</a>
-| <a href="/txt/online" alt="teksty w sieci">teksty w sieci</a>
-| <a href="/txt/uber.mich" alt="o mnie">o mnie</a>
+| 
+<a href="/txt/online" alt="teksty w sieci">teksty w sieci</a>
+| 
+<a href="/txt/uber.mich" alt="o mnie">o mnie</a>
 </div>
 <div style="clear:both;"></div>
 <div style="margin: 10px 0 0px;">
@@ -141,8 +143,8 @@ Online since: 12.12.2012.<br>
 Revision: 2.0.4 (Kalliópē) 1.2.5 (Petöfi). Updated: 22.08.2025.<br>
 </div>
 <script>
-document.getElementById('copyright').style.display = 'none';
-setTimeout(() => document.getElementById('copyright').style.display = 'block', 1111);
+document.getElementById("copyright").style.display = "none";
+setTimeout(() => document.getElementById("copyright").style.display = "block", 1111);
 </script>
 </div>
 </main>
