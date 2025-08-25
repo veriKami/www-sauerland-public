@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemap.org/schemas/sitemap/0.9">
+  <url>
+    <loc>https://sauerland.pl/pdfs/document1.pdf</loc>
+    <lastmod>2025-08-25T09:52:30.214Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://sauerland.pl/pdfs/document2.pdf</loc>
+    <lastmod>2025-08-25T09:52:30.214Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://sauerland.pl/pdfs/report.pdf</loc>
+    <lastmod>2025-08-25T09:52:30.214Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+</urlset>

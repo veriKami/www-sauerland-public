@@ -27,25 +27,25 @@
     <link rel="stylesheet" type="text/css" href="/style.css">
     <script type="text/javascript">
     var _gaq = _gaq || [];
-      _gaq.push(["_setAccount", "UA-36967092-1"]);
-      _gaq.push(["_trackPageview"]);
-      (function() {
-        var ga = document.createElement("script");
-        ga.type = "text/javascript";
-        ga.async = true;
-        ga.src = ("https:" == document.location.protocol ? "https://ssl" : "http://www") + ".google-analytics.com/ga.js";
-        var s = document.getElementsByTagName("script")[0];
-        s.parentNode.insertBefore(ga, s);
-      })();
+    _gaq.push(["_setAccount", "UA-36967092-1"]);
+    _gaq.push(["_trackPageview"]);
+    (function() {
+      var ga = document.createElement("script");
+      ga.type = "text/javascript";
+      ga.async = true;
+      ga.src = ("https:" == document.location.protocol ? "https://ssl" : "http://www") + ".google-analytics.com/ga.js";
+      var s = document.getElementsByTagName("script")[0];
+      s.parentNode.insertBefore(ga, s);
+    })();
     </script>
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-22BW78BJNJ"></script>
     <script type="module">
     document.addEventListener("DOMContentLoaded", () => {
-        const e = document.querySelector(".hamburger-button"), t = document.querySelector("body");
-        e && t && e.addEventListener("click", () => {
-          t.classList.toggle("menu-open");
-        });
+      const e = document.querySelector(".hamburger-button"), t = document.querySelector("body");
+      e && t && e.addEventListener("click", () => {
+        t.classList.toggle("menu-open");
       });
+    });
     </script>
     <style>
     .notice[data-astro-cid-grfic55u] {
@@ -90,15 +90,11 @@
     </style>
   </head>
   <body>
-    <button class="hamburger-button" aria-label="Open menu">
-      <span class="hamburger-icon"></span>
-    </button>
+    <button class="hamburger-button" aria-label="Open menu"><span class="hamburger-icon"></span></button>
     <div class="layout-wrapper">
       <aside class="left-panel">
         <div id="menu" _style="display:none;">
-          <div id="logo">
-            <a id="logo_a" href="/de"> </a>
-          </div>
+          <div id="logo"><a id="logo_a" href="/de"></a></div>
           <h1 class="menu">Prof. Dr. Karol Sauerland</h1>
           <nav data-astro-cid-2j44jlrm>
             <ul class="menu" data-astro-cid-2j44jlrm>
@@ -128,65 +124,16 @@
           </nav>
         </div>
         <script>
-        const images = [
-            "bydg.doc.png",
-            "SAUERLAND_6525677_255x255px.png",
-            "SAUERLAND_H5M2904_255x400px.png",
-            "SAUERLAND_H5M3011_255x300px.png",
-            "SAUERLAND_pwm_255x340px.png",
-          ];
-          const randomImage = images[Math.floor(Math.random() * images.length)];
-          // document.getElementById('img_logo').src = `/img/${randomImage}`;
-          const el = document.getElementById("logo_a");
-          const img = document.createElement("img");
-          img.src = "/img/" + randomImage;
-          img.id = "img_logo";
-          img.class = "menu";
-          el.appendChild(img);
-          // document.getElementById('menu').style.display = 'block';
-          // setTimeout(() => document.getElementById('menu').style.display = 'block',33);
-          // document.addEventListener('DOMContentLoaded', () => {
-          //   document.getElementById('menu').style.display = 'block';
-          // });
-          let delay = 55;
-          document.querySelectorAll(["#logo", "h1.menu", "ul.menu"])
-            .forEach(el => {
-              el.style.display = "none";
-            });
-          document.querySelectorAll(["#logo", "h1.menu", "ul.menu"])
-            .forEach(el => {
-              delay += 222;
-              setTimeout(() => {
-                el.style.display = "";
-                // if (typeof Element.prototype.animate !== 'function') {
-                if (typeof Element.prototype.animate === "function") {
-                  el.animate([{ opacity: 0 }, { opacity: 1 }], { duration: 400, easing: "ease-in" });
-                } else {
-                  el.style.opacity = "1";
-                }
-              }, delay);
-            });
+        const images = ["bydg.doc.png", "SAUERLAND_6525677_255x255px.png", "SAUERLAND_H5M2904_255x400px.png", "SAUERLAND_H5M3011_255x300px.png", "SAUERLAND_pwm_255x340px.png"];
+        const randomImage = images[Math.floor(Math.random() * images.length)]; // document.getElementById('img_logo').src = `/img/${randomImage}`; const el = document.getElementById("logo_a"); const img = document.createElement("img"); img.src = "/img/" + randomImage; img.id = "img_logo"; img.class = "menu"; el.appendChild(img); // document.getElementById('menu').style.display = 'block'; // setTimeout(() => document.getElementById('menu').style.display = 'block',33); // document.addEventListener('DOMContentLoaded', () => { // document.getElementById('menu').style.display = 'block'; // }); let delay = 55; document.querySelectorAll(["#logo", "h1.menu", "ul.menu"]) .forEach(el => {el.style.display = "none";}); document.querySelectorAll(["#logo", "h1.menu", "ul.menu"]) .forEach(el => { delay += 222; setTimeout(() => { el.style.display = ""; // if (typeof Element.prototype.animate !== 'function') { if (typeof Element.prototype.animate === "function") { el.animate([{ opacity: 0 }, { opacity: 1 }], { duration: 400, easing: "ease-in" }); } else { el.style.opacity = "1"; } }, delay); });
         </script>
       </aside>
       <main class="right-panel">
         <div id="content">
           <div id="navigate" style="float: right">
-            <div style="margin: 10px 0 0px">
-              <span key="/de/txt/ausgewahlte">
-                <a href="/de/txt/ausgewahlte" alt="Ausgewählte Texte">Ausgewählte Texte</a> |
-              </span><span key="/de/txt/online">
-                <a href="/de/txt/online" alt="Onlinetexte">Onlinetexte</a> |
-              </span><span key="/de/txt/uber.mich">
-                <a href="/de/txt/uber.mich" alt="Über mich">Über mich</a>
-              </span>
-            </div>
+            <div style="margin: 10px 0 0px"><span key="/de/txt/ausgewahlte"><a href="/de/txt/ausgewahlte" alt="Ausgewählte Texte">Ausgewählte Texte</a> | </span><span key="/de/txt/online"><a href="/de/txt/online" alt="Onlinetexte">Onlinetexte</a> | </span><span key="/de/txt/uber.mich"><a href="/de/txt/uber.mich" alt="Über mich">Über mich</a></span></div>
             <div style="clear: both"></div>
-            <div style="margin: 10px 0 0px">
-              <a href="/de/kontakt" alt="Kontakt">kontakt</a> |
-              <a href="/*/03" class="lang">deutsch</a> |
-              <a href="/*/03" class="lang active">polski</a>
-            </div>
-            <small style="display: block; padding: 8px 0">🇩🇪</small>
+            <div style="margin: 10px 0 0px"><a href="/de/kontakt" alt="Kontakt">kontakt</a> | <a href="/*/03" class="lang">deutsch</a> | <a href="/*/03" class="lang active">polski</a></div><small style="display: block; padding: 8px 0">🇩🇪</small>
           </div>
           <div style="clear: both"></div>
           <h1 class="print">Prof. Dr. Karol Sauerland</h1>
@@ -493,7 +440,7 @@
                 <li>Schuberts Eichendorff-Vertonungen, <a href="http://wwww.demusica.pl/?Pismo_Muzykalia:Muzykalia_XII%2FZeszyt_niemiecki_3">http://wwww.demusica.pl/?Pismo_Muzykalia:Muzykalia_XII%2FZeszyt_niemiecki_3</a></li>
                 <li>Kulturtransfer. Zur Rolle der DAAD-Lektorinnen und -Lektoren aus der Sicht der internationalen Germanistik, in: Deutsch als Fremdsprache und Literaturwissenschaft. Zugriffe. Themenfelder. Perspektiven, hrsg. von Michael Ewert, Renate Riedner und Simone Schiedermair, München 2011, S. 51-59.</li>
                 <li>Ciało i ziemia w myśli Nietzschego, in: przegląd filozoficzno-literacki, 4/2011, S. 107-118.</li>
-                <li>Beginnende Übersetzungskritik im Deutschland des 18. Jahrhunderts, in: Übersetzen. Deutsch-polnisches Übersetzungsjahrbuch – Karl Dedecius Archiv, Nr.2., Słubice 2011, S. 201-208</li>
+                <li>Beginnende Übersetzungskritik im Deutschland des 18. Jahrhunderts, in: Übersetzen. Deutsch-polnisches Übersetzungsjahrbuch – Karl Dedecius Archiv, Nr.2., Słubice 2011, S. 201-208</li>
                 <li>Bodenheimers publizistisches Eintreten für die Ostjuden, in: Die Pressa, Internationale Preseausstellung Köln 1928, und der jüdische Beitrag zum modernen Journalismus, hrsg. von Susanne Marten-Finnis, Michael Nagel, Bremen 2012, S. 281-292.</li>
                 <li>Twórczość Günthera Andersa w kontekście reflekcji Hannah Arendt, Waltera Benjamina i Martina Heideggera, w: przegląd filozoficzno-literacki (Andrzej Walicki), 4/2010, Warszawa 2012, S. 375-394.</li>
                 <li>Od Sokratesa do Zaratustry, Nietzsche Seminarium, t. 4 (Nietzsche a tradycja antyczna), Toruń 2012, S. 129-133.</li>
@@ -546,35 +493,22 @@
                 <li>Helmuth Plessners philosophische Anthropologie in Konfrontation mit Giorgio Agamben und im Kontext seiner Zeit, in: Philosophische Anthropologie zwischen Soziologie und Geschichtsphilosophie, Herausgegeben von Rainer Adolphi, Andrzej Gniazdowski und Zdzisław Krasnodębski, Nordhausen 2018, S. 341-351</li>
                 <li>Mein Goethe – wie Goethe einen polnischen Germanisten und Philosophen durch sein Leben begleitet hat, in: Geschichte der Germanistik. Historische Zeitschrift für die Philologien, herausgegeben von Christoph König und Anna Kinder, H. 53/54, Göttingen 2018, S. 76-91.</li>
                 <li>
-                  Meine ersten Begegnungen mit Karl Dedecius, w: OderÜbersetzen. Deutsch-polnisches Übersetzungsjahrbuch – Karl Dedecius Archiv. Nr 8-9, 2018, s.42-55, w Internecie dostepny pod
-                  <a href="https://oderubersetzen.pl/resources/html/articlesList?issueId=11769">https://oderubersetzen.pl/resources/html/articlesList?issueId=11769</a> <a href="https://www.wuw.pl/product-pol-8490-OderUbersetzen-2018-8-9-Polsko-niemiecki-rocznik-translatorski-Archiwum-Karla-Dedeciusa-PDF.html">https://www.wuw.pl/product-pol-8490-OderUbersetzen-2018-8-9-Polsko-niemiecki-rocznik-translatorski-Archiwum-Karla-Dedeciusa-PDF.html</a>
+                  Meine ersten Begegnungen mit Karl Dedecius, w: OderÜbersetzen. Deutsch-polnisches Übersetzungsjahrbuch – Karl Dedecius Archiv. Nr 8-9, 2018, s.42-55, w Internecie dostepny pod <a href="https://oderubersetzen.pl/resources/html/articlesList?issueId=11769">https://oderubersetzen.pl/resources/html/articlesList?issueId=11769</a><a href="https://www.wuw.pl/product-pol-8490-OderUbersetzen-2018-8-9-Polsko-niemiecki-rocznik-translatorski-Archiwum-Karla-Dedeciusa-PDF.html"
+                  >https://www.wuw.pl/product-pol-8490-OderUbersetzen-2018-8-9-Polsko-niemiecki-rocznik-translatorski-Archiwum-Karla-Dedeciusa-PDF.html</a>
                 </li>
-                <li>
-                  Dedecius’ Anfänge in der Bundesrepublik, in: Die Botschaft der Bücher. Leben und Werk von Karl Dedecius, Wrocław, Dresden 2018, hg. von Iwona Czechowska, Krzysztof A. Kuczyński, Anna Małgowicz, S. 35-62. Auch zugänglich in
-                  <a href="https://www.ub.europa-uni.de/de/benutzung/bestand/stiftung_kdlitarchiv/veroeffentlichungen/index.html">https://www.ub.europa-uni.de/de/benutzung/bestand/stiftung_kdlitarchiv/veroeffentlichungen/index.html</a>
-                </li>
-                <li>
-                  Der Tod in Venedig eine Entgrenzung? In: Convivium 2017, S. 71-88, auch in
-                  <a href="http://convivium.edu.pl/archiv-2017.html">http://convivium.edu.pl/archiv-2017.html</a> zugänglich
-                </li>
-                <li>
-                  Grecka starożytność w nowym blasku, in: Litteraria Copernicana (Echa antyku), Toruń 2018, S. 33-48, auch in <a href="http://dx.doi.org/10.12775/LC.2018.045">http://dx.doi.org/10.12775/LC.2018.045</a>
-                </li>
+                <li>Dedecius’ Anfänge in der Bundesrepublik, in: Die Botschaft der Bücher. Leben und Werk von Karl Dedecius, Wrocław, Dresden 2018, hg. von Iwona Czechowska, Krzysztof A. Kuczyński, Anna Małgowicz, S. 35-62. Auch zugänglich in <a href="https://www.ub.europa-uni.de/de/benutzung/bestand/stiftung_kdlitarchiv/veroeffentlichungen/index.html">https://www.ub.europa-uni.de/de/benutzung/bestand/stiftung_kdlitarchiv/veroeffentlichungen/index.html</a></li>
+                <li>Der Tod in Venedig eine Entgrenzung? In: Convivium 2017, S. 71-88, auch in <a href="http://convivium.edu.pl/archiv-2017.html">http://convivium.edu.pl/archiv-2017.html</a> zugänglich</li>
+                <li>Grecka starożytność w nowym blasku, in: Litteraria Copernicana (Echa antyku), Toruń 2018, S. 33-48, auch in <a href="http://dx.doi.org/10.12775/LC.2018.045">http://dx.doi.org/10.12775/LC.2018.045</a></li>
                 <li>Starożytność i nowoczesność. Na kanwie debaty niemieckiej w połowie lat dziewięćdziesiątych XVIII wieku, w: przegląd filozoficzno-literacki, Warszawa, t. 3/2018, S. 45-62.</li>
                 <li>Historia pojęć wschód-zachód (Ost-West) w kulturze niemieckiej, w Międzynarodowy dyskurs filologiczny, Słupsk 2019, S. 261-269.</li>
-                <li>
-                  Heiderowskie Gelassenheit po polsku, w: Ruch Filozoficzny 3/2019. S. 7-14, auch in <a href="https://apcz.umk.pl/czasopisma/index.php/RF/article/view/21455/18404">https://apcz.umk.pl/czasopisma/index.php/RF/article/view/21455/18404</a>
-                </li>
+                <li>Heiderowskie Gelassenheit po polsku, w: Ruch Filozoficzny 3/2019. S. 7-14, auch in <a href="https://apcz.umk.pl/czasopisma/index.php/RF/article/view/21455/18404">https://apcz.umk.pl/czasopisma/index.php/RF/article/view/21455/18404</a></li>
                 <li>Die mit dem Ersten Weltkrieg verbundenen Hoffnungen und Stimmungen, in: Krieg in der Literatur, Literatur im Krieg. Studien, hg. Dahlmanns, Karsten, Freise, Matthias, Grzegorz Kowal, Göttingen 2020, S. 47-54</li>
                 <li>Hans Mayer und Ernst Bloch in meiner Erinnerung, in: Begegnung ist das wirkliche Leben – Literatur-, kultur- und sprachwissenschaftliche Beiträge II. Festschrift für Professor Dr. habil. Klaus Hammer zu 85. Geburtstag, hg. Anna Mrożowska u. Anna Nieroda-Kowal, Hamburg 2020, S. 147-158</li>
                 <li>Beziehungen als Totentänze!? (Strindberg, Beckett, Ionesco, Bernhard, Różewicz, Walser), in: Zwischen Harmonie und Konflikt. Paarbeziehungen im europäischen Theater des 20. und 21. Jahrhunderts, hg. Agata Mirecka u. Natalia Fuhry, Frankfurt/Main 2020, S. 13-30</li>
                 <li>Literaturwissenschaft an der Warschauer Germanistik seit 1960 und an der Thorner Germanistik seit 1980 – die verschiedenen Reformversuche, in: 30 Jahre germanistische Forschung in Polen und Deutschland. Reflexionen und Erinnerungen – Literaturwissenschaft, hg. von Marion Brandt u. Mirosław Ossowski, Gdańsk 2020, S. 123-129</li>
                 <li>Karl Dedecius, Odra, Wrocław 11/2020, S. 48-53</li>
                 <li>Warum war zwischen Dedecius und Herbert alles so kompliziert? in: Zbigniew Herbert – poeta między kulturami. Ein Dichter zwischen den Kulturen, Wrocław, Dresden 2020, S. 203-214</li>
-                <li>
-                  Zwei Seelen? Ein Blick auf die polnische Germanistin Elida Maria Szarota, in:
-                  <a href="https://blogs.dickinson.edu/glossen/home-2/glossen-48/zwei-seelen-ein-blick-auf-die-polnische-germanistin-elida-maria-szarota/">https://blogs.dickinson.edu/glossen/home-2/glossen-48/zwei-seelen-ein-blick-auf-die-polnische-germanistin-elida-maria-szarota/</a>, 2021
-                </li>
+                <li>Zwei Seelen? Ein Blick auf die polnische Germanistin Elida Maria Szarota, in: <a href="https://blogs.dickinson.edu/glossen/home-2/glossen-48/zwei-seelen-ein-blick-auf-die-polnische-germanistin-elida-maria-szarota/">https://blogs.dickinson.edu/glossen/home-2/glossen-48/zwei-seelen-ein-blick-auf-die-polnische-germanistin-elida-maria-szarota/</a>, 2021</li>
                 <li>Zweierlei Erfahrungen (Erich Maria Remarque und Wolfgang Borchert), in: Erich Remarque Jahrbuch XXXI/2021 (Erich Maria Remarque aus heutiger Sicht), hg. von Thomas F. Schneider, Osnabrück 2021, S. 83-92</li>
                 <li>Krise der Wahrheitssuche. Bemerkungen zu Palmetshofer „die unverheiratete“, in: Theater und Krise. Paradigma der Störung in Dramentexten und Bühnenkonzepten nach 2000, hg. von Marta Famula u. Verena Witschel, München 2021, S. 282-294</li>
                 <li>Meine Begegnung mit George Tabori, in: Hier ist mein Zuhause. Gegenwartsdrama in Mitteleuropa, hg, von Anna Majkiewicz und Agata Mirecka, Wiesbaden 2021, S. 181-187</li>
@@ -589,26 +523,21 @@
               </ul>
             </main>
           </div>
-          <div id="copyright">
-            Copyright © 2012 // 2025 <a href="/de/kontakt">Karol Sauerland</a>. Some rights reserved.<br>
-            Coded by ° <a href="http://verikami.com" target="_blank">veriKami</a> //
-            <a href="http://verikami.com" target="_blank">Kami Weronika Amelia</a>. Online since: 12.12.2012.<br>
-            Revision: 2.0.4 (Kalliópē) 1.2.5 (Petöfi). Updated: 24.08.2025.<br>
-          </div>
+          <div id="copyright">Copyright © 2012 // 2025 <a href="/de/kontakt">Karol Sauerland</a>. Some rights reserved.<br> Coded by ° <a href="http://verikami.com" target="_blank">veriKami</a> // <a href="http://verikami.com" target="_blank">Kami Weronika Amelia</a>. Online since: 12.12.2012.<br> Revision: 2.0.4 (Kalliópē) 1.2.5 (Petöfi). Updated: 25.08.2025.<br></div>
           <script>
           document.getElementById("copyright").style.display = "none";
-            setTimeout(() => document.getElementById("copyright").style.display = "block", 1111);
+          setTimeout(() => document.getElementById("copyright").style.display = "block", 1111);
           </script>
         </div>
       </main>
     </div>
     <script type="module">
     window.dataLayer = window.dataLayer || [];
-      function a() {
-        dataLayer.push(arguments);
-      }
-      a("js", new Date());
-      a("config", "G-22BW78BJNJ");
+    function a() {
+      dataLayer.push(arguments);
+    }
+    a("js", new Date());
+    a("config", "G-22BW78BJNJ");
     </script>
   </body>
 </html>

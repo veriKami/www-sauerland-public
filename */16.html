@@ -27,25 +27,25 @@
     <link rel="stylesheet" type="text/css" href="/style.css">
     <script type="text/javascript">
     var _gaq = _gaq || [];
-      _gaq.push(["_setAccount", "UA-36967092-1"]);
-      _gaq.push(["_trackPageview"]);
-      (function() {
-        var ga = document.createElement("script");
-        ga.type = "text/javascript";
-        ga.async = true;
-        ga.src = ("https:" == document.location.protocol ? "https://ssl" : "http://www") + ".google-analytics.com/ga.js";
-        var s = document.getElementsByTagName("script")[0];
-        s.parentNode.insertBefore(ga, s);
-      })();
+    _gaq.push(["_setAccount", "UA-36967092-1"]);
+    _gaq.push(["_trackPageview"]);
+    (function() {
+      var ga = document.createElement("script");
+      ga.type = "text/javascript";
+      ga.async = true;
+      ga.src = ("https:" == document.location.protocol ? "https://ssl" : "http://www") + ".google-analytics.com/ga.js";
+      var s = document.getElementsByTagName("script")[0];
+      s.parentNode.insertBefore(ga, s);
+    })();
     </script>
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-22BW78BJNJ"></script>
     <script type="module">
     document.addEventListener("DOMContentLoaded", () => {
-        const e = document.querySelector(".hamburger-button"), t = document.querySelector("body");
-        e && t && e.addEventListener("click", () => {
-          t.classList.toggle("menu-open");
-        });
+      const e = document.querySelector(".hamburger-button"), t = document.querySelector("body");
+      e && t && e.addEventListener("click", () => {
+        t.classList.toggle("menu-open");
       });
+    });
     </script>
     <style>
     .notice[data-astro-cid-grfic55u] {
@@ -90,15 +90,11 @@
     </style>
   </head>
   <body>
-    <button class="hamburger-button" aria-label="Open menu">
-      <span class="hamburger-icon"></span>
-    </button>
+    <button class="hamburger-button" aria-label="Open menu"><span class="hamburger-icon"></span></button>
     <div class="layout-wrapper">
       <aside class="left-panel">
         <div id="menu" _style="display:none;">
-          <div id="logo">
-            <a id="logo_a" href="/"> </a>
-          </div>
+          <div id="logo"><a id="logo_a" href="/"></a></div>
           <h1 class="menu">Prof. dr hab. Karol Sauerland</h1>
           <nav data-astro-cid-2j44jlrm>
             <ul class="menu" data-astro-cid-2j44jlrm>
@@ -124,65 +120,16 @@
           </nav>
         </div>
         <script>
-        const images = [
-            "bydg.doc.png",
-            "SAUERLAND_6525677_255x255px.png",
-            "SAUERLAND_H5M2904_255x400px.png",
-            "SAUERLAND_H5M3011_255x300px.png",
-            "SAUERLAND_pwm_255x340px.png",
-          ];
-          const randomImage = images[Math.floor(Math.random() * images.length)];
-          // document.getElementById('img_logo').src = `/img/${randomImage}`;
-          const el = document.getElementById("logo_a");
-          const img = document.createElement("img");
-          img.src = "/img/" + randomImage;
-          img.id = "img_logo";
-          img.class = "menu";
-          el.appendChild(img);
-          // document.getElementById('menu').style.display = 'block';
-          // setTimeout(() => document.getElementById('menu').style.display = 'block',33);
-          // document.addEventListener('DOMContentLoaded', () => {
-          //   document.getElementById('menu').style.display = 'block';
-          // });
-          let delay = 55;
-          document.querySelectorAll(["#logo", "h1.menu", "ul.menu"])
-            .forEach(el => {
-              el.style.display = "none";
-            });
-          document.querySelectorAll(["#logo", "h1.menu", "ul.menu"])
-            .forEach(el => {
-              delay += 222;
-              setTimeout(() => {
-                el.style.display = "";
-                // if (typeof Element.prototype.animate !== 'function') {
-                if (typeof Element.prototype.animate === "function") {
-                  el.animate([{ opacity: 0 }, { opacity: 1 }], { duration: 400, easing: "ease-in" });
-                } else {
-                  el.style.opacity = "1";
-                }
-              }, delay);
-            });
+        const images = ["bydg.doc.png", "SAUERLAND_6525677_255x255px.png", "SAUERLAND_H5M2904_255x400px.png", "SAUERLAND_H5M3011_255x300px.png", "SAUERLAND_pwm_255x340px.png"];
+        const randomImage = images[Math.floor(Math.random() * images.length)]; // document.getElementById('img_logo').src = `/img/${randomImage}`; const el = document.getElementById("logo_a"); const img = document.createElement("img"); img.src = "/img/" + randomImage; img.id = "img_logo"; img.class = "menu"; el.appendChild(img); // document.getElementById('menu').style.display = 'block'; // setTimeout(() => document.getElementById('menu').style.display = 'block',33); // document.addEventListener('DOMContentLoaded', () => { // document.getElementById('menu').style.display = 'block'; // }); let delay = 55; document.querySelectorAll(["#logo", "h1.menu", "ul.menu"]) .forEach(el => {el.style.display = "none";}); document.querySelectorAll(["#logo", "h1.menu", "ul.menu"]) .forEach(el => { delay += 222; setTimeout(() => { el.style.display = ""; // if (typeof Element.prototype.animate !== 'function') { if (typeof Element.prototype.animate === "function") { el.animate([{ opacity: 0 }, { opacity: 1 }], { duration: 400, easing: "ease-in" }); } else { el.style.opacity = "1"; } }, delay); });
         </script>
       </aside>
       <main class="right-panel">
         <div id="content">
           <div id="navigate" style="float: right">
-            <div style="margin: 10px 0 0px">
-              <span key="/txt/ausgewahlte">
-                <a href="/txt/ausgewahlte" alt="teksty zebrane">teksty zebrane</a> |
-              </span><span key="/txt/online">
-                <a href="/txt/online" alt="teksty w sieci">teksty w sieci</a> |
-              </span><span key="/txt/uber.mich">
-                <a href="/txt/uber.mich" alt="o mnie">o mnie</a>
-              </span>
-            </div>
+            <div style="margin: 10px 0 0px"><span key="/txt/ausgewahlte"><a href="/txt/ausgewahlte" alt="teksty zebrane">teksty zebrane</a> | </span><span key="/txt/online"><a href="/txt/online" alt="teksty w sieci">teksty w sieci</a> | </span><span key="/txt/uber.mich"><a href="/txt/uber.mich" alt="o mnie">o mnie</a></span></div>
             <div style="clear: both"></div>
-            <div style="margin: 10px 0 0px">
-              <a href="/kontakt" alt="Kontakt">kontakt</a> |
-              <a href="/de/*/16" class="lang active">deutsch</a> |
-              <a href="/de/*/16" class="lang">polski</a>
-            </div>
-            <small style="display: block; padding: 8px 0">🇵🇱</small>
+            <div style="margin: 10px 0 0px"><a href="/kontakt" alt="Kontakt">kontakt</a> | <a href="/de/*/16" class="lang active">deutsch</a> | <a href="/de/*/16" class="lang">polski</a></div><small style="display: block; padding: 8px 0">🇵🇱</small>
           </div>
           <div style="clear: both"></div>
           <h1 class="print">Prof. dr hab. Karol Sauerland</h1>
@@ -193,108 +140,63 @@
               <dl>
                 <dt><strong>1981</strong></dt>
                 <dd><a href=""></a></dd>
-                <dd>
-                  <strong>Weronika Wojna</strong>, Die Auseinandersetzung der deutschsprachigen Schweizer Nachkriegsautoren mit der Schweiz
-                </dd>
+                <dd><strong>Weronika Wojna</strong>, Die Auseinandersetzung der deutschsprachigen Schweizer Nachkriegsautoren mit der Schweiz</dd>
                 <dt><strong>1983</strong></dt>
-                <dd>
-                  <a href="http://nauka-polska.pl/dhtml/raporty/ludzieNauki?rtype=opis&#x26;lang=pl&#x26;objectId=71757">Grażyna Kwiecińska</a>, Expressionistische Motive in Alfred Döblins Prosawerk
-                </dd>
+                <dd><a href="http://nauka-polska.pl/dhtml/raporty/ludzieNauki?rtype=opis&#x26;lang=pl&#x26;objectId=71757">Grażyna Kwiecińska</a>, Expressionistische Motive in Alfred Döblins Prosawerk</dd>
                 <dt><strong>1988</strong></dt>
-                <dd>
-                  <a href="http://nauka-polska.pl/dhtml/raporty/ludzieNauki?rtype=opis&#x26;lang=pl&#x26;objectId=71760">Bożenna Chołuj</a>, Deutsche Schriftsteller im Banne der Novemberrevolution 1918 (Bernhard, Kellermann, Loin Feuchtwanger, Ernst Toller, Erich Mühsam, Franz Jung)
-                </dd>
+                <dd><a href="http://nauka-polska.pl/dhtml/raporty/ludzieNauki?rtype=opis&#x26;lang=pl&#x26;objectId=71760">Bożenna Chołuj</a>, Deutsche Schriftsteller im Banne der Novemberrevolution 1918 (Bernhard, Kellermann, Loin Feuchtwanger, Ernst Toller, Erich Mühsam, Franz Jung)</dd>
                 <dt><strong>1990</strong></dt>
-                <dd>
-                  <a href="http://nauka-polska.pl/dhtml/raporty/ludzieNauki?rtype=opis&#x26;lang=pl&#x26;objectId=11894">Grażyna Kunigiel-Trąpczyńska</a>, Der Geschlechterkamf um die Jahrhundertwende anhand ausgewahlter Werke, unter besonderer Berucksichtigung von August Strindberg…
-                </dd>
+                <dd><a href="http://nauka-polska.pl/dhtml/raporty/ludzieNauki?rtype=opis&#x26;lang=pl&#x26;objectId=11894">Grażyna Kunigiel-Trąpczyńska</a>, Der Geschlechterkamf um die Jahrhundertwende anhand ausgewahlter Werke, unter besonderer Berucksichtigung von August Strindberg…</dd>
                 <dt><strong>1991</strong></dt>
-                <dd>
-                  <a href="http://nauka-polska.pl/dhtml/raporty/ludzieNauki?rtype=opis&#x26;lang=pl&#x26;objectId=17750">Maria Gierlak</a>, Die Erneuerung durch Gemeinschaft und die Rolle der Kunst im Werk von Gustav Landauer,
-                </dd>
+                <dd><a href="http://nauka-polska.pl/dhtml/raporty/ludzieNauki?rtype=opis&#x26;lang=pl&#x26;objectId=17750">Maria Gierlak</a>, Die Erneuerung durch Gemeinschaft und die Rolle der Kunst im Werk von Gustav Landauer,</dd>
                 <dt><strong>1993</strong></dt>
-                <dd>
-                  <a href="http://nauka-polska.pl/dhtml/raporty/ludzieNauki?rtype=opis&#x26;lang=pl&#x26;objectId=15494">Anna Wołkowicz</a>, Utopie und Asthetik im Frühwerk von Ernst Bloch
-                </dd>
+                <dd><a href="http://nauka-polska.pl/dhtml/raporty/ludzieNauki?rtype=opis&#x26;lang=pl&#x26;objectId=15494">Anna Wołkowicz</a>, Utopie und Asthetik im Frühwerk von Ernst Bloch</dd>
                 <dt><strong>1994</strong></dt>
-                <dd>
-                  <a href="http://nauka-polska.pl/dhtml/raporty/ludzieNauki?rtype=opis&#x26;lang=pl&#x26;objectId=19086">Małgorzata Klentak-Zabłocka</a>, Studium niemieckiej recepcji Kierkegaarda na przełomie XIX i XX wieku
-                </dd>
+                <dd><a href="http://nauka-polska.pl/dhtml/raporty/ludzieNauki?rtype=opis&#x26;lang=pl&#x26;objectId=19086">Małgorzata Klentak-Zabłocka</a>, Studium niemieckiej recepcji Kierkegaarda na przełomie XIX i XX wieku</dd>
                 <dt><strong>1997</strong></dt>
-                <dd>
-                  <a href="http://nauka-polska.pl/dhtml/raporty/ludzieNauki?rtype=opis&#x26;lang=pl&#x26;objectId=104829">Iwona Kotelnicka-Grzybowska</a>, Estetycyzmy i sztuka w pismach Martina Bubera
-                </dd>
+                <dd><a href="http://nauka-polska.pl/dhtml/raporty/ludzieNauki?rtype=opis&#x26;lang=pl&#x26;objectId=104829">Iwona Kotelnicka-Grzybowska</a>, Estetycyzmy i sztuka w pismach Martina Bubera</dd>
                 <dt><strong>1998</strong></dt>
-                <dd>
-                  <a href="http://nauka-polska.pl/dhtml/raporty/ludzieNauki?rtype=opis&#x26;lang=pl&#x26;objectId=89562">Andrzej Kopacki</a>, Liryka Hansa Magnusa Enzensbergera. Poeta w Czaso-Przestrzeni,
-                </dd>
+                <dd><a href="http://nauka-polska.pl/dhtml/raporty/ludzieNauki?rtype=opis&#x26;lang=pl&#x26;objectId=89562">Andrzej Kopacki</a>, Liryka Hansa Magnusa Enzensbergera. Poeta w Czaso-Przestrzeni,</dd>
                 <dt><strong>1999</strong></dt>
-                <dd>
-                  <a href="http://nauka-polska.pl/dhtml/raporty/ludzieNauki?rtype=opis&#x26;lang=pl&#x26;objectId=83578">Krzysztof Tkaczyk</a>, Carl Einstein: ein Intellektueller zwischen Asthetizismus und Anarchismus (Carl Einstein: intelektualista pomiędzy estetycyzmem a anarchizmem)
-                </dd>
-                <dd>
-                  <a href="http://nauka-polska.pl/dhtml/raporty/ludzieNauki?rtype=opis&#x26;lang=pl&#x26;objectId=81687">Marek Podlasiak</a>, Genie und Wahnsinn im Werk von Elias Canetti und Thomas Bernhard
-                </dd>
+                <dd><a href="http://nauka-polska.pl/dhtml/raporty/ludzieNauki?rtype=opis&#x26;lang=pl&#x26;objectId=83578">Krzysztof Tkaczyk</a>, Carl Einstein: ein Intellektueller zwischen Asthetizismus und Anarchismus (Carl Einstein: intelektualista pomiędzy estetycyzmem a anarchizmem)</dd>
+                <dd><a href="http://nauka-polska.pl/dhtml/raporty/ludzieNauki?rtype=opis&#x26;lang=pl&#x26;objectId=81687">Marek Podlasiak</a>, Genie und Wahnsinn im Werk von Elias Canetti und Thomas Bernhard</dd>
                 <dt><strong>2001</strong></dt>
-                <dd>
-                  <a href="http://nauka-polska.pl/dhtml/raporty/ludzieNauki?rtype=opis&#x26;lang=pl&#x26;objectId=101902">Kamilla Najdek</a>, Biografia literacka i jej przemiany. Wizualizacja historii w literackich eksperymentach biograficznych na przykładzie “Kellera” Adolfa Muschga
-                </dd>
+                <dd><a href="http://nauka-polska.pl/dhtml/raporty/ludzieNauki?rtype=opis&#x26;lang=pl&#x26;objectId=101902">Kamilla Najdek</a>, Biografia literacka i jej przemiany. Wizualizacja historii w literackich eksperymentach biograficznych na przykładzie “Kellera” Adolfa Muschga</dd>
                 <dt><strong>2003</strong></dt>
-                <dd>
-                  <a href="http://nauka-polska.pl/dhtml/raporty/ludzieNauki?rtype=opis&#x26;lang=pl&#x26;objectId=119296">Paweł Piszczatowski</a>, Od krytyki Biblii ku Nowej Mitologii – Lessinga spór o religię
-                </dd>
+                <dd><a href="http://nauka-polska.pl/dhtml/raporty/ludzieNauki?rtype=opis&#x26;lang=pl&#x26;objectId=119296">Paweł Piszczatowski</a>, Od krytyki Biblii ku Nowej Mitologii – Lessinga spór o religię</dd>
                 <dt><strong>2004</strong></dt>
-                <dd>
-                  <a href="http://nauka-polska.pl/dhtml/raporty/ludzieNauki?rtype=opis&#x26;lang=pl&#x26;objectId=125668">Gabriela Brudzyńska-Němec</a>, Stowarzyszenia Pomocy Polakom w Badeni 1831-1832. Pomoc południowo-niemieckich Liberałów dla polskich bojowników wolności
-                </dd>
+                <dd><a href="http://nauka-polska.pl/dhtml/raporty/ludzieNauki?rtype=opis&#x26;lang=pl&#x26;objectId=125668">Gabriela Brudzyńska-Němec</a>, Stowarzyszenia Pomocy Polakom w Badeni 1831-1832. Pomoc południowo-niemieckich Liberałów dla polskich bojowników wolności</dd>
                 <dt><strong>2005</strong></dt>
-                <dd>
-                  <a href="http://nauka-polska.pl/dhtml/raporty/ludzieNauki?rtype=opis&#x26;lang=pl&#x26;objectId=132386">Tomasz Ososiński</a>, Koncepcja ironii romantycznej u Friedricha Schlegla i Ludwiga Tiecka wobec ironii Sokratesa
-                </dd>
-                <dd>
-                  <a href="http://nauka-polska.pl/dhtml/raporty/ludzieNauki?rtype=opis&#x26;lang=pl&#x26;objectId=136462">Monika Tokarzewska</a>, Die literarischen und ästhetischen Dimensionen in Georg Simmels Schaffen
-                </dd>
+                <dd><a href="http://nauka-polska.pl/dhtml/raporty/ludzieNauki?rtype=opis&#x26;lang=pl&#x26;objectId=132386">Tomasz Ososiński</a>, Koncepcja ironii romantycznej u Friedricha Schlegla i Ludwiga Tiecka wobec ironii Sokratesa</dd>
+                <dd><a href="http://nauka-polska.pl/dhtml/raporty/ludzieNauki?rtype=opis&#x26;lang=pl&#x26;objectId=136462">Monika Tokarzewska</a>, Die literarischen und ästhetischen Dimensionen in Georg Simmels Schaffen</dd>
                 <dt><strong>2006</strong></dt>
-                <dd>
-                  <a href="http://nauka-polska.pl/dhtml/raporty/ludzieNauki?rtype=opis&#x26;lang=pl&#x26;objectId=211913">Joasia Muzioł</a>, Zmagania z holokaustem w twórczości dramatycznej George’a Taboriego
-                </dd>
+                <dd><a href="http://nauka-polska.pl/dhtml/raporty/ludzieNauki?rtype=opis&#x26;lang=pl&#x26;objectId=211913">Joasia Muzioł</a>, Zmagania z holokaustem w twórczości dramatycznej George’a Taboriego</dd>
                 <dt><strong>2013</strong></dt>
-                <dd>
-                  <a href="http://nauka-polska.pl/dhtml/raporty/ludzieNauki?rtype=opis&#x26;lang=pl&#x26;objectId=246898">Maria Stolarzewicz</a>, Christoph Martin Wielands Musiktheater. Idee und Verwirklichung
-                </dd>
+                <dd><a href="http://nauka-polska.pl/dhtml/raporty/ludzieNauki?rtype=opis&#x26;lang=pl&#x26;objectId=246898">Maria Stolarzewicz</a>, Christoph Martin Wielands Musiktheater. Idee und Verwirklichung</dd>
                 <dt><strong>2014</strong></dt>
                 <dd><a href=""></a></dd>
-                <dd>
-                  <strong>Aleksandra Domagała</strong>, Komunikacja międzyludzka w pismach Herdera, Schleiermachera i Wilhelma von Humboldta
-                </dd>
+                <dd><strong>Aleksandra Domagała</strong>, Komunikacja międzyludzka w pismach Herdera, Schleiermachera i Wilhelma von Humboldta</dd>
                 <dt><strong>2015</strong></dt>
                 <dd><a href=""></a></dd>
-                <dd>
-                  <strong>Magdalena Daroch</strong>, Holokaust we współczesnej prozie niemieckiej
-                </dd>
+                <dd><strong>Magdalena Daroch</strong>, Holokaust we współczesnej prozie niemieckiej</dd>
               </dl>
             </main>
           </div>
-          <div id="copyright">
-            Copyright © 2012 // 2025 <a href="/kontakt">Karol Sauerland</a>. Some rights reserved.<br>
-            Coded by ° <a href="http://verikami.com" target="_blank">veriKami</a> //
-            <a href="http://verikami.com" target="_blank">Kami Weronika Amelia</a>. Online since: 12.12.2012.<br>
-            Revision: 2.0.4 (Kalliópē) 1.2.5 (Petöfi). Updated: 24.08.2025.<br>
-          </div>
+          <div id="copyright">Copyright © 2012 // 2025 <a href="/kontakt">Karol Sauerland</a>. Some rights reserved.<br> Coded by ° <a href="http://verikami.com" target="_blank">veriKami</a> // <a href="http://verikami.com" target="_blank">Kami Weronika Amelia</a>. Online since: 12.12.2012.<br> Revision: 2.0.4 (Kalliópē) 1.2.5 (Petöfi). Updated: 25.08.2025.<br></div>
           <script>
           document.getElementById("copyright").style.display = "none";
-            setTimeout(() => document.getElementById("copyright").style.display = "block", 1111);
+          setTimeout(() => document.getElementById("copyright").style.display = "block", 1111);
           </script>
         </div>
       </main>
     </div>
     <script type="module">
     window.dataLayer = window.dataLayer || [];
-      function a() {
-        dataLayer.push(arguments);
-      }
-      a("js", new Date());
-      a("config", "G-22BW78BJNJ");
+    function a() {
+      dataLayer.push(arguments);
+    }
+    a("js", new Date());
+    a("config", "G-22BW78BJNJ");
     </script>
   </body>
 </html>

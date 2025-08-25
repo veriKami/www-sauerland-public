@@ -27,25 +27,25 @@
     <link rel="stylesheet" type="text/css" href="/style.css">
     <script type="text/javascript">
     var _gaq = _gaq || [];
-      _gaq.push(["_setAccount", "UA-36967092-1"]);
-      _gaq.push(["_trackPageview"]);
-      (function() {
-        var ga = document.createElement("script");
-        ga.type = "text/javascript";
-        ga.async = true;
-        ga.src = ("https:" == document.location.protocol ? "https://ssl" : "http://www") + ".google-analytics.com/ga.js";
-        var s = document.getElementsByTagName("script")[0];
-        s.parentNode.insertBefore(ga, s);
-      })();
+    _gaq.push(["_setAccount", "UA-36967092-1"]);
+    _gaq.push(["_trackPageview"]);
+    (function() {
+      var ga = document.createElement("script");
+      ga.type = "text/javascript";
+      ga.async = true;
+      ga.src = ("https:" == document.location.protocol ? "https://ssl" : "http://www") + ".google-analytics.com/ga.js";
+      var s = document.getElementsByTagName("script")[0];
+      s.parentNode.insertBefore(ga, s);
+    })();
     </script>
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-22BW78BJNJ"></script>
     <script type="module">
     document.addEventListener("DOMContentLoaded", () => {
-        const e = document.querySelector(".hamburger-button"), t = document.querySelector("body");
-        e && t && e.addEventListener("click", () => {
-          t.classList.toggle("menu-open");
-        });
+      const e = document.querySelector(".hamburger-button"), t = document.querySelector("body");
+      e && t && e.addEventListener("click", () => {
+        t.classList.toggle("menu-open");
       });
+    });
     </script>
     <style>
     h2[data-astro-cid-d4gzbk66] {
@@ -88,15 +88,11 @@
     </style>
   </head>
   <body>
-    <button class="hamburger-button" aria-label="Open menu">
-      <span class="hamburger-icon"></span>
-    </button>
+    <button class="hamburger-button" aria-label="Open menu"><span class="hamburger-icon"></span></button>
     <div class="layout-wrapper">
       <aside class="left-panel">
         <div id="menu" _style="display:none;">
-          <div id="logo">
-            <a id="logo_a" href="/"> </a>
-          </div>
+          <div id="logo"><a id="logo_a" href="/"></a></div>
           <h1 class="menu">Prof. dr hab. Karol Sauerland</h1>
           <nav data-astro-cid-2j44jlrm>
             <ul class="menu" data-astro-cid-2j44jlrm>
@@ -122,65 +118,16 @@
           </nav>
         </div>
         <script>
-        const images = [
-            "bydg.doc.png",
-            "SAUERLAND_6525677_255x255px.png",
-            "SAUERLAND_H5M2904_255x400px.png",
-            "SAUERLAND_H5M3011_255x300px.png",
-            "SAUERLAND_pwm_255x340px.png",
-          ];
-          const randomImage = images[Math.floor(Math.random() * images.length)];
-          // document.getElementById('img_logo').src = `/img/${randomImage}`;
-          const el = document.getElementById("logo_a");
-          const img = document.createElement("img");
-          img.src = "/img/" + randomImage;
-          img.id = "img_logo";
-          img.class = "menu";
-          el.appendChild(img);
-          // document.getElementById('menu').style.display = 'block';
-          // setTimeout(() => document.getElementById('menu').style.display = 'block',33);
-          // document.addEventListener('DOMContentLoaded', () => {
-          //   document.getElementById('menu').style.display = 'block';
-          // });
-          let delay = 55;
-          document.querySelectorAll(["#logo", "h1.menu", "ul.menu"])
-            .forEach(el => {
-              el.style.display = "none";
-            });
-          document.querySelectorAll(["#logo", "h1.menu", "ul.menu"])
-            .forEach(el => {
-              delay += 222;
-              setTimeout(() => {
-                el.style.display = "";
-                // if (typeof Element.prototype.animate !== 'function') {
-                if (typeof Element.prototype.animate === "function") {
-                  el.animate([{ opacity: 0 }, { opacity: 1 }], { duration: 400, easing: "ease-in" });
-                } else {
-                  el.style.opacity = "1";
-                }
-              }, delay);
-            });
+        const images = ["bydg.doc.png", "SAUERLAND_6525677_255x255px.png", "SAUERLAND_H5M2904_255x400px.png", "SAUERLAND_H5M3011_255x300px.png", "SAUERLAND_pwm_255x340px.png"];
+        const randomImage = images[Math.floor(Math.random() * images.length)]; // document.getElementById('img_logo').src = `/img/${randomImage}`; const el = document.getElementById("logo_a"); const img = document.createElement("img"); img.src = "/img/" + randomImage; img.id = "img_logo"; img.class = "menu"; el.appendChild(img); // document.getElementById('menu').style.display = 'block'; // setTimeout(() => document.getElementById('menu').style.display = 'block',33); // document.addEventListener('DOMContentLoaded', () => { // document.getElementById('menu').style.display = 'block'; // }); let delay = 55; document.querySelectorAll(["#logo", "h1.menu", "ul.menu"]) .forEach(el => {el.style.display = "none";}); document.querySelectorAll(["#logo", "h1.menu", "ul.menu"]) .forEach(el => { delay += 222; setTimeout(() => { el.style.display = ""; // if (typeof Element.prototype.animate !== 'function') { if (typeof Element.prototype.animate === "function") { el.animate([{ opacity: 0 }, { opacity: 1 }], { duration: 400, easing: "ease-in" }); } else { el.style.opacity = "1"; } }, delay); });
         </script>
       </aside>
       <main class="right-panel">
         <div id="content">
           <div id="navigate" style="float: right">
-            <div style="margin: 10px 0 0px">
-              <span key="/txt/ausgewahlte">
-                <a href="/txt/ausgewahlte" alt="teksty zebrane">teksty zebrane</a> |
-              </span><span key="/txt/online">
-                <a href="/txt/online" alt="teksty w sieci">teksty w sieci</a> |
-              </span><span key="/txt/uber.mich">
-                <a href="/txt/uber.mich" alt="o mnie">o mnie</a>
-              </span>
-            </div>
+            <div style="margin: 10px 0 0px"><span key="/txt/ausgewahlte"><a href="/txt/ausgewahlte" alt="teksty zebrane">teksty zebrane</a> | </span><span key="/txt/online"><a href="/txt/online" alt="teksty w sieci">teksty w sieci</a> | </span><span key="/txt/uber.mich"><a href="/txt/uber.mich" alt="o mnie">o mnie</a></span></div>
             <div style="clear: both"></div>
-            <div style="margin: 10px 0 0px">
-              <a href="/kontakt" alt="Kontakt">kontakt</a> |
-              <a href="/de/list" class="lang active">deutsch</a> |
-              <a href="/de/list" class="lang">polski</a>
-            </div>
-            <small style="display: block; padding: 8px 0">🇵🇱</small>
+            <div style="margin: 10px 0 0px"><a href="/kontakt" alt="Kontakt">kontakt</a> | <a href="/de/list" class="lang active">deutsch</a> | <a href="/de/list" class="lang">polski</a></div><small style="display: block; padding: 8px 0">🇵🇱</small>
           </div>
           <div style="clear: both"></div>
           <h1 class="print">Prof. dr hab. Karol Sauerland</h1>
@@ -191,212 +138,78 @@
             <h2 data-astro-cid-d4gzbk66>🦄 UNI @ main</h2>
             <hr data-astro-cid-d4gzbk66>
             <ol data-astro-cid-d4gzbk66>
-              <li data-astro-cid-d4gzbk66>
-                <a href="/baden.badener.disput" data-astro-cid-d4gzbk66>
-                  Baden-Badener Disput</a> — baden.badener.disput <small data-astro-cid-d4gzbk66>🔴</small> uni.badener.html.md
-              </li>
-              <li data-astro-cid-d4gzbk66>
-                <a href="/images" data-astro-cid-d4gzbk66>
-                  W parlamencie budapesztańskim</a> — images <small data-astro-cid-d4gzbk66>🔴</small> uni.images.md
-              </li>
-              <li data-astro-cid-d4gzbk66>
-                <a href="/kontakt" data-astro-cid-d4gzbk66>
-                  Kontakt</a> — kontakt <small data-astro-cid-d4gzbk66>🔴</small> uni.kontakt.md
-              </li>
-              <li data-astro-cid-d4gzbk66>
-                <a href="/video" data-astro-cid-d4gzbk66>
-                  Nagrania audio i wideo</a> — video <small data-astro-cid-d4gzbk66>🔴</small> uni.video.html.md
-              </li>
+              <li data-astro-cid-d4gzbk66><a href="/baden.badener.disput" data-astro-cid-d4gzbk66> Baden-Badener Disput</a> — baden.badener.disput <small data-astro-cid-d4gzbk66>🔴</small> uni.badener.html.md</li>
+              <li data-astro-cid-d4gzbk66><a href="/images" data-astro-cid-d4gzbk66> W parlamencie budapesztańskim</a> — images <small data-astro-cid-d4gzbk66>🔴</small> uni.images.md</li>
+              <li data-astro-cid-d4gzbk66><a href="/kontakt" data-astro-cid-d4gzbk66> Kontakt</a> — kontakt <small data-astro-cid-d4gzbk66>🔴</small> uni.kontakt.md</li>
+              <li data-astro-cid-d4gzbk66><a href="/video" data-astro-cid-d4gzbk66> Nagrania audio i wideo</a> — video <small data-astro-cid-d4gzbk66>🔴</small> uni.video.html.md</li>
             </ol>
             <h2 data-astro-cid-d4gzbk66>🛍 TXT @ /txt/</h2>
             <hr data-astro-cid-d4gzbk66>
             <ol data-astro-cid-d4gzbk66>
-              <li data-astro-cid-d4gzbk66>
-                <a href="txt/000" data-astro-cid-d4gzbk66>
-                  Teksty zebrane</a> — 000 <small data-astro-cid-d4gzbk66>🔴</small> txt.000.md
-              </li>
-              <li data-astro-cid-d4gzbk66>
-                <a href="txt/001" data-astro-cid-d4gzbk66>
-                  Teksty zebrane</a> — 001 <small data-astro-cid-d4gzbk66>🔴</small> txt.001.md
-              </li>
-              <li data-astro-cid-d4gzbk66>
-                <a href="txt/ausgewahlte" data-astro-cid-d4gzbk66>
-                  Teksty zebrane</a> — ausgewahlte <small data-astro-cid-d4gzbk66>🔴</small> txt.ausgewahlte.md
-              </li>
-              <li data-astro-cid-d4gzbk66>
-                <a href="txt/online" data-astro-cid-d4gzbk66>
-                  Teksty w sieci</a> — online <small data-astro-cid-d4gzbk66>🔴</small> txt.online.md
-              </li>
-              <li data-astro-cid-d4gzbk66>
-                <a href="txt/uber.mich" data-astro-cid-d4gzbk66>
-                  O mnie</a> — uber.mich <small data-astro-cid-d4gzbk66>🔴</small> txt.uber.mich.md
-              </li>
+              <li data-astro-cid-d4gzbk66><a href="txt/000" data-astro-cid-d4gzbk66> Teksty zebrane</a> — 000 <small data-astro-cid-d4gzbk66>🔴</small> txt.000.md</li>
+              <li data-astro-cid-d4gzbk66><a href="txt/001" data-astro-cid-d4gzbk66> Teksty zebrane</a> — 001 <small data-astro-cid-d4gzbk66>🔴</small> txt.001.md</li>
+              <li data-astro-cid-d4gzbk66><a href="txt/ausgewahlte" data-astro-cid-d4gzbk66> Teksty zebrane</a> — ausgewahlte <small data-astro-cid-d4gzbk66>🔴</small> txt.ausgewahlte.md</li>
+              <li data-astro-cid-d4gzbk66><a href="txt/online" data-astro-cid-d4gzbk66> Teksty w sieci</a> — online <small data-astro-cid-d4gzbk66>🔴</small> txt.online.md</li>
+              <li data-astro-cid-d4gzbk66><a href="txt/uber.mich" data-astro-cid-d4gzbk66> O mnie</a> — uber.mich <small data-astro-cid-d4gzbk66>🔴</small> txt.uber.mich.md</li>
             </ol>
             <h2 data-astro-cid-d4gzbk66>🔘 Polski 🌀 [dir] /+/</h2>
             <hr data-astro-cid-d4gzbk66>
             <ol data-astro-cid-d4gzbk66>
-              <li data-astro-cid-d4gzbk66>
-                [01] <a href="/+/01" data-astro-cid-d4gzbk66>Książki</a>
-                — <small data-astro-cid-d4gzbk66>🌞</small> 01.md
-              </li>
-              <li data-astro-cid-d4gzbk66>
-                [02] <a href="/+/02" data-astro-cid-d4gzbk66>Edycje, antologie, tomy pokonferencyjne</a>
-                — <small data-astro-cid-d4gzbk66>🌞</small> 02.md
-              </li>
-              <li data-astro-cid-d4gzbk66>
-                [03] <a href="/+/03" data-astro-cid-d4gzbk66>Rozprawy i artykuły naukowe</a>
-                — <small data-astro-cid-d4gzbk66>🌞</small> 03.md
-              </li>
-              <li data-astro-cid-d4gzbk66>
-                [04] <a href="/+/04" data-astro-cid-d4gzbk66>Recenzje</a>
-                — <small data-astro-cid-d4gzbk66>🌞</small> 04.md
-              </li>
-              <li data-astro-cid-d4gzbk66>
-                [05] <a href="/+/05" data-astro-cid-d4gzbk66>Artykuły polityczne i eseje</a>
-                — <small data-astro-cid-d4gzbk66>🌞</small> 05.md
-              </li>
-              <li data-astro-cid-d4gzbk66>
-                [07] <a href="/+/07" data-astro-cid-d4gzbk66>Wywiady</a>
-                — <small data-astro-cid-d4gzbk66>🌞</small> 07.md
-              </li>
-              <li data-astro-cid-d4gzbk66>
-                [08] <a href="/+/08" data-astro-cid-d4gzbk66>Przekłady na niemiecki</a>
-                — <small data-astro-cid-d4gzbk66>🌞</small> 08.md
-              </li>
-              <li data-astro-cid-d4gzbk66>
-                [09] <a href="/+/09" data-astro-cid-d4gzbk66>Profesury gościnne</a>
-                — <small data-astro-cid-d4gzbk66>🌞</small> 09.md
-              </li>
-              <li data-astro-cid-d4gzbk66>
-                [10] <a href="/+/10" data-astro-cid-d4gzbk66>Referaty i wystąpienia na konferencjach i kongresach</a>
-                — <small data-astro-cid-d4gzbk66>🌞</small> 10.md
-              </li>
-              <li data-astro-cid-d4gzbk66>
-                [12] <a href="/+/12" data-astro-cid-d4gzbk66>Wykłady na uniwersytetach i w innych instytucjach</a>
-                — <small data-astro-cid-d4gzbk66>🌞</small> 12.md
-              </li>
-              <li data-astro-cid-d4gzbk66>
-                [13] <a href="/+/13" data-astro-cid-d4gzbk66>Członkostwo w towarzystwach naukowych, redakcjach naukowych i kapitułach oraz nagrody (wybór)</a>
-                — <small data-astro-cid-d4gzbk66>🌞</small> 13.md
-              </li>
-              <li data-astro-cid-d4gzbk66>
-                [14] <a href="/+/14" data-astro-cid-d4gzbk66>Dyskusje panelowe i zaproszenia na konferencje (wybór)</a>
-                — <small data-astro-cid-d4gzbk66>🌞</small> 14.md
-              </li>
-              <li data-astro-cid-d4gzbk66>
-                [16] <a href="/+/16" data-astro-cid-d4gzbk66>Promocje pod moim kierunkiem</a>
-                — <small data-astro-cid-d4gzbk66>🌞</small> 16.md
-              </li>
-              <li data-astro-cid-d4gzbk66>
-                [18] <a href="/+/18" data-astro-cid-d4gzbk66>Warszawskie Studia Kulturoznawcze i Literaturoznawcze wydane przez Karola Sauerlada</a>
-                — <small data-astro-cid-d4gzbk66>🌞</small> 18.md
-              </li>
-              <li data-astro-cid-d4gzbk66>
-                [20] <a href="/+/20" data-astro-cid-d4gzbk66>Donos i jego następstwa, czyli atak na wolność</a>
-                — <small data-astro-cid-d4gzbk66>🌞</small> 20.md
-              </li>
+              <li data-astro-cid-d4gzbk66>[01] <a href="/+/01" data-astro-cid-d4gzbk66>Książki</a> — <small data-astro-cid-d4gzbk66>🌞</small> 01.md</li>
+              <li data-astro-cid-d4gzbk66>[02] <a href="/+/02" data-astro-cid-d4gzbk66>Edycje, antologie, tomy pokonferencyjne</a> — <small data-astro-cid-d4gzbk66>🌞</small> 02.md</li>
+              <li data-astro-cid-d4gzbk66>[03] <a href="/+/03" data-astro-cid-d4gzbk66>Rozprawy i artykuły naukowe</a> — <small data-astro-cid-d4gzbk66>🌞</small> 03.md</li>
+              <li data-astro-cid-d4gzbk66>[04] <a href="/+/04" data-astro-cid-d4gzbk66>Recenzje</a> — <small data-astro-cid-d4gzbk66>🌞</small> 04.md</li>
+              <li data-astro-cid-d4gzbk66>[05] <a href="/+/05" data-astro-cid-d4gzbk66>Artykuły polityczne i eseje</a> — <small data-astro-cid-d4gzbk66>🌞</small> 05.md</li>
+              <li data-astro-cid-d4gzbk66>[07] <a href="/+/07" data-astro-cid-d4gzbk66>Wywiady</a> — <small data-astro-cid-d4gzbk66>🌞</small> 07.md</li>
+              <li data-astro-cid-d4gzbk66>[08] <a href="/+/08" data-astro-cid-d4gzbk66>Przekłady na niemiecki</a> — <small data-astro-cid-d4gzbk66>🌞</small> 08.md</li>
+              <li data-astro-cid-d4gzbk66>[09] <a href="/+/09" data-astro-cid-d4gzbk66>Profesury gościnne</a> — <small data-astro-cid-d4gzbk66>🌞</small> 09.md</li>
+              <li data-astro-cid-d4gzbk66>[10] <a href="/+/10" data-astro-cid-d4gzbk66>Referaty i wystąpienia na konferencjach i kongresach</a> — <small data-astro-cid-d4gzbk66>🌞</small> 10.md</li>
+              <li data-astro-cid-d4gzbk66>[12] <a href="/+/12" data-astro-cid-d4gzbk66>Wykłady na uniwersytetach i w innych instytucjach</a> — <small data-astro-cid-d4gzbk66>🌞</small> 12.md</li>
+              <li data-astro-cid-d4gzbk66>[13] <a href="/+/13" data-astro-cid-d4gzbk66>Członkostwo w towarzystwach naukowych, redakcjach naukowych i kapitułach oraz nagrody (wybór)</a> — <small data-astro-cid-d4gzbk66>🌞</small> 13.md</li>
+              <li data-astro-cid-d4gzbk66>[14] <a href="/+/14" data-astro-cid-d4gzbk66>Dyskusje panelowe i zaproszenia na konferencje (wybór)</a> — <small data-astro-cid-d4gzbk66>🌞</small> 14.md</li>
+              <li data-astro-cid-d4gzbk66>[16] <a href="/+/16" data-astro-cid-d4gzbk66>Promocje pod moim kierunkiem</a> — <small data-astro-cid-d4gzbk66>🌞</small> 16.md</li>
+              <li data-astro-cid-d4gzbk66>[18] <a href="/+/18" data-astro-cid-d4gzbk66>Warszawskie Studia Kulturoznawcze i Literaturoznawcze wydane przez Karola Sauerlada</a> — <small data-astro-cid-d4gzbk66>🌞</small> 18.md</li>
+              <li data-astro-cid-d4gzbk66>[20] <a href="/+/20" data-astro-cid-d4gzbk66>Donos i jego następstwa, czyli atak na wolność</a> — <small data-astro-cid-d4gzbk66>🌞</small> 20.md</li>
             </ol>
             <h2 data-astro-cid-d4gzbk66>🔘 Deutsch 🌀 [dir] /de/+/</h2>
             <hr data-astro-cid-d4gzbk66>
             <ol data-astro-cid-d4gzbk66>
-              <li data-astro-cid-d4gzbk66>
-                [01] <a href="/de/+/01" data-astro-cid-d4gzbk66>Buchveröffentlichungen</a>
-                — <small data-astro-cid-d4gzbk66>🌞</small> 01.md
-              </li>
-              <li data-astro-cid-d4gzbk66>
-                [02] <a href="/de/+/02" data-astro-cid-d4gzbk66>Editionen, Anthologien, Konferenzbände</a>
-                — <small data-astro-cid-d4gzbk66>🌞</small> 02.md
-              </li>
-              <li data-astro-cid-d4gzbk66>
-                [03] <a href="/de/+/03" data-astro-cid-d4gzbk66>Wissenschaftliche Abhandlungen und Artikel</a>
-                — <small data-astro-cid-d4gzbk66>🌞</small> 03.md
-              </li>
-              <li data-astro-cid-d4gzbk66>
-                [04] <a href="/de/+/04" data-astro-cid-d4gzbk66>Rezensionen</a>
-                — <small data-astro-cid-d4gzbk66>🌞</small> 04.md
-              </li>
-              <li data-astro-cid-d4gzbk66>
-                [05] <a href="/de/+/05" data-astro-cid-d4gzbk66>Politische Artikel und Essays</a>
-                — <small data-astro-cid-d4gzbk66>🌞</small> 05.md
-              </li>
-              <li data-astro-cid-d4gzbk66>
-                [06] <a href="/de/+/06" data-astro-cid-d4gzbk66>Kleineres</a>
-                — <small data-astro-cid-d4gzbk66>🌞</small> 06.md
-              </li>
-              <li data-astro-cid-d4gzbk66>
-                [07] <a href="/de/+/07" data-astro-cid-d4gzbk66>Interviews</a>
-                — <small data-astro-cid-d4gzbk66>🌞</small> 07.md
-              </li>
-              <li data-astro-cid-d4gzbk66>
-                [08] <a href="/de/+/08" data-astro-cid-d4gzbk66>Übersetzungen aus dem Polnischen ins Deutsche</a>
-                — <small data-astro-cid-d4gzbk66>🌞</small> 08.md
-              </li>
-              <li data-astro-cid-d4gzbk66>
-                [09] <a href="/de/+/09" data-astro-cid-d4gzbk66>Gastprofessuren</a>
-                — <small data-astro-cid-d4gzbk66>🌞</small> 09.md
-              </li>
-              <li data-astro-cid-d4gzbk66>
-                [10] <a href="/de/+/10" data-astro-cid-d4gzbk66>Referate auf Konferenzen und Kongressen</a>
-                — <small data-astro-cid-d4gzbk66>🌞</small> 10.md
-              </li>
-              <li data-astro-cid-d4gzbk66>
-                [11] <a href="/de/+/11" data-astro-cid-d4gzbk66>Von mir organisierte Konferenzen</a>
-                — <small data-astro-cid-d4gzbk66>🌞</small> 11.md
-              </li>
-              <li data-astro-cid-d4gzbk66>
-                [12] <a href="/de/+/12" data-astro-cid-d4gzbk66>Vorträge an Universitäten und auf öffentlichen Veranstaltungen</a>
-                — <small data-astro-cid-d4gzbk66>🌞</small> 12.md
-              </li>
-              <li data-astro-cid-d4gzbk66>
-                [13] <a href="/de/+/13" data-astro-cid-d4gzbk66>Mitarbeit in wissenschaftlichen Gesellschaften, Redaktionsbeiräten und Jurys, Preise und Auszeichnunge</a>
-                — <small data-astro-cid-d4gzbk66>🌞</small> 13.md
-              </li>
-              <li data-astro-cid-d4gzbk66>
-                [14] <a href="/de/+/14" data-astro-cid-d4gzbk66>Podiumsdiskussionen und Einladungen zu Konferenzen (eine kleine Auswahl)</a>
-                — <small data-astro-cid-d4gzbk66>🌞</small> 14.md
-              </li>
-              <li data-astro-cid-d4gzbk66>
-                [15] <a href="/de/+/15" data-astro-cid-d4gzbk66>Literarisches</a>
-                — <small data-astro-cid-d4gzbk66>🌞</small> 15.md
-              </li>
-              <li data-astro-cid-d4gzbk66>
-                [16] <a href="/de/+/16" data-astro-cid-d4gzbk66>Von mir promovierte Personen</a>
-                — <small data-astro-cid-d4gzbk66>🌞</small> 16.md
-              </li>
-              <li data-astro-cid-d4gzbk66>
-                [17] <a href="/de/+/17" data-astro-cid-d4gzbk66>Radiosendungen</a>
-                — <small data-astro-cid-d4gzbk66>🌞</small> 17.md
-              </li>
-              <li data-astro-cid-d4gzbk66>
-                [18] <a href="/de/+/18" data-astro-cid-d4gzbk66>Warschauer Studien zur Kultur- und Literaturwissenschaft, hrsg. von Karol Sauerland</a>
-                — <small data-astro-cid-d4gzbk66>🌞</small> 18.md
-              </li>
-              <li data-astro-cid-d4gzbk66>
-                [20] <a href="/de/+/20" data-astro-cid-d4gzbk66>Eine Denunziation und deren Folgen: Freiheitsberaubung</a>
-                — <small data-astro-cid-d4gzbk66>🌞</small> 20.md
-              </li>
+              <li data-astro-cid-d4gzbk66>[01] <a href="/de/+/01" data-astro-cid-d4gzbk66>Buchveröffentlichungen</a> — <small data-astro-cid-d4gzbk66>🌞</small> 01.md</li>
+              <li data-astro-cid-d4gzbk66>[02] <a href="/de/+/02" data-astro-cid-d4gzbk66>Editionen, Anthologien, Konferenzbände</a> — <small data-astro-cid-d4gzbk66>🌞</small> 02.md</li>
+              <li data-astro-cid-d4gzbk66>[03] <a href="/de/+/03" data-astro-cid-d4gzbk66>Wissenschaftliche Abhandlungen und Artikel</a> — <small data-astro-cid-d4gzbk66>🌞</small> 03.md</li>
+              <li data-astro-cid-d4gzbk66>[04] <a href="/de/+/04" data-astro-cid-d4gzbk66>Rezensionen</a> — <small data-astro-cid-d4gzbk66>🌞</small> 04.md</li>
+              <li data-astro-cid-d4gzbk66>[05] <a href="/de/+/05" data-astro-cid-d4gzbk66>Politische Artikel und Essays</a> — <small data-astro-cid-d4gzbk66>🌞</small> 05.md</li>
+              <li data-astro-cid-d4gzbk66>[06] <a href="/de/+/06" data-astro-cid-d4gzbk66>Kleineres</a> — <small data-astro-cid-d4gzbk66>🌞</small> 06.md</li>
+              <li data-astro-cid-d4gzbk66>[07] <a href="/de/+/07" data-astro-cid-d4gzbk66>Interviews</a> — <small data-astro-cid-d4gzbk66>🌞</small> 07.md</li>
+              <li data-astro-cid-d4gzbk66>[08] <a href="/de/+/08" data-astro-cid-d4gzbk66>Übersetzungen aus dem Polnischen ins Deutsche</a> — <small data-astro-cid-d4gzbk66>🌞</small> 08.md</li>
+              <li data-astro-cid-d4gzbk66>[09] <a href="/de/+/09" data-astro-cid-d4gzbk66>Gastprofessuren</a> — <small data-astro-cid-d4gzbk66>🌞</small> 09.md</li>
+              <li data-astro-cid-d4gzbk66>[10] <a href="/de/+/10" data-astro-cid-d4gzbk66>Referate auf Konferenzen und Kongressen</a> — <small data-astro-cid-d4gzbk66>🌞</small> 10.md</li>
+              <li data-astro-cid-d4gzbk66>[11] <a href="/de/+/11" data-astro-cid-d4gzbk66>Von mir organisierte Konferenzen</a> — <small data-astro-cid-d4gzbk66>🌞</small> 11.md</li>
+              <li data-astro-cid-d4gzbk66>[12] <a href="/de/+/12" data-astro-cid-d4gzbk66>Vorträge an Universitäten und auf öffentlichen Veranstaltungen</a> — <small data-astro-cid-d4gzbk66>🌞</small> 12.md</li>
+              <li data-astro-cid-d4gzbk66>[13] <a href="/de/+/13" data-astro-cid-d4gzbk66>Mitarbeit in wissenschaftlichen Gesellschaften, Redaktionsbeiräten und Jurys, Preise und Auszeichnunge</a> — <small data-astro-cid-d4gzbk66>🌞</small> 13.md</li>
+              <li data-astro-cid-d4gzbk66>[14] <a href="/de/+/14" data-astro-cid-d4gzbk66>Podiumsdiskussionen und Einladungen zu Konferenzen (eine kleine Auswahl)</a> — <small data-astro-cid-d4gzbk66>🌞</small> 14.md</li>
+              <li data-astro-cid-d4gzbk66>[15] <a href="/de/+/15" data-astro-cid-d4gzbk66>Literarisches</a> — <small data-astro-cid-d4gzbk66>🌞</small> 15.md</li>
+              <li data-astro-cid-d4gzbk66>[16] <a href="/de/+/16" data-astro-cid-d4gzbk66>Von mir promovierte Personen</a> — <small data-astro-cid-d4gzbk66>🌞</small> 16.md</li>
+              <li data-astro-cid-d4gzbk66>[17] <a href="/de/+/17" data-astro-cid-d4gzbk66>Radiosendungen</a> — <small data-astro-cid-d4gzbk66>🌞</small> 17.md</li>
+              <li data-astro-cid-d4gzbk66>[18] <a href="/de/+/18" data-astro-cid-d4gzbk66>Warschauer Studien zur Kultur- und Literaturwissenschaft, hrsg. von Karol Sauerland</a> — <small data-astro-cid-d4gzbk66>🌞</small> 18.md</li>
+              <li data-astro-cid-d4gzbk66>[20] <a href="/de/+/20" data-astro-cid-d4gzbk66>Eine Denunziation und deren Folgen: Freiheitsberaubung</a> — <small data-astro-cid-d4gzbk66>🌞</small> 20.md</li>
             </ol>
           </div>
-          <div id="copyright">
-            Copyright © 2012 // 2025 <a href="/kontakt">Karol Sauerland</a>. Some rights reserved.<br>
-            Coded by ° <a href="http://verikami.com" target="_blank">veriKami</a> //
-            <a href="http://verikami.com" target="_blank">Kami Weronika Amelia</a>. Online since: 12.12.2012.<br>
-            Revision: 2.0.4 (Kalliópē) 1.2.5 (Petöfi). Updated: 24.08.2025.<br>
-          </div>
+          <div id="copyright">Copyright © 2012 // 2025 <a href="/kontakt">Karol Sauerland</a>. Some rights reserved.<br> Coded by ° <a href="http://verikami.com" target="_blank">veriKami</a> // <a href="http://verikami.com" target="_blank">Kami Weronika Amelia</a>. Online since: 12.12.2012.<br> Revision: 2.0.4 (Kalliópē) 1.2.5 (Petöfi). Updated: 25.08.2025.<br></div>
           <script>
           document.getElementById("copyright").style.display = "none";
-            setTimeout(() => document.getElementById("copyright").style.display = "block", 1111);
+          setTimeout(() => document.getElementById("copyright").style.display = "block", 1111);
           </script>
         </div>
       </main>
     </div>
     <script type="module">
     window.dataLayer = window.dataLayer || [];
-      function a() {
-        dataLayer.push(arguments);
-      }
-      a("js", new Date());
-      a("config", "G-22BW78BJNJ");
+    function a() {
+      dataLayer.push(arguments);
+    }
+    a("js", new Date());
+    a("config", "G-22BW78BJNJ");
     </script>
   </body>
 </html>

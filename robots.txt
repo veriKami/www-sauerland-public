@@ -1,3 +1,4 @@
 User-agent: *
 Allow: /
+
 Sitemap: https://sauerland.pl/sitemap-index.xml

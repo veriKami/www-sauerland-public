@@ -27,25 +27,25 @@
     <link rel="stylesheet" type="text/css" href="/style.css">
     <script type="text/javascript">
     var _gaq = _gaq || [];
-      _gaq.push(["_setAccount", "UA-36967092-1"]);
-      _gaq.push(["_trackPageview"]);
-      (function() {
-        var ga = document.createElement("script");
-        ga.type = "text/javascript";
-        ga.async = true;
-        ga.src = ("https:" == document.location.protocol ? "https://ssl" : "http://www") + ".google-analytics.com/ga.js";
-        var s = document.getElementsByTagName("script")[0];
-        s.parentNode.insertBefore(ga, s);
-      })();
+    _gaq.push(["_setAccount", "UA-36967092-1"]);
+    _gaq.push(["_trackPageview"]);
+    (function() {
+      var ga = document.createElement("script");
+      ga.type = "text/javascript";
+      ga.async = true;
+      ga.src = ("https:" == document.location.protocol ? "https://ssl" : "http://www") + ".google-analytics.com/ga.js";
+      var s = document.getElementsByTagName("script")[0];
+      s.parentNode.insertBefore(ga, s);
+    })();
     </script>
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-22BW78BJNJ"></script>
     <script type="module">
     document.addEventListener("DOMContentLoaded", () => {
-        const e = document.querySelector(".hamburger-button"), t = document.querySelector("body");
-        e && t && e.addEventListener("click", () => {
-          t.classList.toggle("menu-open");
-        });
+      const e = document.querySelector(".hamburger-button"), t = document.querySelector("body");
+      e && t && e.addEventListener("click", () => {
+        t.classList.toggle("menu-open");
       });
+    });
     </script>
     <style>
     .notice[data-astro-cid-grfic55u] {
@@ -90,15 +90,11 @@
     </style>
   </head>
   <body>
-    <button class="hamburger-button" aria-label="Open menu">
-      <span class="hamburger-icon"></span>
-    </button>
+    <button class="hamburger-button" aria-label="Open menu"><span class="hamburger-icon"></span></button>
     <div class="layout-wrapper">
       <aside class="left-panel">
         <div id="menu" _style="display:none;">
-          <div id="logo">
-            <a id="logo_a" href="/de"> </a>
-          </div>
+          <div id="logo"><a id="logo_a" href="/de"></a></div>
           <h1 class="menu">Prof. Dr. Karol Sauerland</h1>
           <nav data-astro-cid-2j44jlrm>
             <ul class="menu" data-astro-cid-2j44jlrm>
@@ -128,65 +124,16 @@
           </nav>
         </div>
         <script>
-        const images = [
-            "bydg.doc.png",
-            "SAUERLAND_6525677_255x255px.png",
-            "SAUERLAND_H5M2904_255x400px.png",
-            "SAUERLAND_H5M3011_255x300px.png",
-            "SAUERLAND_pwm_255x340px.png",
-          ];
-          const randomImage = images[Math.floor(Math.random() * images.length)];
-          // document.getElementById('img_logo').src = `/img/${randomImage}`;
-          const el = document.getElementById("logo_a");
-          const img = document.createElement("img");
-          img.src = "/img/" + randomImage;
-          img.id = "img_logo";
-          img.class = "menu";
-          el.appendChild(img);
-          // document.getElementById('menu').style.display = 'block';
-          // setTimeout(() => document.getElementById('menu').style.display = 'block',33);
-          // document.addEventListener('DOMContentLoaded', () => {
-          //   document.getElementById('menu').style.display = 'block';
-          // });
-          let delay = 55;
-          document.querySelectorAll(["#logo", "h1.menu", "ul.menu"])
-            .forEach(el => {
-              el.style.display = "none";
-            });
-          document.querySelectorAll(["#logo", "h1.menu", "ul.menu"])
-            .forEach(el => {
-              delay += 222;
-              setTimeout(() => {
-                el.style.display = "";
-                // if (typeof Element.prototype.animate !== 'function') {
-                if (typeof Element.prototype.animate === "function") {
-                  el.animate([{ opacity: 0 }, { opacity: 1 }], { duration: 400, easing: "ease-in" });
-                } else {
-                  el.style.opacity = "1";
-                }
-              }, delay);
-            });
+        const images = ["bydg.doc.png", "SAUERLAND_6525677_255x255px.png", "SAUERLAND_H5M2904_255x400px.png", "SAUERLAND_H5M3011_255x300px.png", "SAUERLAND_pwm_255x340px.png"];
+        const randomImage = images[Math.floor(Math.random() * images.length)]; // document.getElementById('img_logo').src = `/img/${randomImage}`; const el = document.getElementById("logo_a"); const img = document.createElement("img"); img.src = "/img/" + randomImage; img.id = "img_logo"; img.class = "menu"; el.appendChild(img); // document.getElementById('menu').style.display = 'block'; // setTimeout(() => document.getElementById('menu').style.display = 'block',33); // document.addEventListener('DOMContentLoaded', () => { // document.getElementById('menu').style.display = 'block'; // }); let delay = 55; document.querySelectorAll(["#logo", "h1.menu", "ul.menu"]) .forEach(el => {el.style.display = "none";}); document.querySelectorAll(["#logo", "h1.menu", "ul.menu"]) .forEach(el => { delay += 222; setTimeout(() => { el.style.display = ""; // if (typeof Element.prototype.animate !== 'function') { if (typeof Element.prototype.animate === "function") { el.animate([{ opacity: 0 }, { opacity: 1 }], { duration: 400, easing: "ease-in" }); } else { el.style.opacity = "1"; } }, delay); });
         </script>
       </aside>
       <main class="right-panel">
         <div id="content">
           <div id="navigate" style="float: right">
-            <div style="margin: 10px 0 0px">
-              <span key="/de/txt/ausgewahlte">
-                <a href="/de/txt/ausgewahlte" alt="Ausgewählte Texte">Ausgewählte Texte</a> |
-              </span><span key="/de/txt/online">
-                <a href="/de/txt/online" alt="Onlinetexte">Onlinetexte</a> |
-              </span><span key="/de/txt/uber.mich">
-                <a href="/de/txt/uber.mich" alt="Über mich">Über mich</a>
-              </span>
-            </div>
+            <div style="margin: 10px 0 0px"><span key="/de/txt/ausgewahlte"><a href="/de/txt/ausgewahlte" alt="Ausgewählte Texte">Ausgewählte Texte</a> | </span><span key="/de/txt/online"><a href="/de/txt/online" alt="Onlinetexte">Onlinetexte</a> | </span><span key="/de/txt/uber.mich"><a href="/de/txt/uber.mich" alt="Über mich">Über mich</a></span></div>
             <div style="clear: both"></div>
-            <div style="margin: 10px 0 0px">
-              <a href="/de/kontakt" alt="Kontakt">kontakt</a> |
-              <a href="/*/11" class="lang">deutsch</a> |
-              <a href="/*/11" class="lang active">polski</a>
-            </div>
-            <small style="display: block; padding: 8px 0">🇩🇪</small>
+            <div style="margin: 10px 0 0px"><a href="/de/kontakt" alt="Kontakt">kontakt</a> | <a href="/*/11" class="lang">deutsch</a> | <a href="/*/11" class="lang active">polski</a></div><small style="display: block; padding: 8px 0">🇩🇪</small>
           </div>
           <div style="clear: both"></div>
           <h1 class="print">Prof. Dr. Karol Sauerland</h1>
@@ -196,133 +143,53 @@
               <h1 id="von-mir-organisierte-konferenzen">Von mir organisierte Konferenzen</h1>
               <p><strong>1974</strong></p>
               <ul>
-                <li>
-                  Konferenz über den polnischen Germanisten Zygmunt Łempicki (Warschau); mit Teilnahme von Polonisten und Philosophen
-                  <strong>1975</strong>
-                </li>
-                <li>
-                  Konferenz über den deutschen Expressionismus (Warschau) – mit Teilnahme von Polonisten
-                  <strong>1979</strong>
-                </li>
-                <li>
-                  Internat. Konferenz über Franz Kafka (Warschau)
-                  <strong>1981</strong>
-                </li>
-                <li>
-                  Internat. Konferenz über den Expressionismus (Bachotek)
-                  <strong>1982</strong>
-                </li>
-                <li>
-                  Internat. Konferenz über die Sprachphilosophie Wittgensteins (Bachotek)
-                  <strong>1983</strong>
-                </li>
-                <li>
-                  Internat. Konferenz “Mystische und Irrationale Strömungen um die Jahrhundertwende” (Bachotek); Internat. Konferenz über Ingeborg Bachmann (Warschau)
-                  <strong>1984</strong>
-                </li>
-                <li>
-                  Internat. Konferenz zum 100. Geburtstag H. Brochs (Radziejowice); Internat. Konferenz zum Thema “Autorität und Sinnlichkeit zur Jahrhundertwende” (Bachotek)
-                  <strong>1985</strong>
-                </li>
-                <li>
-                  Internat. Konferenz über R.M.Rilke (Radziejowice); Internat. Konferenz zum Thema “Melancholie und Enthusiasmus zur Jahrhundertwende” (Bachotek)
-                  <strong>1986</strong>
-                </li>
-                <li>
-                  Internat. Konferenz zum Thema “Auswege aus dem Rationalismus. Auswege aus dem Irrationalismus” (Bachotek)
-                  <strong>1987</strong>
-                </li>
-                <li>
-                  Internationale Konferenz über Robert Walser (Radziejowice)
-                  <strong>1988</strong>
-                </li>
-                <li>
-                  Internat. Konferenz zum Thema “Das Makabre und Niedliche in Kunst und Literatur” (Bachotek); Nationale Identität und kulturelle Differenzen in der polnischen und deutschen Literatur
-                  <strong>1990</strong>
-                </li>
-                <li>
-                  Internat. Konferenz zum Thema “Heidelberg als intellektuelles Zentrum zu Beginn des 20. Jahrhunderts und seine vielfältigen Nachwirkungen” (Bachotek)
-                  <strong>1991</strong>
-                </li>
-                <li>
-                  Zweite Internat. Konferenz zum Thema “Heidelberg als intellektuelles Zentrum” (Bachotek)
-                  <strong>1992</strong>
-                </li>
-                <li>
-                  Internationales Symposium: “Erinnerung und Gedächtnis in der Literatur” (Warschau) im Rahmen der Zusammenarbeit zwischen den Universitäten Hamburg und Warschau
-                  <strong>1993</strong>
-                </li>
-                <li>
-                  Internationales Symposium: „Sinn und Unsinn des politischen Engagements eines Intellektuellen“ (Bachotek)
-                  <strong>1994</strong>
-                </li>
-                <li>
-                  Internationales Symposium: „Miteinander, Nebeneinander, Gegeneinander. Polen, Deutsche und Juden“ (Warschau); zusammen mit dem Goethe Institut und dem Österreichischen Kulturinstitut
-                  <strong>1995</strong>
-                </li>
-                <li>
-                  „Das Subversive in der Literatur und die Literatur als das Subversive“ (Bachotek)
-                  <strong>1999</strong>
-                </li>
+                <li>Konferenz über den polnischen Germanisten Zygmunt Łempicki (Warschau); mit Teilnahme von Polonisten und Philosophen <strong>1975</strong></li>
+                <li>Konferenz über den deutschen Expressionismus (Warschau) – mit Teilnahme von Polonisten <strong>1979</strong></li>
+                <li>Internat. Konferenz über Franz Kafka (Warschau) <strong>1981</strong></li>
+                <li>Internat. Konferenz über den Expressionismus (Bachotek) <strong>1982</strong></li>
+                <li>Internat. Konferenz über die Sprachphilosophie Wittgensteins (Bachotek) <strong>1983</strong></li>
+                <li>Internat. Konferenz “Mystische und Irrationale Strömungen um die Jahrhundertwende” (Bachotek); Internat. Konferenz über Ingeborg Bachmann (Warschau) <strong>1984</strong></li>
+                <li>Internat. Konferenz zum 100. Geburtstag H. Brochs (Radziejowice); Internat. Konferenz zum Thema “Autorität und Sinnlichkeit zur Jahrhundertwende” (Bachotek) <strong>1985</strong></li>
+                <li>Internat. Konferenz über R.M.Rilke (Radziejowice); Internat. Konferenz zum Thema “Melancholie und Enthusiasmus zur Jahrhundertwende” (Bachotek) <strong>1986</strong></li>
+                <li>Internat. Konferenz zum Thema “Auswege aus dem Rationalismus. Auswege aus dem Irrationalismus” (Bachotek) <strong>1987</strong></li>
+                <li>Internationale Konferenz über Robert Walser (Radziejowice) <strong>1988</strong></li>
+                <li>Internat. Konferenz zum Thema “Das Makabre und Niedliche in Kunst und Literatur” (Bachotek); Nationale Identität und kulturelle Differenzen in der polnischen und deutschen Literatur <strong>1990</strong></li>
+                <li>Internat. Konferenz zum Thema “Heidelberg als intellektuelles Zentrum zu Beginn des 20. Jahrhunderts und seine vielfältigen Nachwirkungen” (Bachotek) <strong>1991</strong></li>
+                <li>Zweite Internat. Konferenz zum Thema “Heidelberg als intellektuelles Zentrum” (Bachotek) <strong>1992</strong></li>
+                <li>Internationales Symposium: “Erinnerung und Gedächtnis in der Literatur” (Warschau) im Rahmen der Zusammenarbeit zwischen den Universitäten Hamburg und Warschau <strong>1993</strong></li>
+                <li>Internationales Symposium: „Sinn und Unsinn des politischen Engagements eines Intellektuellen“ (Bachotek) <strong>1994</strong></li>
+                <li>Internationales Symposium: „Miteinander, Nebeneinander, Gegeneinander. Polen, Deutsche und Juden“ (Warschau); zusammen mit dem Goethe Institut und dem Österreichischen Kulturinstitut <strong>1995</strong></li>
+                <li>„Das Subversive in der Literatur und die Literatur als das Subversive“ (Bachotek) <strong>1999</strong></li>
                 <li>Internationales Symposium: “Lyrik und Moderne” (Warschau) im Rahmen der Zusammenarbeit zwischen den Universitäten Hamburg und Warschau.</li>
-                <li>
-                  Internationales Colloquium: „Die Stadt als Ort des Kulturtransfers. Der Begriff des Kulturtransfers“ (Bachotek)
-                  <strong>2000</strong>
-                </li>
-                <li>
-                  Internationales Colloquium: „Kulturtransfer und Globalisierung“ (Bachotek)
-                  <strong>2001</strong>
-                </li>
-                <li>
-                  Internationales Colloquium: „Literarisches Engagement und die »Wende« 1989“ (Bachotek)
-                  <strong>2002</strong>
-                </li>
+                <li>Internationales Colloquium: „Die Stadt als Ort des Kulturtransfers. Der Begriff des Kulturtransfers“ (Bachotek) <strong>2000</strong></li>
+                <li>Internationales Colloquium: „Kulturtransfer und Globalisierung“ (Bachotek) <strong>2001</strong></li>
+                <li>Internationales Colloquium: „Literarisches Engagement und die »Wende« 1989“ (Bachotek) <strong>2002</strong></li>
                 <li>Warszawa, Konferencja z okazji nadania imienia prof. Zygmunta Łempickiego sali wykładowej nr 21 w gmachu Wydziału Neofilologii</li>
-                <li>
-                  Bachotek: „Arroganz und Widerstand im Kulturtransfer“
-                  <strong>2004</strong>
-                </li>
+                <li>Bachotek: „Arroganz und Widerstand im Kulturtransfer“ <strong>2004</strong></li>
                 <li>Internationale Konferenz (Frankfurt am Main): Nachgeschichte des Holocaust in Ost- und Mitteleuropa</li>
-                <li>
-                  Internationales Symposium (Bachotek): “Biographie(n) zwischen Kulturen und Nationen im mittel- und ostmitteleuropäischen Kulturtransfer“
-                  <strong>2006</strong>
-                </li>
-                <li>
-                  Warszawa: Das Bild des Ostens in der deutschen Literatur und in den Medien
-                  <strong>2007</strong>
-                </li>
-                <li>
-                  Stuttgart: Alfred Döblin - Judentum und Katholizismus
-                  <strong>2009</strong>
-                </li>
-                <li>
-                  Stuttgart: Edzard Schapers Blick auf die Totalitarismen seiner Zeit
-                  <strong>2011</strong>
-                </li>
+                <li>Internationales Symposium (Bachotek): “Biographie(n) zwischen Kulturen und Nationen im mittel- und ostmitteleuropäischen Kulturtransfer“ <strong>2006</strong></li>
+                <li>Warszawa: Das Bild des Ostens in der deutschen Literatur und in den Medien <strong>2007</strong></li>
+                <li>Stuttgart: Alfred Döblin - Judentum und Katholizismus <strong>2009</strong></li>
+                <li>Stuttgart: Edzard Schapers Blick auf die Totalitarismen seiner Zeit <strong>2011</strong></li>
                 <li>Stuttgart: Hin zum Gulag? Bestehen und Versagen deutschsprachiger Autoren des Ostens gegenüber den Herausforderungen des Totalitarismus</li>
               </ul>
             </main>
           </div>
-          <div id="copyright">
-            Copyright © 2012 // 2025 <a href="/de/kontakt">Karol Sauerland</a>. Some rights reserved.<br>
-            Coded by ° <a href="http://verikami.com" target="_blank">veriKami</a> //
-            <a href="http://verikami.com" target="_blank">Kami Weronika Amelia</a>. Online since: 12.12.2012.<br>
-            Revision: 2.0.4 (Kalliópē) 1.2.5 (Petöfi). Updated: 24.08.2025.<br>
-          </div>
+          <div id="copyright">Copyright © 2012 // 2025 <a href="/de/kontakt">Karol Sauerland</a>. Some rights reserved.<br> Coded by ° <a href="http://verikami.com" target="_blank">veriKami</a> // <a href="http://verikami.com" target="_blank">Kami Weronika Amelia</a>. Online since: 12.12.2012.<br> Revision: 2.0.4 (Kalliópē) 1.2.5 (Petöfi). Updated: 25.08.2025.<br></div>
           <script>
           document.getElementById("copyright").style.display = "none";
-            setTimeout(() => document.getElementById("copyright").style.display = "block", 1111);
+          setTimeout(() => document.getElementById("copyright").style.display = "block", 1111);
           </script>
         </div>
       </main>
     </div>
     <script type="module">
     window.dataLayer = window.dataLayer || [];
-      function a() {
-        dataLayer.push(arguments);
-      }
-      a("js", new Date());
-      a("config", "G-22BW78BJNJ");
+    function a() {
+      dataLayer.push(arguments);
+    }
+    a("js", new Date());
+    a("config", "G-22BW78BJNJ");
     </script>
   </body>
 </html>

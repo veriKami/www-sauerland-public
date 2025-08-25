@@ -27,25 +27,25 @@
     <link rel="stylesheet" type="text/css" href="/style.css">
     <script type="text/javascript">
     var _gaq = _gaq || [];
-      _gaq.push(["_setAccount", "UA-36967092-1"]);
-      _gaq.push(["_trackPageview"]);
-      (function() {
-        var ga = document.createElement("script");
-        ga.type = "text/javascript";
-        ga.async = true;
-        ga.src = ("https:" == document.location.protocol ? "https://ssl" : "http://www") + ".google-analytics.com/ga.js";
-        var s = document.getElementsByTagName("script")[0];
-        s.parentNode.insertBefore(ga, s);
-      })();
+    _gaq.push(["_setAccount", "UA-36967092-1"]);
+    _gaq.push(["_trackPageview"]);
+    (function() {
+      var ga = document.createElement("script");
+      ga.type = "text/javascript";
+      ga.async = true;
+      ga.src = ("https:" == document.location.protocol ? "https://ssl" : "http://www") + ".google-analytics.com/ga.js";
+      var s = document.getElementsByTagName("script")[0];
+      s.parentNode.insertBefore(ga, s);
+    })();
     </script>
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-22BW78BJNJ"></script>
     <script type="module">
     document.addEventListener("DOMContentLoaded", () => {
-        const e = document.querySelector(".hamburger-button"), t = document.querySelector("body");
-        e && t && e.addEventListener("click", () => {
-          t.classList.toggle("menu-open");
-        });
+      const e = document.querySelector(".hamburger-button"), t = document.querySelector("body");
+      e && t && e.addEventListener("click", () => {
+        t.classList.toggle("menu-open");
       });
+    });
     </script>
     <style>
     .notice[data-astro-cid-grfic55u] {
@@ -90,15 +90,11 @@
     </style>
   </head>
   <body>
-    <button class="hamburger-button" aria-label="Open menu">
-      <span class="hamburger-icon"></span>
-    </button>
+    <button class="hamburger-button" aria-label="Open menu"><span class="hamburger-icon"></span></button>
     <div class="layout-wrapper">
       <aside class="left-panel">
         <div id="menu" _style="display:none;">
-          <div id="logo">
-            <a id="logo_a" href="/"> </a>
-          </div>
+          <div id="logo"><a id="logo_a" href="/"></a></div>
           <h1 class="menu">Prof. dr hab. Karol Sauerland</h1>
           <nav data-astro-cid-2j44jlrm>
             <ul class="menu" data-astro-cid-2j44jlrm>
@@ -124,65 +120,16 @@
           </nav>
         </div>
         <script>
-        const images = [
-            "bydg.doc.png",
-            "SAUERLAND_6525677_255x255px.png",
-            "SAUERLAND_H5M2904_255x400px.png",
-            "SAUERLAND_H5M3011_255x300px.png",
-            "SAUERLAND_pwm_255x340px.png",
-          ];
-          const randomImage = images[Math.floor(Math.random() * images.length)];
-          // document.getElementById('img_logo').src = `/img/${randomImage}`;
-          const el = document.getElementById("logo_a");
-          const img = document.createElement("img");
-          img.src = "/img/" + randomImage;
-          img.id = "img_logo";
-          img.class = "menu";
-          el.appendChild(img);
-          // document.getElementById('menu').style.display = 'block';
-          // setTimeout(() => document.getElementById('menu').style.display = 'block',33);
-          // document.addEventListener('DOMContentLoaded', () => {
-          //   document.getElementById('menu').style.display = 'block';
-          // });
-          let delay = 55;
-          document.querySelectorAll(["#logo", "h1.menu", "ul.menu"])
-            .forEach(el => {
-              el.style.display = "none";
-            });
-          document.querySelectorAll(["#logo", "h1.menu", "ul.menu"])
-            .forEach(el => {
-              delay += 222;
-              setTimeout(() => {
-                el.style.display = "";
-                // if (typeof Element.prototype.animate !== 'function') {
-                if (typeof Element.prototype.animate === "function") {
-                  el.animate([{ opacity: 0 }, { opacity: 1 }], { duration: 400, easing: "ease-in" });
-                } else {
-                  el.style.opacity = "1";
-                }
-              }, delay);
-            });
+        const images = ["bydg.doc.png", "SAUERLAND_6525677_255x255px.png", "SAUERLAND_H5M2904_255x400px.png", "SAUERLAND_H5M3011_255x300px.png", "SAUERLAND_pwm_255x340px.png"];
+        const randomImage = images[Math.floor(Math.random() * images.length)]; // document.getElementById('img_logo').src = `/img/${randomImage}`; const el = document.getElementById("logo_a"); const img = document.createElement("img"); img.src = "/img/" + randomImage; img.id = "img_logo"; img.class = "menu"; el.appendChild(img); // document.getElementById('menu').style.display = 'block'; // setTimeout(() => document.getElementById('menu').style.display = 'block',33); // document.addEventListener('DOMContentLoaded', () => { // document.getElementById('menu').style.display = 'block'; // }); let delay = 55; document.querySelectorAll(["#logo", "h1.menu", "ul.menu"]) .forEach(el => {el.style.display = "none";}); document.querySelectorAll(["#logo", "h1.menu", "ul.menu"]) .forEach(el => { delay += 222; setTimeout(() => { el.style.display = ""; // if (typeof Element.prototype.animate !== 'function') { if (typeof Element.prototype.animate === "function") { el.animate([{ opacity: 0 }, { opacity: 1 }], { duration: 400, easing: "ease-in" }); } else { el.style.opacity = "1"; } }, delay); });
         </script>
       </aside>
       <main class="right-panel">
         <div id="content">
           <div id="navigate" style="float: right">
-            <div style="margin: 10px 0 0px">
-              <span key="/txt/ausgewahlte">
-                <a href="/txt/ausgewahlte" alt="teksty zebrane">teksty zebrane</a> |
-              </span><span key="/txt/online">
-                <a href="/txt/online" alt="teksty w sieci">teksty w sieci</a> |
-              </span><span key="/txt/uber.mich">
-                <a href="/txt/uber.mich" alt="o mnie">o mnie</a>
-              </span>
-            </div>
+            <div style="margin: 10px 0 0px"><span key="/txt/ausgewahlte"><a href="/txt/ausgewahlte" alt="teksty zebrane">teksty zebrane</a> | </span><span key="/txt/online"><a href="/txt/online" alt="teksty w sieci">teksty w sieci</a> | </span><span key="/txt/uber.mich"><a href="/txt/uber.mich" alt="o mnie">o mnie</a></span></div>
             <div style="clear: both"></div>
-            <div style="margin: 10px 0 0px">
-              <a href="/kontakt" alt="Kontakt">kontakt</a> |
-              <a href="/de/*/20" class="lang active">deutsch</a> |
-              <a href="/de/*/20" class="lang">polski</a>
-            </div>
-            <small style="display: block; padding: 8px 0">🇵🇱</small>
+            <div style="margin: 10px 0 0px"><a href="/kontakt" alt="Kontakt">kontakt</a> | <a href="/de/*/20" class="lang active">deutsch</a> | <a href="/de/*/20" class="lang">polski</a></div><small style="display: block; padding: 8px 0">🇵🇱</small>
           </div>
           <div style="clear: both"></div>
           <h1 class="print">Prof. dr hab. Karol Sauerland</h1>
@@ -223,8 +170,7 @@
                 font-size: 110%;
                 padding-left: 50px !important;
                 padding-right: 50px !important;
-              }
-              /* ****************************************************** */
+              } /* ****************************************************** */
               __h1 {
                 margin: 20px 40px 10px;
                 padding: 30px;
@@ -235,8 +181,7 @@
               }
               __p {
                 padding: 10px;
-              }
-              /* ****************************************************** */
+              } /* ****************************************************** */
               __main {
                 padding: 0 60px;
               }
@@ -246,8 +191,7 @@
               __img {
                 __width: 200px;
                 __width: auto;
-              }
-              /* ****************************************************** */
+              } /* ****************************************************** */
               .container {
                 __flex-direction: row;
                 display: flex;
@@ -267,55 +211,36 @@
                 text-align: center;
                 width: 250px;
                 width: 200px;
-              }
-              /* ****************************************************** */
+              } /* ****************************************************** */
               </style>
               <p>
                 W dniach od 9.XII do 11.XII brałem udział w konferencji poświęconej twórczości niemieckiego pisarza Horsta Bienka. Oto program i lista uczestników: PROGRAM LISTA UCZESTNIKÓW W pierwszym dniu wieczorem wyświetlano film autorski Horsta Bienka p.t. Die Zelle (cela), jego akcja rozgrywa się w więzieniu. Pokazuje z jednej strony życie codzienne więźniów, a z drugiej ich protest z powodu nieludzkiego traktowania. Po filmie spotkaliśmy się na dyskusję w sali pod kominem. Bienek kazał mi siedzieć obok niego. W dyskusji brali udział byli
                 więźniowie z słynnego enerdowskiego więzienia w Bautzen. Stwierdzili, że Bienek zbyt łagodnie potraktował temat, że taki protest, jaki został pokazany w filmie byłby absolutnie nieskuteczny. Przed tą imprezą opowiadałem Bienkowi, co się dzieje w Polsce, że w Łodzi protestują aresztowani aktywiści Solidarności, że są traktowani jako kryminaliści, a nie jako więźniowi polityczni. W pewnym momencie prosił mnie, żebym o tym opowiedział publicznie. Uczyniłem to niechętnie, bo bałem się skutków w kraju. Moje obawy niestety się spełniły.
-                Kiedy chciałem w lutym 84 r. odwiedzić moją matkę w Berlinie Wschodnim, zabrano mi na lotnisku Okęcie paszport. Okazało się, jak dowiedziałem się z IPN, że 25 stycznia 1984 r. złożono oto taki donos z niesamowitymi zarzutami: DONOS
-                <img src="/img/donos/donos_donos.jpg" alt="">
-                Skutek był taki, że minister spraw wewnętrznych, generał Czesław Kiszczak kazał trzy dni później nie wypuścić mnie za granicę. SZYFROGRAM 1 i 2
-                <img src="/img/donos/donos_szyfrogram_1.jpg" alt="">
-                <img src="/img/donos/donos_szyfrogram_2.jpg" alt="">
-                POLECENIE KISZCZAKA
-                <img src="/img/donos/donos_general.jpg" alt="">
-                POLECENIE 1 i 2
-                <img src="/img/donos/donos_polecenie_K1.jpg" alt="">
-                <img src="/img/donos/donos_polecenie_K2.jpg" alt="">
-                W dniu 28.3.1984r. nastąpiło przesłuchanie w Pałacu Mostowskich. PRZESŁUCHANIE 1 i 2
-                <img src="/img/donos/donos_przesluchanie_1.jpg" alt="">
-                <img src="/img/donos/donos_przesluchanie_2.jpg" alt="">
-                <img src="/img/donos/donos_przesluchanie_3.jpg" alt="">
-                Na końcu napisałem następujące oświadczenie: OŚWIADCZENIE
-                <img src="/img/donos/donos_oswiadczenie.jpg" alt="">
-                Zarazem przesłuchano też moją ówczesną doktorantkę Bożenę Chołuj, co może powiedzieć na mój temat przez służby wywiadowcze przy 36 Specjalnym Pułku Lotnictwa Transportowego w Warszawie. Podlegała cywilnej i wojskowej kontroli z powodu zawodu ojca, pilota w tej jednostce. BOŻENA CHOŁUJ
-                <img src="/img/donos/donos_choluj.jpg" alt="">
-                Skutek tej całej akcji był taki, że nie wypuszczono mnie ani do matki do NRD, ani na rozliczne konferencje i kongresy zagraniczne (28 zaproszeń poszło na marne). Wyniki konferencji ukazały się bez referatu prof. dr. hab. Huberta Orłowskiego, mimo, że jej organizator Karl Ehmert czekał na przez rok w nadziei, że otrzymuje go ostatecznie. 𝄋 Spis streści—> —> PODSUMOWANIE Jestem autorem książki o donosie. Muszę przyznać, że nie spotkałem się z takim jaskrawym przypadkiem, kiedy donos TW pociągał za sobą natychmiastowy – bez bliższego
-                badania sprawy – rozkaz Ministra Spraw Wewnętrznych nie dopuszczać danej osoby na wyjazd zagranicą gdziekolwiek, nie tylko na zachód. TW możesz się cieszyć do dzisiaj zaufaniem najwyższych władz. 𝄋 FOTOGRAFIE Z TAMTEGO WYDARZENIA —>
+                Kiedy chciałem w lutym 84 r. odwiedzić moją matkę w Berlinie Wschodnim, zabrano mi na lotnisku Okęcie paszport. Okazało się, jak dowiedziałem się z IPN, że 25 stycznia 1984 r. złożono oto taki donos z niesamowitymi zarzutami: DONOS <img src="/img/donos/donos_donos.jpg" alt=""> Skutek był taki, że minister spraw wewnętrznych, generał Czesław Kiszczak kazał trzy dni później nie wypuścić mnie za granicę. SZYFROGRAM 1 i 2 <img src="/img/donos/donos_szyfrogram_1.jpg" alt=""><img src="/img/donos/donos_szyfrogram_2.jpg" alt=""> POLECENIE
+                KISZCZAKA <img src="/img/donos/donos_general.jpg" alt=""> POLECENIE 1 i 2 <img src="/img/donos/donos_polecenie_K1.jpg" alt=""><img src="/img/donos/donos_polecenie_K2.jpg" alt=""> W dniu 28.3.1984r. nastąpiło przesłuchanie w Pałacu Mostowskich. PRZESŁUCHANIE 1 i 2 <img src="/img/donos/donos_przesluchanie_1.jpg" alt=""><img src="/img/donos/donos_przesluchanie_2.jpg" alt=""><img src="/img/donos/donos_przesluchanie_3.jpg" alt=""> Na końcu napisałem następujące oświadczenie: OŚWIADCZENIE <img
+                  src="/img/donos/donos_oswiadczenie.jpg"
+                  alt=""
+                > Zarazem przesłuchano też moją ówczesną doktorantkę Bożenę Chołuj, co może powiedzieć na mój temat przez służby wywiadowcze przy 36 Specjalnym Pułku Lotnictwa Transportowego w Warszawie. Podlegała cywilnej i wojskowej kontroli z powodu zawodu ojca, pilota w tej jednostce. BOŻENA CHOŁUJ <img src="/img/donos/donos_choluj.jpg" alt=""> Skutek tej całej akcji był taki, że nie wypuszczono mnie ani do matki do NRD, ani na rozliczne konferencje i kongresy zagraniczne (28 zaproszeń poszło na marne). Wyniki konferencji ukazały się bez
+                referatu prof. dr. hab. Huberta Orłowskiego, mimo, że jej organizator Karl Ehmert czekał na przez rok w nadziei, że otrzymuje go ostatecznie. 𝄋 Spis streści—> —> PODSUMOWANIE Jestem autorem książki o donosie. Muszę przyznać, że nie spotkałem się z takim jaskrawym przypadkiem, kiedy donos TW pociągał za sobą natychmiastowy – bez bliższego badania sprawy – rozkaz Ministra Spraw Wewnętrznych nie dopuszczać danej osoby na wyjazd zagranicą gdziekolwiek, nie tylko na zachód. TW możesz się cieszyć do dzisiaj zaufaniem najwyższych władz. 𝄋
+                FOTOGRAFIE Z TAMTEGO WYDARZENIA —>
               </p>
             </main>
           </div>
-          <div id="copyright">
-            Copyright © 2012 // 2025 <a href="/kontakt">Karol Sauerland</a>. Some rights reserved.<br>
-            Coded by ° <a href="http://verikami.com" target="_blank">veriKami</a> //
-            <a href="http://verikami.com" target="_blank">Kami Weronika Amelia</a>. Online since: 12.12.2012.<br>
-            Revision: 2.0.4 (Kalliópē) 1.2.5 (Petöfi). Updated: 24.08.2025.<br>
-          </div>
+          <div id="copyright">Copyright © 2012 // 2025 <a href="/kontakt">Karol Sauerland</a>. Some rights reserved.<br> Coded by ° <a href="http://verikami.com" target="_blank">veriKami</a> // <a href="http://verikami.com" target="_blank">Kami Weronika Amelia</a>. Online since: 12.12.2012.<br> Revision: 2.0.4 (Kalliópē) 1.2.5 (Petöfi). Updated: 25.08.2025.<br></div>
           <script>
           document.getElementById("copyright").style.display = "none";
-            setTimeout(() => document.getElementById("copyright").style.display = "block", 1111);
+          setTimeout(() => document.getElementById("copyright").style.display = "block", 1111);
           </script>
         </div>
       </main>
     </div>
     <script type="module">
     window.dataLayer = window.dataLayer || [];
-      function a() {
-        dataLayer.push(arguments);
-      }
-      a("js", new Date());
-      a("config", "G-22BW78BJNJ");
+    function a() {
+      dataLayer.push(arguments);
+    }
+    a("js", new Date());
+    a("config", "G-22BW78BJNJ");
     </script>
   </body>
 </html>

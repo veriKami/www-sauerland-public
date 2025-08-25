@@ -27,25 +27,25 @@
     <link rel="stylesheet" type="text/css" href="/style.css">
     <script type="text/javascript">
     var _gaq = _gaq || [];
-      _gaq.push(["_setAccount", "UA-36967092-1"]);
-      _gaq.push(["_trackPageview"]);
-      (function() {
-        var ga = document.createElement("script");
-        ga.type = "text/javascript";
-        ga.async = true;
-        ga.src = ("https:" == document.location.protocol ? "https://ssl" : "http://www") + ".google-analytics.com/ga.js";
-        var s = document.getElementsByTagName("script")[0];
-        s.parentNode.insertBefore(ga, s);
-      })();
+    _gaq.push(["_setAccount", "UA-36967092-1"]);
+    _gaq.push(["_trackPageview"]);
+    (function() {
+      var ga = document.createElement("script");
+      ga.type = "text/javascript";
+      ga.async = true;
+      ga.src = ("https:" == document.location.protocol ? "https://ssl" : "http://www") + ".google-analytics.com/ga.js";
+      var s = document.getElementsByTagName("script")[0];
+      s.parentNode.insertBefore(ga, s);
+    })();
     </script>
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-22BW78BJNJ"></script>
     <script type="module">
     document.addEventListener("DOMContentLoaded", () => {
-        const e = document.querySelector(".hamburger-button"), t = document.querySelector("body");
-        e && t && e.addEventListener("click", () => {
-          t.classList.toggle("menu-open");
-        });
+      const e = document.querySelector(".hamburger-button"), t = document.querySelector("body");
+      e && t && e.addEventListener("click", () => {
+        t.classList.toggle("menu-open");
       });
+    });
     </script>
     <style>
     .notice[data-astro-cid-grfic55u] {
@@ -90,15 +90,11 @@
     </style>
   </head>
   <body>
-    <button class="hamburger-button" aria-label="Open menu">
-      <span class="hamburger-icon"></span>
-    </button>
+    <button class="hamburger-button" aria-label="Open menu"><span class="hamburger-icon"></span></button>
     <div class="layout-wrapper">
       <aside class="left-panel">
         <div id="menu" _style="display:none;">
-          <div id="logo">
-            <a id="logo_a" href="/de"> </a>
-          </div>
+          <div id="logo"><a id="logo_a" href="/de"></a></div>
           <h1 class="menu">Prof. Dr. Karol Sauerland</h1>
           <nav data-astro-cid-2j44jlrm>
             <ul class="menu" data-astro-cid-2j44jlrm>
@@ -128,65 +124,16 @@
           </nav>
         </div>
         <script>
-        const images = [
-            "bydg.doc.png",
-            "SAUERLAND_6525677_255x255px.png",
-            "SAUERLAND_H5M2904_255x400px.png",
-            "SAUERLAND_H5M3011_255x300px.png",
-            "SAUERLAND_pwm_255x340px.png",
-          ];
-          const randomImage = images[Math.floor(Math.random() * images.length)];
-          // document.getElementById('img_logo').src = `/img/${randomImage}`;
-          const el = document.getElementById("logo_a");
-          const img = document.createElement("img");
-          img.src = "/img/" + randomImage;
-          img.id = "img_logo";
-          img.class = "menu";
-          el.appendChild(img);
-          // document.getElementById('menu').style.display = 'block';
-          // setTimeout(() => document.getElementById('menu').style.display = 'block',33);
-          // document.addEventListener('DOMContentLoaded', () => {
-          //   document.getElementById('menu').style.display = 'block';
-          // });
-          let delay = 55;
-          document.querySelectorAll(["#logo", "h1.menu", "ul.menu"])
-            .forEach(el => {
-              el.style.display = "none";
-            });
-          document.querySelectorAll(["#logo", "h1.menu", "ul.menu"])
-            .forEach(el => {
-              delay += 222;
-              setTimeout(() => {
-                el.style.display = "";
-                // if (typeof Element.prototype.animate !== 'function') {
-                if (typeof Element.prototype.animate === "function") {
-                  el.animate([{ opacity: 0 }, { opacity: 1 }], { duration: 400, easing: "ease-in" });
-                } else {
-                  el.style.opacity = "1";
-                }
-              }, delay);
-            });
+        const images = ["bydg.doc.png", "SAUERLAND_6525677_255x255px.png", "SAUERLAND_H5M2904_255x400px.png", "SAUERLAND_H5M3011_255x300px.png", "SAUERLAND_pwm_255x340px.png"];
+        const randomImage = images[Math.floor(Math.random() * images.length)]; // document.getElementById('img_logo').src = `/img/${randomImage}`; const el = document.getElementById("logo_a"); const img = document.createElement("img"); img.src = "/img/" + randomImage; img.id = "img_logo"; img.class = "menu"; el.appendChild(img); // document.getElementById('menu').style.display = 'block'; // setTimeout(() => document.getElementById('menu').style.display = 'block',33); // document.addEventListener('DOMContentLoaded', () => { // document.getElementById('menu').style.display = 'block'; // }); let delay = 55; document.querySelectorAll(["#logo", "h1.menu", "ul.menu"]) .forEach(el => {el.style.display = "none";}); document.querySelectorAll(["#logo", "h1.menu", "ul.menu"]) .forEach(el => { delay += 222; setTimeout(() => { el.style.display = ""; // if (typeof Element.prototype.animate !== 'function') { if (typeof Element.prototype.animate === "function") { el.animate([{ opacity: 0 }, { opacity: 1 }], { duration: 400, easing: "ease-in" }); } else { el.style.opacity = "1"; } }, delay); });
         </script>
       </aside>
       <main class="right-panel">
         <div id="content">
           <div id="navigate" style="float: right">
-            <div style="margin: 10px 0 0px">
-              <span key="/de/txt/ausgewahlte">
-                <a href="/de/txt/ausgewahlte" alt="Ausgewählte Texte">Ausgewählte Texte</a> |
-              </span><span key="/de/txt/online">
-                <a href="/de/txt/online" alt="Onlinetexte">Onlinetexte</a> |
-              </span><span key="/de/txt/uber.mich">
-                <a href="/de/txt/uber.mich" alt="Über mich">Über mich</a>
-              </span>
-            </div>
+            <div style="margin: 10px 0 0px"><span key="/de/txt/ausgewahlte"><a href="/de/txt/ausgewahlte" alt="Ausgewählte Texte">Ausgewählte Texte</a> | </span><span key="/de/txt/online"><a href="/de/txt/online" alt="Onlinetexte">Onlinetexte</a> | </span><span key="/de/txt/uber.mich"><a href="/de/txt/uber.mich" alt="Über mich">Über mich</a></span></div>
             <div style="clear: both"></div>
-            <div style="margin: 10px 0 0px">
-              <a href="/de/kontakt" alt="Kontakt">kontakt</a> |
-              <a href="/*/05" class="lang">deutsch</a> |
-              <a href="/*/05" class="lang active">polski</a>
-            </div>
-            <small style="display: block; padding: 8px 0">🇩🇪</small>
+            <div style="margin: 10px 0 0px"><a href="/de/kontakt" alt="Kontakt">kontakt</a> | <a href="/*/05" class="lang">deutsch</a> | <a href="/*/05" class="lang active">polski</a></div><small style="display: block; padding: 8px 0">🇩🇪</small>
           </div>
           <div style="clear: both"></div>
           <h1 class="print">Prof. Dr. Karol Sauerland</h1>
@@ -195,572 +142,133 @@
             <main data-astro-cid-grfic55u>
               <h1 id="politische-artikel-und-essays">Politische Artikel und Essays</h1>
               <ul>
-                <li>
-                  <ol>
-                    <li>Analiza “despotyzmu orientalnego” według Wittfogla (unter Pseudonym), Europa 1/1987, 23 - 38 (siehe Nr.74)</li>
-                  </ol>
-                </li>
-                <li>
-                  <ol start="2">
-                    <li>Nowa współnota komukacyjna, Europa 2/1987, 66 - 67.</li>
-                  </ol>
-                </li>
-                <li>
-                  <ol start="3">
-                    <li>Hannah Arendt o “perestrojce” i “Solidarność”, Europa 4/1988, S. 46-48 (unter Pseudonym)</li>
-                  </ol>
-                </li>
-                <li>
-                  <ol start="4">
-                    <li>Hannah Arendt als politische Denkerin. Im polnischen Geistesleben ist ihr Name mittlerweile zu einer Art Signalwort geworden, MRZ, Mainz 7.1.1989.</li>
-                  </ol>
-                </li>
-                <li>
-                  <ol start="5">
-                    <li>Polska nie wróci do Europy, Europa, 1 (6), 1990, 64-69.</li>
-                  </ol>
-                </li>
-                <li>
-                  <ol start="6">
-                    <li>Pluralismus und Papiermangel, in: Du. 588 (Thema: Warschau, der Anfang einer Geschichte), Zürich 1990</li>
-                  </ol>
-                </li>
-                <li>
-                  <ol start="7">
-                    <li>Symbol der Freiheit. Die polnische Verfassung vom 3.Mai 1791, Neue Zürcher Zeitung, 2. Mai 1991 (siehe Nr.92).</li>
-                  </ol>
-                </li>
-                <li>
-                  <ol start="8">
-                    <li>Eine Wiederholung von 1918?. Über die Gründung der neuen Nationalstaaten - mit Blick auf Polen, Neue Zürcher Zeitung, 15./16.2.1992.</li>
-                  </ol>
-                </li>
-                <li>
-                  <ol start="9">
-                    <li>Wie wird die Zukunft Mitteleuropas aussehen? Hoffnungen und Gefahren, Vortrag 2.Okt.1991, hg. von der Gesellschaft der Freunde der Technischen Hochschule Danzig, 1-13.</li>
-                  </ol>
-                </li>
-                <li>
-                  <ol start="10">
-                    <li>Die Wiedervereinigung Deutschlands als Herausforderung, in: Kursbuch 109/92</li>
-                  </ol>
-                </li>
-                <li>
-                  <ol start="11">
-                    <li>Niemcy po zjednoczeniu (Deutschland nach der Wiedervereinigung), in: Więź, 9/1992, 20-28.</li>
-                  </ol>
-                </li>
-                <li>
-                  <ol start="12">
-                    <li>Deutsche ‘Reichsgründungen’, in: Der Nachbar Deutschlands im europäischen Haus. Erwartungen und Irritationen über eine ‘Reichsgründung’, hg. von Frank von Auer, Mössingen-Thalheim 1992, S. 37-43.</li>
-                  </ol>
-                </li>
-                <li>
-                  <ol start="13">
-                    <li>Umwälzungen in Osteuropa, in: Der Nachbar Deutschlands im europäischen Haus. Erwartungen und Irritationen über eine ‘Reichsgründung’, hg. von Frank von Auer, Mössingen-Thalheim 1992, S. 191-202.</li>
-                  </ol>
-                </li>
-                <li>
-                  <ol start="14">
-                    <li>Deutsche Wiedervereinigung und polnische Wiedergeburt, in: Evangelische Kommentare, 10/93, S. 594-495.</li>
-                  </ol>
-                </li>
-                <li>
-                  <ol start="15">
-                    <li>Überlegungen zur vergangenen und gegenwärtigen Mitteleuropadebatte, in: Europäische Kultur im Wandel. Loccumer Protokolle 19/93, Rehberg-Loccum 1994, S. 9-16.</li>
-                  </ol>
-                </li>
-                <li>
-                  <ol start="16">
-                    <li>Hochschulreform als Mentalitätsgeschichte. Das Beispiel Polens, in: Forschung und Lehre, 1/1995, S. 11-17.</li>
-                  </ol>
-                </li>
-                <li>
-                  <ol start="17">
-                    <li>Gerechtigkeit und Recht in den postkommunistischen Zeiten oder der neue Typ des Massenverwaltungsverbrechens in: kommune 1/1995, S. 6-10.</li>
-                  </ol>
-                </li>
-                <li>
-                  <ol start="18">
-                    <li>Humboldt in Mitteleuropa. Chancen für ein neues Verständnis von Wissenschaft: Forschung und Lehre, 12/1995, S. 661-662.</li>
-                  </ol>
-                </li>
-                <li>
-                  <ol start="19">
-                    <li>Leidensgeschichte. Menschenrecht in west-östlichem Gespräch, Neue Zürcher Zeitung, 4.7.1996, S. 40.</li>
-                  </ol>
-                </li>
-                <li>
-                  <ol start="20">
-                    <li>Personen und Unpersonen. Ostwestliche Gespräche in Cadenabbia, Neue Zürcher Zeitung, 26./27.7.1997, S. 34.</li>
-                  </ol>
-                </li>
-                <li>
-                  <ol start="21">
-                    <li>Kołakowski zum 70.Geburtstag, Neue Zürcher Zeitung, 23.10.1997</li>
-                  </ol>
-                </li>
-                <li>
-                  <ol start="22">
-                    <li>Jedwabne heißt der Ort. Ein polnischer Historikerstreit, Frankfurter Allgemeine Zeitung, 22.12.2000, S. 43.</li>
-                  </ol>
-                </li>
-                <li>
-                  <ol start="23">
-                    <li>Ein polnischer Patriot. So aufrecht, daß es sich nur um fehlendes Gleichgewicht handeln kann: Der Streit um Zbigniew Herbert, Frankfurter Allgemeine Zeitung, 31.1.2001. S. 51.</li>
-                  </ol>
-                </li>
-                <li>
-                  <ol start="24">
-                    <li>Bürgerdichter. Polen im Streit um Herbert, Frankfurter Allgemeine Zeitung 1.2.2001, S. 53.</li>
-                  </ol>
-                </li>
-                <li>
-                  <ol start="25">
-                    <li>Der Ort der Gewalt. Was geschah wirklich in Jedwabne? Der polnische Historikerstreit hält an, Frankfurter Allgemeine Zeitung, 3.2.2001, S. 47.</li>
-                  </ol>
-                </li>
-                <li>
-                  <ol start="26">
-                    <li>Die sanfte Reaktion. Na zdrowie! Michnik versteht Kiszczak, Frankfurter Allgemeine Zeitung, 1.3.2001.</li>
-                  </ol>
-                </li>
-                <li>
-                  <ol start="27">
-                    <li>Polens Pogrom. Nationale Ehrensachen: Der Historikerstreit um Jedwabne. In: Frankfurter Allgemeine Zeitung, 9.3.2001, S. 44.</li>
-                  </ol>
-                </li>
-                <li>
-                  <ol start="28">
-                    <li>Ist der Massenmord aktenkundig? Neues über Jedwabne; die Historiker suchen Spuren, die Politiker die richtige Form, Frankfurter Allgemeine Zeitung, 18.4.2001, S. 51.</li>
-                  </ol>
-                </li>
-                <li>
-                  <ol start="29">
-                    <li>Jedwabne und Palästina. Will Polens Primas eine Entschuldigung mit Bedingungen verknüpfen? Frankfurter Allgemeine Zeitung, 18.5.2011</li>
-                  </ol>
-                </li>
-                <li>
-                  <ol start="30">
-                    <li>Das Unsrige. Was Polen täglich aufgetischt wird, Frankfurter Allgemeine Zeitung, 25.10.2001, S. 50.</li>
-                  </ol>
-                </li>
-                <li>
-                  <ol start="31">
-                    <li>Süddeutsche Zeitung, Die Wende#, 29.10.2001, S.#</li>
-                  </ol>
-                </li>
-                <li>
-                  <ol start="32">
-                    <li>Der Regisseur Andrzej Wajda fühlt sich im falschen Film, Frankfurter Allgemeine Zeitung, 15.11.2001, S. 58.</li>
-                  </ol>
-                </li>
-                <li>
-                  <ol start="33">
-                    <li>Falsche Sendung. Radio Maryja will Polen vor der Europäischen Union bewahren, Frankfurter Allgemeine Zeitung, 17.12.2001, S. 45.</li>
-                  </ol>
-                </li>
-                <li>
-                  <ol start="34">
-                    <li>Dampfsteinigung. In Polen streitet man über antisemitische Ausfälle im Sejm, Frankfurter Allgemeine Zeitung, 9.3.2002</li>
-                  </ol>
-                </li>
-                <li>
-                  <ol start="35">
-                    <li>Nach Osten. Polen diskutiert über das Gedenken der Vertreibungen, Süddeutsche Zeitung, 26.3.2002, S. 16.</li>
-                  </ol>
-                </li>
-                <li>
-                  <ol start="36">
-                    <li>Der Welt Lohn. Furchtlos und arbeitslos: Polen ehrt die „Helden“ von Jedwabne, Frankfurter Allgemeine Zeitung, 4.4.2002, S. 44.</li>
-                  </ol>
-                </li>
-                <li>
-                  <ol start="37">
-                    <li>Krzysztof Godlewski. Ein Starrsinniger, Frankfurter Allgemeine Zeitung 26.4.2002, S. 54.</li>
-                  </ol>
-                </li>
-                <li>
-                  <ol start="38">
-                    <li>Krebsgang im Labyrinth. Wie das neue Buch von Günter Grass in Polen ankommen könnte, Süddeutsche Zeitung 17.5.2002, S.#</li>
-                  </ol>
-                </li>
-                <li>
-                  <ol start="39">
-                    <li>Biographie, ein Ziel. Erste Akteneinsicht: Fremdgesteuerte Lebensläufe in Polen, Frankfurter Allgemeine Zeitung, 19.6.2002, S. 48.</li>
-                  </ol>
-                </li>
-                <li>
-                  <ol start="40">
-                    <li>Pilzgericht. Ein italienisch-polnischer Streit um Gustaw Herling. Süddeutsche Zeitung, 11.7.2002, S. 17.</li>
-                  </ol>
-                </li>
-                <li>
-                  <ol start="41">
-                    <li>Sie müssen draußen bleiben. Polen schillert: Fortdauernder Streit um das Lustrationsgesetz, Frankfurter Allgemeine Zeitung, 16.7.2002, S. 36.</li>
-                  </ol>
-                </li>
-                <li>
-                  <ol start="42">
-                    <li>Sei ehrlich, Staat! Polnische Vertriebene kämpfen um ihre Entschädigung, Süddeutsche Zeitung, 2.8.2002, S. 13.</li>
-                  </ol>
-                </li>
-                <li>
-                  <ol start="43">
-                    <li>Acht bleiben übrig. Mühlen und Bethäuser: Die Rückgabe jüdischen Gemeindebesitzes in Polen, Frankfurter Allgemeine Zeitung 27.8.2002, S. 34</li>
-                  </ol>
-                </li>
-                <li>
-                  <ol start="44">
-                    <li>Polens Angst: Bleibt Europa beim deutschen Weg auf der Strecke? Frankfurter Allgemeine Zeitung, 1.10.2002, S. 42.</li>
-                  </ol>
-                </li>
-                <li>
-                  <ol start="45">
-                    <li>Mit Widersprüchen leben? In diesen Tagen erscheint der Kommissionsbericht zu Jedwabne, Frankfurter Allgemeine Zeitung, 8.11.2002, S. 44.</li>
-                  </ol>
-                </li>
-                <li>
-                  <ol start="46">
-                    <li>Neues Arvchivmaterial der polnischen Stasi, Frankfurter Allgemeine Zeitung, 17.12.2002, Nr. 293, S. 42.</li>
-                  </ol>
-                </li>
-                <li>
-                  <ol start="47">
-                    <li>Minenfelder. Schwieriger Dialog: Deutsche und polnische Historiker, Frankfurter Allgemeine Zeitung, 27.12.2002, Nr. 300, Seite 35.</li>
-                  </ol>
-                </li>
-                <li>
-                  <ol start="48">
-                    <li>Historienkeller. Eine polnische Fallgeschichte, Frankfurter Allgemeine Zeitung, 19.4.2003, Nr.96, S. 36.</li>
-                  </ol>
-                </li>
-                <li>
-                  <ol start="49">
-                    <li>Polnische Historiker über die Möglichkeit der Kollaboration, Frankfurter Allgemeine Zeitung, 15.5.2003</li>
-                  </ol>
-                </li>
-                <li>
-                  <ol start="50">
-                    <li>In letzter Minute, Frankfurter Allgemeine Zeitung, 10.6.2003</li>
-                  </ol>
-                </li>
-                <li>
-                  <ol start="51">
-                    <li>Ostarbeiter. Trog als Schein? Polen diskutiert seine Kollaboration, Frankfurter Allgemeine Zeitung, 28.8.2003, Nr.199, S. 33.</li>
-                  </ol>
-                </li>
-                <li>
-                  <ol start="52">
-                    <li>Vater Stasi, Frankfurter Allgemeine Zeitung, 16.9.2003, S.</li>
-                  </ol>
-                </li>
-                <li>
-                  <ol start="53">
-                    <li>Neues zur Okkupation Polens nach dem Hitler-Stalin-Pakt, Frankfurter Allgemeine Zeitung, 7.10.2003</li>
-                  </ol>
-                </li>
-                <li>
-                  <ol start="54">
-                    <li>Im Keller: Werden in Polen antisemitische Schriften geduldet?, Frankfurter Allgemeine Zeitung, 9.12.2003, S. 42</li>
-                  </ol>
-                </li>
-                <li>
-                  <ol start="55">
-                    <li>Ehrenbürger Oberst Spion Held oder Vaterlandsverräter? Polen streitet um den Topagenten Ryszard Kuklinski, Frankfurter Allgemeine Zeitung, 17.3.2004</li>
-                  </ol>
-                </li>
-                <li>
-                  <ol start="56">
-                    <li>Bürger M. Stereotyp: Polen diskutiert das Judentum Adam Michniks, Frankfurter Allgemeine Zeitung, 11.5.2004</li>
-                  </ol>
-                </li>
-                <li>
-                  <ol start="57">
-                    <li>Fluch des Schlussstrichs: Die polnische Republik leidet am Gedächtnisverlust, Frankfurter Allgemeine Zeitung, 18.6.2004</li>
-                  </ol>
-                </li>
-                <li>
-                  <ol start="58">
-                    <li>Einträgliche Ignoranz. Ein Streit um Studiengebühren in Polen, in: Forschung und Lehre, 7/2004, S. 382.</li>
-                  </ol>
-                </li>
-                <li>
-                  <ol start="59">
-                    <li>Selektive Empörung. Die Vertreibung der Deutschen im Kontext des 20. Jahrhunderts Frankfurter Rundschau, 24.8.2004.</li>
-                  </ol>
-                </li>
-                <li>
-                  <ol start="60">
-                    <li>Die Täterzungen. Warum Polen über den eigenen Antisemitismus schwieg, Frankfurter Allgemeine Zeitung, 3.9.2004, S. 35</li>
-                  </ol>
-                </li>
-                <li>
-                  <ol start="61">
-                    <li>Folgen eines Verdachts. Polen diskutiert über das Institut für Nationales Gedenken, Frankfurter Allgemeine Zeitung, 2.12.2004</li>
-                  </ol>
-                </li>
-                <li>
-                  <ol start="62">
-                    <li>Hilfswerk Orange. Polens Solidarität mit der ukrainischen Revolution, Frankfurter Allgemeine Zeitung, 22.12.2004</li>
-                  </ol>
-                </li>
-                <li>
-                  <ol start="63">
-                    <li>Die ermordeten Seelen, Unverfälscht: Die Notizen des Gettopolizisten Perechodnik, Frankfurter Allgemeine Zeitung, 22.3.2005</li>
-                  </ol>
-                </li>
-                <li>
-                  <ol start="64">
-                    <li>Lügenstrafen im Netz: Rußland, Polen und die Ukraine, Frankfurter Allgemeine Zeitung, 24.3.2005</li>
-                  </ol>
-                </li>
-                <li>
-                  <ol start="65">
-                    <li>Die unsichtbare Linie. Wenn Moskau feiert: Das Kriegsende aus osteuropäischer Sicht, Frankfurter Allgemeine Zeitung, 4.5.2005, S.</li>
-                  </ol>
-                </li>
-                <li>
-                  <ol start="66">
-                    <li>Der ewige Deutsche. Polen streitet über eine Neuausgabe von „Mein Kampf“, Frankfurter Allgemeine Zeitung, 8.6.2005, S. 42.</li>
-                  </ol>
-                </li>
-                <li>
-                  <ol start="67">
-                    <li>Was der Hamster wußte. Jüdische Wurzeln: Die Auswahl für Polens wichtigsten Buchpreis, Frankfurter Allgemeine Zeitung, 30.9.2005, S. 36.</li>
-                  </ol>
-                </li>
-                <li>
-                  <ol start="68">
-                    <li>Solidarität mit Settembrini. Wie Thomas Mann in Polen zum Politikum wurde, Frankfurter Allgemeine Zeitung, 18.11.2005</li>
-                  </ol>
-                </li>
-                <li>
-                  <ol start="69">
-                    <li>Der Ruf nach dem starken Staat. Polen vor einer neuen Wende?, Forum Kommune. Politik, Ökonomie. Kultur, 6/2005, S. 30-33.</li>
-                  </ol>
-                </li>
-                <li>
-                  <ol start="70">
-                    <li>Das Drama des Siegers. Die Fahne einrollen oder hissen? In Polen wird über Adam Michniks Wandel debattiert, Frankfurter Allgemeine Zeitung, 24.1.2006</li>
-                  </ol>
-                </li>
-                <li>
-                  <ol start="71">
-                    <li>Die Zerreißprobe. Einseitige Politik: “Radio Maryja” spaltet die Kirche Polens, Frankfurter Allgemeine Zeitung, 27.2.2006</li>
-                  </ol>
-                </li>
-                <li>
-                  <ol start="72">
-                    <li>Politik der Abrißbirne. Ein polnischer Streit um ein Synagogengebäude in Posen, Frankfurter Allgemeine Zeitung, 7.4.2006, S. 39</li>
-                  </ol>
-                </li>
-                <li>
-                  <ol start="73">
-                    <li>Die Rückkehr der Nachbarn Kielce war kein Einzelfall: In Polen gerät der Nachkriegsantisemitismus in den Blick, Frankfurter Allgemeine Zeitung, 24.7.2006</li>
-                  </ol>
-                </li>
-                <li>
-                  <ol start="74">
-                    <li>Spitzel im Beichtstuhl. Polnische Prozentrechnungen: Die Kirche und ihre IM, Frankfurter Allgemeine Zeitung, 18.8.2006</li>
-                  </ol>
-                </li>
-                <li>
-                  <ol start="75">
-                    <li>In Polen anders. Zu “Die Rückkehr der Nachbarn”, Frankfurter Allgemeine Zeitung, 24.8.2006</li>
-                  </ol>
-                </li>
-                <li>
-                  <ol start="76">
-                    <li>Donald Tusks Großvater. Das Schweigen der Danziger Polen, Frankfurter Allgemeine Zeitung, 9.11.2006</li>
-                  </ol>
-                </li>
-                <li>
-                  <ol start="77">
-                    <li>Kalte Füße, Der polnische Klerus tut sich weiter schwer mit seinen IMs, Frankfurter Allgemeine Zeitung, 13.03.2007</li>
-                  </ol>
-                </li>
-                <li>
-                  <ol start="78">
-                    <li>Symbolreich. Die polnischen Reaktionen auf Volker Schlöndorffs Film “Strajk”, Frankfurter Allgemeine Zeitung, 13.3.2007</li>
-                  </ol>
-                </li>
-                <li>
-                  <ol start="79">
-                    <li>Gründungsmythos gesucht. Die jungen polnischen Köpfe hinter den Kaczynskis, Frankfurter Allgemeine Zeitung, 17.10.2007, S. 40.</li>
-                  </ol>
-                </li>
-                <li>
-                  <ol start="80">
-                    <li>Borowski und der Hass Polnischer Literaturstreit: Ein Erzbischof als Polemiker, Frankfurter Allgemeine Zeitung, 13.11.2007</li>
-                  </ol>
-                </li>
-                <li>
-                  <ol start="81">
-                    <li>Ein Bedauern hat es nie gegeben. Kielce und anderswo: Zwei neue Bücher entfachen in Polen eine Debatte über den Nachkriegsantisemitismus, Frankfurter Allgemeine Zeitung, 26.1.2008, S. 35.</li>
-                  </ol>
-                </li>
-                <li>
-                  <ol start="82">
-                    <li>Polens Nachkriegsantisemitismus: Edelman, Pilch und andere Intellektuelle über die Kritik an den Thesen von Jan T. Gross, (Update), Frankfurter Allgemeine Zeitung, 23.1.2008, S. 35.</li>
-                  </ol>
-                </li>
-                <li>
-                  <ol start="83">
-                    <li>Polen nach den Wahlen, in: Universitas. Orientierung in der Wissenswelt (Schwerpunkt Polen), 1/2008, S.39-49.</li>
-                  </ol>
-                </li>
-                <li>
-                  <ol start="84">
-                    <li>Das Jahr des großen Exodus, Frankfurter Allgemeine Zeitung, 15.2.2008</li>
-                  </ol>
-                </li>
-                <li>
-                  <ol start="85">
-                    <li>Der dumme und der heldenhafte Tod, Frankfurter Allgemeine Zeitung, 11.3.2008</li>
-                  </ol>
-                </li>
-                <li>
-                  <ol start="86">
-                    <li>Stunde der Wahrheit. Heute erscheint ein Buch über Lech Walesa als “IM”, Frankfurter Allgemeine Zeitung, 17.6.2008</li>
-                  </ol>
-                </li>
-                <li>
-                  <ol start="87">
-                    <li>Tschetschenien aus polnischer Sicht, Europa im Tschetschenienkrieg. Zwischen politischer Ohnmacht und Gleichgültigkeit, hrsg. von Martin Malek, Anna Schor-Tschudnowskaja, Stuttgart 2008, S. 181-190.</li>
-                  </ol>
-                </li>
-                <li>
-                  <ol start="88">
-                    <li>Wie der Dichter einmal sogar von Reich-Ranicki, Unseld und Walser träumte: Polen feiert sein Zbigniew-Herbert-Jahr, Frankfurter Allgemeine Zeitung, 6.11.2008 (Update)</li>
-                  </ol>
-                </li>
-                <li>
-                  <ol start="89">
-                    <li>Westen und Osten. Die Polen und das “Haus der Europäischen Geschichte“, Frankfurter Allgemeine Zeitung, 15.12.2008.</li>
-                  </ol>
-                </li>
-                <li>
-                  <ol start="90">
-                    <li>Aussöhnung mit Polen wie mit Frankreich?, Berliner Debatte Initial, 6/2008 (Deutsch-Polnische Kalamitäten), S. 15-22. (auch <a href="http://www.linksnet.de/de/artikel/24552">http://www.linksnet.de/de/artikel/24552</a>)</li>
-                  </ol>
-                </li>
-                <li>
-                  <ol start="91">
-                    <li>Der Mann, der den Kalten Krieg entschied. Dariusz Jablonskis Dokumentation über den Spion Ryszard Kuklinski bewegt Polen, Frankfurter Allgemeine Zeitung, 4.2.2009</li>
-                  </ol>
-                </li>
-                <li>
-                  <ol start="92">
-                    <li>Wir alle sind Opfer des Bösen. Widerstand als Berufung: Jerzy Popieluszko im Kino, Frankfurter Allgemeine Zeitung, 12.3.2009.</li>
-                  </ol>
-                </li>
-                <li>
-                  <ol start="93">
-                    <li>Ohne Folgen. Polens Kirche beschweigt ihre Stasi-Verstrickungen, Frankfurter Allgemeine Zeitung, 21.3.2009</li>
-                  </ol>
-                </li>
-                <li>
-                  <ol start="94">
-                    <li>Helden des Rückzugs? Polen streitet über den Runden Tisch von 1989, Frankfurter Allgemeine Zeitung, 31.3.2009, S. 34.</li>
-                  </ol>
-                </li>
-                <li>
-                  <ol start="95">
-                    <li>Sein und entscheiden. Carl Schmitt-Disput unter Polens Intelligenz, Frankfurter Allgemeine Zeitung, 22.4.2009 (in Natur und Wissenschaft)</li>
-                  </ol>
-                </li>
-                <li>
-                  <ol start="96">
-                    <li>Geschichtsreif. Niveauverluste: Lech Walesas Überraschungen, Frankfurter Allgemeine Zeitung, 14.5.2009</li>
-                  </ol>
-                </li>
-                <li>
-                  <ol start="97">
-                    <li>Gogols Kosaken reiten. Taras Bulba: Russische Propaganda im Film, Frankfurter Allgemeine Zeitung, 18.7.2009, S. 36.</li>
-                  </ol>
-                </li>
-                <li>
-                  <ol start="98">
-                    <li>Ist das Religionsfreiheit? Auch Polen streitet über Kruzifixe in Klassenzimmern, Frankfurter Allgemeine Zeitung, 24.12.2009, S. 38.</li>
-                  </ol>
-                </li>
-                <li>
-                  <ol start="99">
-                    <li>Es geht nicht nur um Kapuscinski, Frankfurter Allgemeine Zeitung, 10.3.2010, S. 32.</li>
-                  </ol>
-                </li>
-                <li>
-                  <ol start="100">
-                    <li>Eine Vision und hunderttausend Erben, Frankfurter Allgemeine Zeitung, 27.4.2010, S. 31.</li>
-                  </ol>
-                </li>
-                <li>
-                  <ol start="101">
-                    <li>Geschichte der Solidarnosc. Die Verhaftung der Schwarzen Madonna, Frankfurter Allgemeine Zeitung, 17.8.2010</li>
-                  </ol>
-                </li>
-                <li>
-                  <ol start="102">
-                    <li>Behinderung der Aufarbeitung in Polen. Ein neues Gesetz schränkt die Arbeitsmöglichkeiten des IPN drastisch ein, Horch und Guck. Zeitschrift zur kritischen Aufarbeitung der SED-Diktatur, 3/2010, S. 70-74.</li>
-                  </ol>
-                </li>
-                <li>
-                  <ol start="103">
-                    <li>Goldrausch bei Treblinka, Frankfurter Allgemeine Zeitung, 15.2.2011, S. 31.</li>
-                  </ol>
-                </li>
-                <li>
-                  <ol start="104">
-                    <li>Lächeln über das Grauen. Polens Bühne: Das Massaker von Jedwabne im Theater, Frankfurter Allgemeine Zeitung, 12.4.2011, S. 29.</li>
-                  </ol>
-                </li>
-                <li>
-                  <ol start="105">
-                    <li>Ein komplizierter Integrationsprozeß, in: »Zeichen der Menschlichkeit und des Willens zur Versöhnung«. 60 Jahre Charta der Vertriebenen, hrsg. von Jörg-Dieter Gauger u. Hanns Jürgen Küsters, St. Augustin und Berlin 2011, S. 85-100.</li>
-                  </ol>
-                </li>
-                <li>
-                  <ol start="106">
-                    <li>Staatssicherheit im Beichtstuhl. Eine Studie kratzt am Bild katholischer Intellektueller als Helden des Widerstands im sowjetischen Polen, Frankfurter Allgemeine Zeitung, 16.6.2011</li>
-                  </ol>
-                </li>
-                <li>
-                  <ol start="201">
-                    <li>“Dilemma: The Victory of 1989 and the contination of old structures and mentalities in the East and the West”, in: Europe’s Luck. George H.W. Bush, 43th President of the United States, ed. by Mária Schmidt, Budapest 2012, S. 45-54; sowie: “Ein Delemma - der Sieg von 1989 und das Fortleben der alten Strukturen und Mentalitäten in Ost und West”, in: Mária Schmidt (Hg.), Ronald Reagan und George Bush - Der Visionär und der Praktiker, Budapest 2013, S. 289-298</li>
-                  </ol>
-                </li>
-                <li>
-                  Hitlerfaschismus und Sowjetherrschaft im Osten. Anmerkungen aus polnischer Sicht, in: Europas gespaltene Erinnerungen. Festschrift zur Verleihung des Hannah-Arendt-Preises für politischen Denken 2013 an Timothy Snyder, Berlin, Bremen 2014, S. 97-93. Auch in:
-                  <a href="https://www.boell.de/sites/default/files/europas-gespaltene-erinnerungen-hannah-arendt-preis-2013-festschrift.pdf">https://www.boell.de/sites/default/files/europas-gespaltene-erinnerungen-hannah-arendt-preis-2013-festschrift.pdf</a>
-                </li>
-                <li>
-                  Karol Sauerland: EUGEN RUGES METROPOL. EIN ROMAN ALS EIN AKT DER VERHARMLOSUNG
-                  <a href="https://www.tumult-magazine.net/post/karol-sauerland-eugen-ruges-metropol-ein-roman-als-ein-akt-der-verharmlosung">https://www.tumult-magazine.net/post/karol-sauerland-eugen-ruges-metropol-ein-roman-als-ein-akt-der-verharmlosung</a>
-                </li>
+                <li><ol><li>Analiza “despotyzmu orientalnego” według Wittfogla (unter Pseudonym), Europa 1/1987, 23 - 38 (siehe Nr.74)</li></ol></li>
+                <li><ol start="2"><li>Nowa współnota komukacyjna, Europa 2/1987, 66 - 67.</li></ol></li>
+                <li><ol start="3"><li>Hannah Arendt o “perestrojce” i “Solidarność”, Europa 4/1988, S. 46-48 (unter Pseudonym)</li></ol></li>
+                <li><ol start="4"><li>Hannah Arendt als politische Denkerin. Im polnischen Geistesleben ist ihr Name mittlerweile zu einer Art Signalwort geworden, MRZ, Mainz 7.1.1989.</li></ol></li>
+                <li><ol start="5"><li>Polska nie wróci do Europy, Europa, 1 (6), 1990, 64-69.</li></ol></li>
+                <li><ol start="6"><li>Pluralismus und Papiermangel, in: Du. 588 (Thema: Warschau, der Anfang einer Geschichte), Zürich 1990</li></ol></li>
+                <li><ol start="7"><li>Symbol der Freiheit. Die polnische Verfassung vom 3.Mai 1791, Neue Zürcher Zeitung, 2. Mai 1991 (siehe Nr.92).</li></ol></li>
+                <li><ol start="8"><li>Eine Wiederholung von 1918?. Über die Gründung der neuen Nationalstaaten - mit Blick auf Polen, Neue Zürcher Zeitung, 15./16.2.1992.</li></ol></li>
+                <li><ol start="9"><li>Wie wird die Zukunft Mitteleuropas aussehen? Hoffnungen und Gefahren, Vortrag 2.Okt.1991, hg. von der Gesellschaft der Freunde der Technischen Hochschule Danzig, 1-13.</li></ol></li>
+                <li><ol start="10"><li>Die Wiedervereinigung Deutschlands als Herausforderung, in: Kursbuch 109/92</li></ol></li>
+                <li><ol start="11"><li>Niemcy po zjednoczeniu (Deutschland nach der Wiedervereinigung), in: Więź, 9/1992, 20-28.</li></ol></li>
+                <li><ol start="12"><li>Deutsche ‘Reichsgründungen’, in: Der Nachbar Deutschlands im europäischen Haus. Erwartungen und Irritationen über eine ‘Reichsgründung’, hg. von Frank von Auer, Mössingen-Thalheim 1992, S. 37-43.</li></ol></li>
+                <li><ol start="13"><li>Umwälzungen in Osteuropa, in: Der Nachbar Deutschlands im europäischen Haus. Erwartungen und Irritationen über eine ‘Reichsgründung’, hg. von Frank von Auer, Mössingen-Thalheim 1992, S. 191-202.</li></ol></li>
+                <li><ol start="14"><li>Deutsche Wiedervereinigung und polnische Wiedergeburt, in: Evangelische Kommentare, 10/93, S. 594-495.</li></ol></li>
+                <li><ol start="15"><li>Überlegungen zur vergangenen und gegenwärtigen Mitteleuropadebatte, in: Europäische Kultur im Wandel. Loccumer Protokolle 19/93, Rehberg-Loccum 1994, S. 9-16.</li></ol></li>
+                <li><ol start="16"><li>Hochschulreform als Mentalitätsgeschichte. Das Beispiel Polens, in: Forschung und Lehre, 1/1995, S. 11-17.</li></ol></li>
+                <li><ol start="17"><li>Gerechtigkeit und Recht in den postkommunistischen Zeiten oder der neue Typ des Massenverwaltungsverbrechens in: kommune 1/1995, S. 6-10.</li></ol></li>
+                <li><ol start="18"><li>Humboldt in Mitteleuropa. Chancen für ein neues Verständnis von Wissenschaft: Forschung und Lehre, 12/1995, S. 661-662.</li></ol></li>
+                <li><ol start="19"><li>Leidensgeschichte. Menschenrecht in west-östlichem Gespräch, Neue Zürcher Zeitung, 4.7.1996, S. 40.</li></ol></li>
+                <li><ol start="20"><li>Personen und Unpersonen. Ostwestliche Gespräche in Cadenabbia, Neue Zürcher Zeitung, 26./27.7.1997, S. 34.</li></ol></li>
+                <li><ol start="21"><li>Kołakowski zum 70.Geburtstag, Neue Zürcher Zeitung, 23.10.1997</li></ol></li>
+                <li><ol start="22"><li>Jedwabne heißt der Ort. Ein polnischer Historikerstreit, Frankfurter Allgemeine Zeitung, 22.12.2000, S. 43.</li></ol></li>
+                <li><ol start="23"><li>Ein polnischer Patriot. So aufrecht, daß es sich nur um fehlendes Gleichgewicht handeln kann: Der Streit um Zbigniew Herbert, Frankfurter Allgemeine Zeitung, 31.1.2001. S. 51.</li></ol></li>
+                <li><ol start="24"><li>Bürgerdichter. Polen im Streit um Herbert, Frankfurter Allgemeine Zeitung 1.2.2001, S. 53.</li></ol></li>
+                <li><ol start="25"><li>Der Ort der Gewalt. Was geschah wirklich in Jedwabne? Der polnische Historikerstreit hält an, Frankfurter Allgemeine Zeitung, 3.2.2001, S. 47.</li></ol></li>
+                <li><ol start="26"><li>Die sanfte Reaktion. Na zdrowie! Michnik versteht Kiszczak, Frankfurter Allgemeine Zeitung, 1.3.2001.</li></ol></li>
+                <li><ol start="27"><li>Polens Pogrom. Nationale Ehrensachen: Der Historikerstreit um Jedwabne. In: Frankfurter Allgemeine Zeitung, 9.3.2001, S. 44.</li></ol></li>
+                <li><ol start="28"><li>Ist der Massenmord aktenkundig? Neues über Jedwabne; die Historiker suchen Spuren, die Politiker die richtige Form, Frankfurter Allgemeine Zeitung, 18.4.2001, S. 51.</li></ol></li>
+                <li><ol start="29"><li>Jedwabne und Palästina. Will Polens Primas eine Entschuldigung mit Bedingungen verknüpfen? Frankfurter Allgemeine Zeitung, 18.5.2011</li></ol></li>
+                <li><ol start="30"><li>Das Unsrige. Was Polen täglich aufgetischt wird, Frankfurter Allgemeine Zeitung, 25.10.2001, S. 50.</li></ol></li>
+                <li><ol start="31"><li>Süddeutsche Zeitung, Die Wende#, 29.10.2001, S.#</li></ol></li>
+                <li><ol start="32"><li>Der Regisseur Andrzej Wajda fühlt sich im falschen Film, Frankfurter Allgemeine Zeitung, 15.11.2001, S. 58.</li></ol></li>
+                <li><ol start="33"><li>Falsche Sendung. Radio Maryja will Polen vor der Europäischen Union bewahren, Frankfurter Allgemeine Zeitung, 17.12.2001, S. 45.</li></ol></li>
+                <li><ol start="34"><li>Dampfsteinigung. In Polen streitet man über antisemitische Ausfälle im Sejm, Frankfurter Allgemeine Zeitung, 9.3.2002</li></ol></li>
+                <li><ol start="35"><li>Nach Osten. Polen diskutiert über das Gedenken der Vertreibungen, Süddeutsche Zeitung, 26.3.2002, S. 16.</li></ol></li>
+                <li><ol start="36"><li>Der Welt Lohn. Furchtlos und arbeitslos: Polen ehrt die „Helden“ von Jedwabne, Frankfurter Allgemeine Zeitung, 4.4.2002, S. 44.</li></ol></li>
+                <li><ol start="37"><li>Krzysztof Godlewski. Ein Starrsinniger, Frankfurter Allgemeine Zeitung 26.4.2002, S. 54.</li></ol></li>
+                <li><ol start="38"><li>Krebsgang im Labyrinth. Wie das neue Buch von Günter Grass in Polen ankommen könnte, Süddeutsche Zeitung 17.5.2002, S.#</li></ol></li>
+                <li><ol start="39"><li>Biographie, ein Ziel. Erste Akteneinsicht: Fremdgesteuerte Lebensläufe in Polen, Frankfurter Allgemeine Zeitung, 19.6.2002, S. 48.</li></ol></li>
+                <li><ol start="40"><li>Pilzgericht. Ein italienisch-polnischer Streit um Gustaw Herling. Süddeutsche Zeitung, 11.7.2002, S. 17.</li></ol></li>
+                <li><ol start="41"><li>Sie müssen draußen bleiben. Polen schillert: Fortdauernder Streit um das Lustrationsgesetz, Frankfurter Allgemeine Zeitung, 16.7.2002, S. 36.</li></ol></li>
+                <li><ol start="42"><li>Sei ehrlich, Staat! Polnische Vertriebene kämpfen um ihre Entschädigung, Süddeutsche Zeitung, 2.8.2002, S. 13.</li></ol></li>
+                <li><ol start="43"><li>Acht bleiben übrig. Mühlen und Bethäuser: Die Rückgabe jüdischen Gemeindebesitzes in Polen, Frankfurter Allgemeine Zeitung 27.8.2002, S. 34</li></ol></li>
+                <li><ol start="44"><li>Polens Angst: Bleibt Europa beim deutschen Weg auf der Strecke? Frankfurter Allgemeine Zeitung, 1.10.2002, S. 42.</li></ol></li>
+                <li><ol start="45"><li>Mit Widersprüchen leben? In diesen Tagen erscheint der Kommissionsbericht zu Jedwabne, Frankfurter Allgemeine Zeitung, 8.11.2002, S. 44.</li></ol></li>
+                <li><ol start="46"><li>Neues Arvchivmaterial der polnischen Stasi, Frankfurter Allgemeine Zeitung, 17.12.2002, Nr. 293, S. 42.</li></ol></li>
+                <li><ol start="47"><li>Minenfelder. Schwieriger Dialog: Deutsche und polnische Historiker, Frankfurter Allgemeine Zeitung, 27.12.2002, Nr. 300, Seite 35.</li></ol></li>
+                <li><ol start="48"><li>Historienkeller. Eine polnische Fallgeschichte, Frankfurter Allgemeine Zeitung, 19.4.2003, Nr.96, S. 36.</li></ol></li>
+                <li><ol start="49"><li>Polnische Historiker über die Möglichkeit der Kollaboration, Frankfurter Allgemeine Zeitung, 15.5.2003</li></ol></li>
+                <li><ol start="50"><li>In letzter Minute, Frankfurter Allgemeine Zeitung, 10.6.2003</li></ol></li>
+                <li><ol start="51"><li>Ostarbeiter. Trog als Schein? Polen diskutiert seine Kollaboration, Frankfurter Allgemeine Zeitung, 28.8.2003, Nr.199, S. 33.</li></ol></li>
+                <li><ol start="52"><li>Vater Stasi, Frankfurter Allgemeine Zeitung, 16.9.2003, S.</li></ol></li>
+                <li><ol start="53"><li>Neues zur Okkupation Polens nach dem Hitler-Stalin-Pakt, Frankfurter Allgemeine Zeitung, 7.10.2003</li></ol></li>
+                <li><ol start="54"><li>Im Keller: Werden in Polen antisemitische Schriften geduldet?, Frankfurter Allgemeine Zeitung, 9.12.2003, S. 42</li></ol></li>
+                <li><ol start="55"><li>Ehrenbürger Oberst Spion Held oder Vaterlandsverräter? Polen streitet um den Topagenten Ryszard Kuklinski, Frankfurter Allgemeine Zeitung, 17.3.2004</li></ol></li>
+                <li><ol start="56"><li>Bürger M. Stereotyp: Polen diskutiert das Judentum Adam Michniks, Frankfurter Allgemeine Zeitung, 11.5.2004</li></ol></li>
+                <li><ol start="57"><li>Fluch des Schlussstrichs: Die polnische Republik leidet am Gedächtnisverlust, Frankfurter Allgemeine Zeitung, 18.6.2004</li></ol></li>
+                <li><ol start="58"><li>Einträgliche Ignoranz. Ein Streit um Studiengebühren in Polen, in: Forschung und Lehre, 7/2004, S. 382.</li></ol></li>
+                <li><ol start="59"><li>Selektive Empörung. Die Vertreibung der Deutschen im Kontext des 20. Jahrhunderts Frankfurter Rundschau, 24.8.2004.</li></ol></li>
+                <li><ol start="60"><li>Die Täterzungen. Warum Polen über den eigenen Antisemitismus schwieg, Frankfurter Allgemeine Zeitung, 3.9.2004, S. 35</li></ol></li>
+                <li><ol start="61"><li>Folgen eines Verdachts. Polen diskutiert über das Institut für Nationales Gedenken, Frankfurter Allgemeine Zeitung, 2.12.2004</li></ol></li>
+                <li><ol start="62"><li>Hilfswerk Orange. Polens Solidarität mit der ukrainischen Revolution, Frankfurter Allgemeine Zeitung, 22.12.2004</li></ol></li>
+                <li><ol start="63"><li>Die ermordeten Seelen, Unverfälscht: Die Notizen des Gettopolizisten Perechodnik, Frankfurter Allgemeine Zeitung, 22.3.2005</li></ol></li>
+                <li><ol start="64"><li>Lügenstrafen im Netz: Rußland, Polen und die Ukraine, Frankfurter Allgemeine Zeitung, 24.3.2005</li></ol></li>
+                <li><ol start="65"><li>Die unsichtbare Linie. Wenn Moskau feiert: Das Kriegsende aus osteuropäischer Sicht, Frankfurter Allgemeine Zeitung, 4.5.2005, S.</li></ol></li>
+                <li><ol start="66"><li>Der ewige Deutsche. Polen streitet über eine Neuausgabe von „Mein Kampf“, Frankfurter Allgemeine Zeitung, 8.6.2005, S. 42.</li></ol></li>
+                <li><ol start="67"><li>Was der Hamster wußte. Jüdische Wurzeln: Die Auswahl für Polens wichtigsten Buchpreis, Frankfurter Allgemeine Zeitung, 30.9.2005, S. 36.</li></ol></li>
+                <li><ol start="68"><li>Solidarität mit Settembrini. Wie Thomas Mann in Polen zum Politikum wurde, Frankfurter Allgemeine Zeitung, 18.11.2005</li></ol></li>
+                <li><ol start="69"><li>Der Ruf nach dem starken Staat. Polen vor einer neuen Wende?, Forum Kommune. Politik, Ökonomie. Kultur, 6/2005, S. 30-33.</li></ol></li>
+                <li><ol start="70"><li>Das Drama des Siegers. Die Fahne einrollen oder hissen? In Polen wird über Adam Michniks Wandel debattiert, Frankfurter Allgemeine Zeitung, 24.1.2006</li></ol></li>
+                <li><ol start="71"><li>Die Zerreißprobe. Einseitige Politik: “Radio Maryja” spaltet die Kirche Polens, Frankfurter Allgemeine Zeitung, 27.2.2006</li></ol></li>
+                <li><ol start="72"><li>Politik der Abrißbirne. Ein polnischer Streit um ein Synagogengebäude in Posen, Frankfurter Allgemeine Zeitung, 7.4.2006, S. 39</li></ol></li>
+                <li><ol start="73"><li>Die Rückkehr der Nachbarn Kielce war kein Einzelfall: In Polen gerät der Nachkriegsantisemitismus in den Blick, Frankfurter Allgemeine Zeitung, 24.7.2006</li></ol></li>
+                <li><ol start="74"><li>Spitzel im Beichtstuhl. Polnische Prozentrechnungen: Die Kirche und ihre IM, Frankfurter Allgemeine Zeitung, 18.8.2006</li></ol></li>
+                <li><ol start="75"><li>In Polen anders. Zu “Die Rückkehr der Nachbarn”, Frankfurter Allgemeine Zeitung, 24.8.2006</li></ol></li>
+                <li><ol start="76"><li>Donald Tusks Großvater. Das Schweigen der Danziger Polen, Frankfurter Allgemeine Zeitung, 9.11.2006</li></ol></li>
+                <li><ol start="77"><li>Kalte Füße, Der polnische Klerus tut sich weiter schwer mit seinen IMs, Frankfurter Allgemeine Zeitung, 13.03.2007</li></ol></li>
+                <li><ol start="78"><li>Symbolreich. Die polnischen Reaktionen auf Volker Schlöndorffs Film “Strajk”, Frankfurter Allgemeine Zeitung, 13.3.2007</li></ol></li>
+                <li><ol start="79"><li>Gründungsmythos gesucht. Die jungen polnischen Köpfe hinter den Kaczynskis, Frankfurter Allgemeine Zeitung, 17.10.2007, S. 40.</li></ol></li>
+                <li><ol start="80"><li>Borowski und der Hass Polnischer Literaturstreit: Ein Erzbischof als Polemiker, Frankfurter Allgemeine Zeitung, 13.11.2007</li></ol></li>
+                <li><ol start="81"><li>Ein Bedauern hat es nie gegeben. Kielce und anderswo: Zwei neue Bücher entfachen in Polen eine Debatte über den Nachkriegsantisemitismus, Frankfurter Allgemeine Zeitung, 26.1.2008, S. 35.</li></ol></li>
+                <li><ol start="82"><li>Polens Nachkriegsantisemitismus: Edelman, Pilch und andere Intellektuelle über die Kritik an den Thesen von Jan T. Gross, (Update), Frankfurter Allgemeine Zeitung, 23.1.2008, S. 35.</li></ol></li>
+                <li><ol start="83"><li>Polen nach den Wahlen, in: Universitas. Orientierung in der Wissenswelt (Schwerpunkt Polen), 1/2008, S.39-49.</li></ol></li>
+                <li><ol start="84"><li>Das Jahr des großen Exodus, Frankfurter Allgemeine Zeitung, 15.2.2008</li></ol></li>
+                <li><ol start="85"><li>Der dumme und der heldenhafte Tod, Frankfurter Allgemeine Zeitung, 11.3.2008</li></ol></li>
+                <li><ol start="86"><li>Stunde der Wahrheit. Heute erscheint ein Buch über Lech Walesa als “IM”, Frankfurter Allgemeine Zeitung, 17.6.2008</li></ol></li>
+                <li><ol start="87"><li>Tschetschenien aus polnischer Sicht, Europa im Tschetschenienkrieg. Zwischen politischer Ohnmacht und Gleichgültigkeit, hrsg. von Martin Malek, Anna Schor-Tschudnowskaja, Stuttgart 2008, S. 181-190.</li></ol></li>
+                <li><ol start="88"><li>Wie der Dichter einmal sogar von Reich-Ranicki, Unseld und Walser träumte: Polen feiert sein Zbigniew-Herbert-Jahr, Frankfurter Allgemeine Zeitung, 6.11.2008 (Update)</li></ol></li>
+                <li><ol start="89"><li>Westen und Osten. Die Polen und das “Haus der Europäischen Geschichte“, Frankfurter Allgemeine Zeitung, 15.12.2008.</li></ol></li>
+                <li><ol start="90"><li>Aussöhnung mit Polen wie mit Frankreich?, Berliner Debatte Initial, 6/2008 (Deutsch-Polnische Kalamitäten), S. 15-22. (auch <a href="http://www.linksnet.de/de/artikel/24552">http://www.linksnet.de/de/artikel/24552</a>)</li></ol></li>
+                <li><ol start="91"><li>Der Mann, der den Kalten Krieg entschied. Dariusz Jablonskis Dokumentation über den Spion Ryszard Kuklinski bewegt Polen, Frankfurter Allgemeine Zeitung, 4.2.2009</li></ol></li>
+                <li><ol start="92"><li>Wir alle sind Opfer des Bösen. Widerstand als Berufung: Jerzy Popieluszko im Kino, Frankfurter Allgemeine Zeitung, 12.3.2009.</li></ol></li>
+                <li><ol start="93"><li>Ohne Folgen. Polens Kirche beschweigt ihre Stasi-Verstrickungen, Frankfurter Allgemeine Zeitung, 21.3.2009</li></ol></li>
+                <li><ol start="94"><li>Helden des Rückzugs? Polen streitet über den Runden Tisch von 1989, Frankfurter Allgemeine Zeitung, 31.3.2009, S. 34.</li></ol></li>
+                <li><ol start="95"><li>Sein und entscheiden. Carl Schmitt-Disput unter Polens Intelligenz, Frankfurter Allgemeine Zeitung, 22.4.2009 (in Natur und Wissenschaft)</li></ol></li>
+                <li><ol start="96"><li>Geschichtsreif. Niveauverluste: Lech Walesas Überraschungen, Frankfurter Allgemeine Zeitung, 14.5.2009</li></ol></li>
+                <li><ol start="97"><li>Gogols Kosaken reiten. Taras Bulba: Russische Propaganda im Film, Frankfurter Allgemeine Zeitung, 18.7.2009, S. 36.</li></ol></li>
+                <li><ol start="98"><li>Ist das Religionsfreiheit? Auch Polen streitet über Kruzifixe in Klassenzimmern, Frankfurter Allgemeine Zeitung, 24.12.2009, S. 38.</li></ol></li>
+                <li><ol start="99"><li>Es geht nicht nur um Kapuscinski, Frankfurter Allgemeine Zeitung, 10.3.2010, S. 32.</li></ol></li>
+                <li><ol start="100"><li>Eine Vision und hunderttausend Erben, Frankfurter Allgemeine Zeitung, 27.4.2010, S. 31.</li></ol></li>
+                <li><ol start="101"><li>Geschichte der Solidarnosc. Die Verhaftung der Schwarzen Madonna, Frankfurter Allgemeine Zeitung, 17.8.2010</li></ol></li>
+                <li><ol start="102"><li>Behinderung der Aufarbeitung in Polen. Ein neues Gesetz schränkt die Arbeitsmöglichkeiten des IPN drastisch ein, Horch und Guck. Zeitschrift zur kritischen Aufarbeitung der SED-Diktatur, 3/2010, S. 70-74.</li></ol></li>
+                <li><ol start="103"><li>Goldrausch bei Treblinka, Frankfurter Allgemeine Zeitung, 15.2.2011, S. 31.</li></ol></li>
+                <li><ol start="104"><li>Lächeln über das Grauen. Polens Bühne: Das Massaker von Jedwabne im Theater, Frankfurter Allgemeine Zeitung, 12.4.2011, S. 29.</li></ol></li>
+                <li><ol start="105"><li>Ein komplizierter Integrationsprozeß, in: »Zeichen der Menschlichkeit und des Willens zur Versöhnung«. 60 Jahre Charta der Vertriebenen, hrsg. von Jörg-Dieter Gauger u. Hanns Jürgen Küsters, St. Augustin und Berlin 2011, S. 85-100.</li></ol></li>
+                <li><ol start="106"><li>Staatssicherheit im Beichtstuhl. Eine Studie kratzt am Bild katholischer Intellektueller als Helden des Widerstands im sowjetischen Polen, Frankfurter Allgemeine Zeitung, 16.6.2011</li></ol></li>
+                <li><ol start="201"><li>“Dilemma: The Victory of 1989 and the contination of old structures and mentalities in the East and the West”, in: Europe’s Luck. George H.W. Bush, 43th President of the United States, ed. by Mária Schmidt, Budapest 2012, S. 45-54; sowie: “Ein Delemma - der Sieg von 1989 und das Fortleben der alten Strukturen und Mentalitäten in Ost und West”, in: Mária Schmidt (Hg.), Ronald Reagan und George Bush - Der Visionär und der Praktiker, Budapest 2013, S. 289-298</li></ol></li>
+                <li>Hitlerfaschismus und Sowjetherrschaft im Osten. Anmerkungen aus polnischer Sicht, in: Europas gespaltene Erinnerungen. Festschrift zur Verleihung des Hannah-Arendt-Preises für politischen Denken 2013 an Timothy Snyder, Berlin, Bremen 2014, S. 97-93. Auch in: <a href="https://www.boell.de/sites/default/files/europas-gespaltene-erinnerungen-hannah-arendt-preis-2013-festschrift.pdf">https://www.boell.de/sites/default/files/europas-gespaltene-erinnerungen-hannah-arendt-preis-2013-festschrift.pdf</a></li>
+                <li>Karol Sauerland: EUGEN RUGES METROPOL. EIN ROMAN ALS EIN AKT DER VERHARMLOSUNG <a href="https://www.tumult-magazine.net/post/karol-sauerland-eugen-ruges-metropol-ein-roman-als-ein-akt-der-verharmlosung">https://www.tumult-magazine.net/post/karol-sauerland-eugen-ruges-metropol-ein-roman-als-ein-akt-der-verharmlosung</a></li>
               </ul>
             </main>
           </div>
-          <div id="copyright">
-            Copyright © 2012 // 2025 <a href="/de/kontakt">Karol Sauerland</a>. Some rights reserved.<br>
-            Coded by ° <a href="http://verikami.com" target="_blank">veriKami</a> //
-            <a href="http://verikami.com" target="_blank">Kami Weronika Amelia</a>. Online since: 12.12.2012.<br>
-            Revision: 2.0.4 (Kalliópē) 1.2.5 (Petöfi). Updated: 24.08.2025.<br>
-          </div>
+          <div id="copyright">Copyright © 2012 // 2025 <a href="/de/kontakt">Karol Sauerland</a>. Some rights reserved.<br> Coded by ° <a href="http://verikami.com" target="_blank">veriKami</a> // <a href="http://verikami.com" target="_blank">Kami Weronika Amelia</a>. Online since: 12.12.2012.<br> Revision: 2.0.4 (Kalliópē) 1.2.5 (Petöfi). Updated: 25.08.2025.<br></div>
           <script>
           document.getElementById("copyright").style.display = "none";
-            setTimeout(() => document.getElementById("copyright").style.display = "block", 1111);
+          setTimeout(() => document.getElementById("copyright").style.display = "block", 1111);
           </script>
         </div>
       </main>
     </div>
     <script type="module">
     window.dataLayer = window.dataLayer || [];
-      function a() {
-        dataLayer.push(arguments);
-      }
-      a("js", new Date());
-      a("config", "G-22BW78BJNJ");
+    function a() {
+      dataLayer.push(arguments);
+    }
+    a("js", new Date());
+    a("config", "G-22BW78BJNJ");
     </script>
   </body>
 </html>
