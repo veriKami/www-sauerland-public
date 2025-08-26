@@ -1,4 +1,5 @@
 User-agent: *
-Allow: /
+### Allow: /
+Disallow: /
 
-Sitemap: https://sauerland.pl/sitemap-index.xml
+Sitemap: https://gh.sauerland.pl/sitemap-index.xml

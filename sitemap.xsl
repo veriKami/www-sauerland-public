@@ -30,7 +30,9 @@
           border: none;
           border-collapse: collapse;
           __margin: 0 auto;
-          width: 800px;
+          width: 720px;
+          table-layout: auto;
+          table-layout: fixed;
         }
         #sitemap tr:nth-child(odd) td {
           background-color: #eee !important;
@@ -68,6 +70,9 @@
         }
         td {
           font-size:13px;
+          overflow: hidden;
+          text-overflow: ellipsis;
+          white-space: nowrap;
         }
         th {
           text-align:left;
@@ -80,7 +85,7 @@
         </style>
       </head>
       <body>
-        <h1>Mapa strony</h1>
+        <h1>Site Map</h1>
         <div class="expl">
           ° <a href="/sitemap-index.xml">sitemap-index.xml</a>
           ° <a href="/sitemap-0.xml">sitemap-0.xml</a>
@@ -126,8 +131,8 @@
           <table id="sitemap" cellpadding="3">
             <thead>
             <tr>
-              <th width="80%">URL</th>
-              <th title="Last Modification Time" width="20%">Last Modified</th>
+              <th _width="85%">URL</th>
+              <th title="Last Modification Time" width="11%">Last Modified</th>
             </tr>
             </thead>
             <tbody>

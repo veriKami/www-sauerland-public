@@ -1,310 +1,310 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type="text/xsl" href="/sitemap.xsl"?>
+<?xml-stylesheet type="text/xsl" href="https://gh.sauerland.pl/sitemap.xsl"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
   <url>
-    <loc>https://sauerland.pl</loc>
-    <xhtml:link rel="alternate" hreflang="pl" href="https://sauerland.pl/"/>
-    <xhtml:link rel="alternate" hreflang="de" href="https://sauerland.pl/de"/>
+    <loc>https://gh.sauerland.pl</loc>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://gh.sauerland.pl/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://gh.sauerland.pl/de"/>
   </url>
   <url>
-    <loc>https://sauerland.pl/*/01</loc>
-    <xhtml:link rel="alternate" hreflang="pl" href="https://sauerland.pl/*/01"/>
-    <xhtml:link rel="alternate" hreflang="de" href="https://sauerland.pl/de/*/01"/>
+    <loc>https://gh.sauerland.pl/*/01</loc>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://gh.sauerland.pl/*/01"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://gh.sauerland.pl/de/*/01"/>
   </url>
   <url>
-    <loc>https://sauerland.pl/*/02</loc>
-    <xhtml:link rel="alternate" hreflang="pl" href="https://sauerland.pl/*/02"/>
-    <xhtml:link rel="alternate" hreflang="de" href="https://sauerland.pl/de/*/02"/>
+    <loc>https://gh.sauerland.pl/*/02</loc>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://gh.sauerland.pl/*/02"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://gh.sauerland.pl/de/*/02"/>
   </url>
   <url>
-    <loc>https://sauerland.pl/*/03</loc>
-    <xhtml:link rel="alternate" hreflang="pl" href="https://sauerland.pl/*/03"/>
-    <xhtml:link rel="alternate" hreflang="de" href="https://sauerland.pl/de/*/03"/>
+    <loc>https://gh.sauerland.pl/*/03</loc>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://gh.sauerland.pl/*/03"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://gh.sauerland.pl/de/*/03"/>
   </url>
   <url>
-    <loc>https://sauerland.pl/*/04</loc>
-    <xhtml:link rel="alternate" hreflang="pl" href="https://sauerland.pl/*/04"/>
-    <xhtml:link rel="alternate" hreflang="de" href="https://sauerland.pl/de/*/04"/>
+    <loc>https://gh.sauerland.pl/*/04</loc>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://gh.sauerland.pl/*/04"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://gh.sauerland.pl/de/*/04"/>
   </url>
   <url>
-    <loc>https://sauerland.pl/*/05</loc>
-    <xhtml:link rel="alternate" hreflang="pl" href="https://sauerland.pl/*/05"/>
-    <xhtml:link rel="alternate" hreflang="de" href="https://sauerland.pl/de/*/05"/>
+    <loc>https://gh.sauerland.pl/*/05</loc>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://gh.sauerland.pl/*/05"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://gh.sauerland.pl/de/*/05"/>
   </url>
   <url>
-    <loc>https://sauerland.pl/*/06</loc>
-    <xhtml:link rel="alternate" hreflang="pl" href="https://sauerland.pl/*/06"/>
-    <xhtml:link rel="alternate" hreflang="de" href="https://sauerland.pl/de/*/06"/>
+    <loc>https://gh.sauerland.pl/*/06</loc>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://gh.sauerland.pl/*/06"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://gh.sauerland.pl/de/*/06"/>
   </url>
   <url>
-    <loc>https://sauerland.pl/*/07</loc>
-    <xhtml:link rel="alternate" hreflang="pl" href="https://sauerland.pl/*/07"/>
-    <xhtml:link rel="alternate" hreflang="de" href="https://sauerland.pl/de/*/07"/>
+    <loc>https://gh.sauerland.pl/*/07</loc>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://gh.sauerland.pl/*/07"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://gh.sauerland.pl/de/*/07"/>
   </url>
   <url>
-    <loc>https://sauerland.pl/*/08</loc>
-    <xhtml:link rel="alternate" hreflang="pl" href="https://sauerland.pl/*/08"/>
-    <xhtml:link rel="alternate" hreflang="de" href="https://sauerland.pl/de/*/08"/>
+    <loc>https://gh.sauerland.pl/*/08</loc>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://gh.sauerland.pl/*/08"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://gh.sauerland.pl/de/*/08"/>
   </url>
   <url>
-    <loc>https://sauerland.pl/*/09</loc>
-    <xhtml:link rel="alternate" hreflang="pl" href="https://sauerland.pl/*/09"/>
-    <xhtml:link rel="alternate" hreflang="de" href="https://sauerland.pl/de/*/09"/>
+    <loc>https://gh.sauerland.pl/*/09</loc>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://gh.sauerland.pl/*/09"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://gh.sauerland.pl/de/*/09"/>
   </url>
   <url>
-    <loc>https://sauerland.pl/*/10</loc>
-    <xhtml:link rel="alternate" hreflang="pl" href="https://sauerland.pl/*/10"/>
-    <xhtml:link rel="alternate" hreflang="de" href="https://sauerland.pl/de/*/10"/>
+    <loc>https://gh.sauerland.pl/*/10</loc>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://gh.sauerland.pl/*/10"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://gh.sauerland.pl/de/*/10"/>
   </url>
   <url>
-    <loc>https://sauerland.pl/*/11</loc>
-    <xhtml:link rel="alternate" hreflang="pl" href="https://sauerland.pl/*/11"/>
-    <xhtml:link rel="alternate" hreflang="de" href="https://sauerland.pl/de/*/11"/>
+    <loc>https://gh.sauerland.pl/*/11</loc>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://gh.sauerland.pl/*/11"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://gh.sauerland.pl/de/*/11"/>
   </url>
   <url>
-    <loc>https://sauerland.pl/*/12</loc>
-    <xhtml:link rel="alternate" hreflang="pl" href="https://sauerland.pl/*/12"/>
-    <xhtml:link rel="alternate" hreflang="de" href="https://sauerland.pl/de/*/12"/>
+    <loc>https://gh.sauerland.pl/*/12</loc>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://gh.sauerland.pl/*/12"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://gh.sauerland.pl/de/*/12"/>
   </url>
   <url>
-    <loc>https://sauerland.pl/*/13</loc>
-    <xhtml:link rel="alternate" hreflang="pl" href="https://sauerland.pl/*/13"/>
-    <xhtml:link rel="alternate" hreflang="de" href="https://sauerland.pl/de/*/13"/>
+    <loc>https://gh.sauerland.pl/*/13</loc>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://gh.sauerland.pl/*/13"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://gh.sauerland.pl/de/*/13"/>
   </url>
   <url>
-    <loc>https://sauerland.pl/*/14</loc>
-    <xhtml:link rel="alternate" hreflang="pl" href="https://sauerland.pl/*/14"/>
-    <xhtml:link rel="alternate" hreflang="de" href="https://sauerland.pl/de/*/14"/>
+    <loc>https://gh.sauerland.pl/*/14</loc>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://gh.sauerland.pl/*/14"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://gh.sauerland.pl/de/*/14"/>
   </url>
   <url>
-    <loc>https://sauerland.pl/*/15</loc>
-    <xhtml:link rel="alternate" hreflang="pl" href="https://sauerland.pl/*/15"/>
-    <xhtml:link rel="alternate" hreflang="de" href="https://sauerland.pl/de/*/15"/>
+    <loc>https://gh.sauerland.pl/*/15</loc>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://gh.sauerland.pl/*/15"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://gh.sauerland.pl/de/*/15"/>
   </url>
   <url>
-    <loc>https://sauerland.pl/*/16</loc>
-    <xhtml:link rel="alternate" hreflang="pl" href="https://sauerland.pl/*/16"/>
-    <xhtml:link rel="alternate" hreflang="de" href="https://sauerland.pl/de/*/16"/>
+    <loc>https://gh.sauerland.pl/*/16</loc>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://gh.sauerland.pl/*/16"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://gh.sauerland.pl/de/*/16"/>
   </url>
   <url>
-    <loc>https://sauerland.pl/*/17</loc>
-    <xhtml:link rel="alternate" hreflang="pl" href="https://sauerland.pl/*/17"/>
-    <xhtml:link rel="alternate" hreflang="de" href="https://sauerland.pl/de/*/17"/>
+    <loc>https://gh.sauerland.pl/*/17</loc>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://gh.sauerland.pl/*/17"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://gh.sauerland.pl/de/*/17"/>
   </url>
   <url>
-    <loc>https://sauerland.pl/*/18</loc>
-    <xhtml:link rel="alternate" hreflang="pl" href="https://sauerland.pl/*/18"/>
-    <xhtml:link rel="alternate" hreflang="de" href="https://sauerland.pl/de/*/18"/>
+    <loc>https://gh.sauerland.pl/*/18</loc>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://gh.sauerland.pl/*/18"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://gh.sauerland.pl/de/*/18"/>
   </url>
   <url>
-    <loc>https://sauerland.pl/*/20</loc>
-    <xhtml:link rel="alternate" hreflang="pl" href="https://sauerland.pl/*/20"/>
-    <xhtml:link rel="alternate" hreflang="de" href="https://sauerland.pl/de/*/20"/>
+    <loc>https://gh.sauerland.pl/*/20</loc>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://gh.sauerland.pl/*/20"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://gh.sauerland.pl/de/*/20"/>
   </url>
   <url>
-    <loc>https://sauerland.pl/*/re</loc>
+    <loc>https://gh.sauerland.pl/*/re</loc>
   </url>
   <url>
-    <loc>https://sauerland.pl/baden.badener.disput</loc>
-    <xhtml:link rel="alternate" hreflang="pl" href="https://sauerland.pl/baden.badener.disput"/>
-    <xhtml:link rel="alternate" hreflang="de" href="https://sauerland.pl/de/baden.badener.disput"/>
+    <loc>https://gh.sauerland.pl/baden.badener.disput</loc>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://gh.sauerland.pl/baden.badener.disput"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://gh.sauerland.pl/de/baden.badener.disput"/>
   </url>
   <url>
-    <loc>https://sauerland.pl/de</loc>
-    <xhtml:link rel="alternate" hreflang="pl" href="https://sauerland.pl/"/>
-    <xhtml:link rel="alternate" hreflang="de" href="https://sauerland.pl/de"/>
+    <loc>https://gh.sauerland.pl/de</loc>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://gh.sauerland.pl/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://gh.sauerland.pl/de"/>
   </url>
   <url>
-    <loc>https://sauerland.pl/de/*/01</loc>
-    <xhtml:link rel="alternate" hreflang="pl" href="https://sauerland.pl/*/01"/>
-    <xhtml:link rel="alternate" hreflang="de" href="https://sauerland.pl/de/*/01"/>
+    <loc>https://gh.sauerland.pl/de/*/01</loc>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://gh.sauerland.pl/*/01"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://gh.sauerland.pl/de/*/01"/>
   </url>
   <url>
-    <loc>https://sauerland.pl/de/*/02</loc>
-    <xhtml:link rel="alternate" hreflang="pl" href="https://sauerland.pl/*/02"/>
-    <xhtml:link rel="alternate" hreflang="de" href="https://sauerland.pl/de/*/02"/>
+    <loc>https://gh.sauerland.pl/de/*/02</loc>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://gh.sauerland.pl/*/02"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://gh.sauerland.pl/de/*/02"/>
   </url>
   <url>
-    <loc>https://sauerland.pl/de/*/03</loc>
-    <xhtml:link rel="alternate" hreflang="pl" href="https://sauerland.pl/*/03"/>
-    <xhtml:link rel="alternate" hreflang="de" href="https://sauerland.pl/de/*/03"/>
+    <loc>https://gh.sauerland.pl/de/*/03</loc>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://gh.sauerland.pl/*/03"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://gh.sauerland.pl/de/*/03"/>
   </url>
   <url>
-    <loc>https://sauerland.pl/de/*/04</loc>
-    <xhtml:link rel="alternate" hreflang="pl" href="https://sauerland.pl/*/04"/>
-    <xhtml:link rel="alternate" hreflang="de" href="https://sauerland.pl/de/*/04"/>
+    <loc>https://gh.sauerland.pl/de/*/04</loc>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://gh.sauerland.pl/*/04"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://gh.sauerland.pl/de/*/04"/>
   </url>
   <url>
-    <loc>https://sauerland.pl/de/*/05</loc>
-    <xhtml:link rel="alternate" hreflang="pl" href="https://sauerland.pl/*/05"/>
-    <xhtml:link rel="alternate" hreflang="de" href="https://sauerland.pl/de/*/05"/>
+    <loc>https://gh.sauerland.pl/de/*/05</loc>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://gh.sauerland.pl/*/05"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://gh.sauerland.pl/de/*/05"/>
   </url>
   <url>
-    <loc>https://sauerland.pl/de/*/06</loc>
-    <xhtml:link rel="alternate" hreflang="pl" href="https://sauerland.pl/*/06"/>
-    <xhtml:link rel="alternate" hreflang="de" href="https://sauerland.pl/de/*/06"/>
+    <loc>https://gh.sauerland.pl/de/*/06</loc>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://gh.sauerland.pl/*/06"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://gh.sauerland.pl/de/*/06"/>
   </url>
   <url>
-    <loc>https://sauerland.pl/de/*/07</loc>
-    <xhtml:link rel="alternate" hreflang="pl" href="https://sauerland.pl/*/07"/>
-    <xhtml:link rel="alternate" hreflang="de" href="https://sauerland.pl/de/*/07"/>
+    <loc>https://gh.sauerland.pl/de/*/07</loc>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://gh.sauerland.pl/*/07"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://gh.sauerland.pl/de/*/07"/>
   </url>
   <url>
-    <loc>https://sauerland.pl/de/*/08</loc>
-    <xhtml:link rel="alternate" hreflang="pl" href="https://sauerland.pl/*/08"/>
-    <xhtml:link rel="alternate" hreflang="de" href="https://sauerland.pl/de/*/08"/>
+    <loc>https://gh.sauerland.pl/de/*/08</loc>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://gh.sauerland.pl/*/08"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://gh.sauerland.pl/de/*/08"/>
   </url>
   <url>
-    <loc>https://sauerland.pl/de/*/09</loc>
-    <xhtml:link rel="alternate" hreflang="pl" href="https://sauerland.pl/*/09"/>
-    <xhtml:link rel="alternate" hreflang="de" href="https://sauerland.pl/de/*/09"/>
+    <loc>https://gh.sauerland.pl/de/*/09</loc>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://gh.sauerland.pl/*/09"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://gh.sauerland.pl/de/*/09"/>
   </url>
   <url>
-    <loc>https://sauerland.pl/de/*/10</loc>
-    <xhtml:link rel="alternate" hreflang="pl" href="https://sauerland.pl/*/10"/>
-    <xhtml:link rel="alternate" hreflang="de" href="https://sauerland.pl/de/*/10"/>
+    <loc>https://gh.sauerland.pl/de/*/10</loc>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://gh.sauerland.pl/*/10"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://gh.sauerland.pl/de/*/10"/>
   </url>
   <url>
-    <loc>https://sauerland.pl/de/*/11</loc>
-    <xhtml:link rel="alternate" hreflang="pl" href="https://sauerland.pl/*/11"/>
-    <xhtml:link rel="alternate" hreflang="de" href="https://sauerland.pl/de/*/11"/>
+    <loc>https://gh.sauerland.pl/de/*/11</loc>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://gh.sauerland.pl/*/11"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://gh.sauerland.pl/de/*/11"/>
   </url>
   <url>
-    <loc>https://sauerland.pl/de/*/12</loc>
-    <xhtml:link rel="alternate" hreflang="pl" href="https://sauerland.pl/*/12"/>
-    <xhtml:link rel="alternate" hreflang="de" href="https://sauerland.pl/de/*/12"/>
+    <loc>https://gh.sauerland.pl/de/*/12</loc>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://gh.sauerland.pl/*/12"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://gh.sauerland.pl/de/*/12"/>
   </url>
   <url>
-    <loc>https://sauerland.pl/de/*/13</loc>
-    <xhtml:link rel="alternate" hreflang="pl" href="https://sauerland.pl/*/13"/>
-    <xhtml:link rel="alternate" hreflang="de" href="https://sauerland.pl/de/*/13"/>
+    <loc>https://gh.sauerland.pl/de/*/13</loc>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://gh.sauerland.pl/*/13"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://gh.sauerland.pl/de/*/13"/>
   </url>
   <url>
-    <loc>https://sauerland.pl/de/*/14</loc>
-    <xhtml:link rel="alternate" hreflang="pl" href="https://sauerland.pl/*/14"/>
-    <xhtml:link rel="alternate" hreflang="de" href="https://sauerland.pl/de/*/14"/>
+    <loc>https://gh.sauerland.pl/de/*/14</loc>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://gh.sauerland.pl/*/14"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://gh.sauerland.pl/de/*/14"/>
   </url>
   <url>
-    <loc>https://sauerland.pl/de/*/15</loc>
-    <xhtml:link rel="alternate" hreflang="pl" href="https://sauerland.pl/*/15"/>
-    <xhtml:link rel="alternate" hreflang="de" href="https://sauerland.pl/de/*/15"/>
+    <loc>https://gh.sauerland.pl/de/*/15</loc>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://gh.sauerland.pl/*/15"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://gh.sauerland.pl/de/*/15"/>
   </url>
   <url>
-    <loc>https://sauerland.pl/de/*/16</loc>
-    <xhtml:link rel="alternate" hreflang="pl" href="https://sauerland.pl/*/16"/>
-    <xhtml:link rel="alternate" hreflang="de" href="https://sauerland.pl/de/*/16"/>
+    <loc>https://gh.sauerland.pl/de/*/16</loc>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://gh.sauerland.pl/*/16"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://gh.sauerland.pl/de/*/16"/>
   </url>
   <url>
-    <loc>https://sauerland.pl/de/*/17</loc>
-    <xhtml:link rel="alternate" hreflang="pl" href="https://sauerland.pl/*/17"/>
-    <xhtml:link rel="alternate" hreflang="de" href="https://sauerland.pl/de/*/17"/>
+    <loc>https://gh.sauerland.pl/de/*/17</loc>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://gh.sauerland.pl/*/17"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://gh.sauerland.pl/de/*/17"/>
   </url>
   <url>
-    <loc>https://sauerland.pl/de/*/18</loc>
-    <xhtml:link rel="alternate" hreflang="pl" href="https://sauerland.pl/*/18"/>
-    <xhtml:link rel="alternate" hreflang="de" href="https://sauerland.pl/de/*/18"/>
+    <loc>https://gh.sauerland.pl/de/*/18</loc>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://gh.sauerland.pl/*/18"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://gh.sauerland.pl/de/*/18"/>
   </url>
   <url>
-    <loc>https://sauerland.pl/de/*/20</loc>
-    <xhtml:link rel="alternate" hreflang="pl" href="https://sauerland.pl/*/20"/>
-    <xhtml:link rel="alternate" hreflang="de" href="https://sauerland.pl/de/*/20"/>
+    <loc>https://gh.sauerland.pl/de/*/20</loc>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://gh.sauerland.pl/*/20"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://gh.sauerland.pl/de/*/20"/>
   </url>
   <url>
-    <loc>https://sauerland.pl/de/baden.badener.disput</loc>
-    <xhtml:link rel="alternate" hreflang="pl" href="https://sauerland.pl/baden.badener.disput"/>
-    <xhtml:link rel="alternate" hreflang="de" href="https://sauerland.pl/de/baden.badener.disput"/>
+    <loc>https://gh.sauerland.pl/de/baden.badener.disput</loc>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://gh.sauerland.pl/baden.badener.disput"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://gh.sauerland.pl/de/baden.badener.disput"/>
   </url>
   <url>
-    <loc>https://sauerland.pl/de/images</loc>
-    <xhtml:link rel="alternate" hreflang="de" href="https://sauerland.pl/de/images"/>
-    <xhtml:link rel="alternate" hreflang="pl" href="https://sauerland.pl/images"/>
+    <loc>https://gh.sauerland.pl/de/images</loc>
+    <xhtml:link rel="alternate" hreflang="de" href="https://gh.sauerland.pl/de/images"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://gh.sauerland.pl/images"/>
   </url>
   <url>
-    <loc>https://sauerland.pl/de/kontakt</loc>
-    <xhtml:link rel="alternate" hreflang="de" href="https://sauerland.pl/de/kontakt"/>
-    <xhtml:link rel="alternate" hreflang="pl" href="https://sauerland.pl/kontakt"/>
+    <loc>https://gh.sauerland.pl/de/kontakt</loc>
+    <xhtml:link rel="alternate" hreflang="de" href="https://gh.sauerland.pl/de/kontakt"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://gh.sauerland.pl/kontakt"/>
   </url>
   <url>
-    <loc>https://sauerland.pl/de/txt</loc>
-    <xhtml:link rel="alternate" hreflang="de" href="https://sauerland.pl/de/txt"/>
-    <xhtml:link rel="alternate" hreflang="pl" href="https://sauerland.pl/txt"/>
+    <loc>https://gh.sauerland.pl/de/txt</loc>
+    <xhtml:link rel="alternate" hreflang="de" href="https://gh.sauerland.pl/de/txt"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://gh.sauerland.pl/txt"/>
   </url>
   <url>
-    <loc>https://sauerland.pl/de/txt/000</loc>
-    <xhtml:link rel="alternate" hreflang="de" href="https://sauerland.pl/de/txt/000"/>
-    <xhtml:link rel="alternate" hreflang="pl" href="https://sauerland.pl/txt/000"/>
+    <loc>https://gh.sauerland.pl/de/txt/000</loc>
+    <xhtml:link rel="alternate" hreflang="de" href="https://gh.sauerland.pl/de/txt/000"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://gh.sauerland.pl/txt/000"/>
   </url>
   <url>
-    <loc>https://sauerland.pl/de/txt/001</loc>
-    <xhtml:link rel="alternate" hreflang="de" href="https://sauerland.pl/de/txt/001"/>
-    <xhtml:link rel="alternate" hreflang="pl" href="https://sauerland.pl/txt/001"/>
+    <loc>https://gh.sauerland.pl/de/txt/001</loc>
+    <xhtml:link rel="alternate" hreflang="de" href="https://gh.sauerland.pl/de/txt/001"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://gh.sauerland.pl/txt/001"/>
   </url>
   <url>
-    <loc>https://sauerland.pl/de/txt/ausgewahlte</loc>
-    <xhtml:link rel="alternate" hreflang="de" href="https://sauerland.pl/de/txt/ausgewahlte"/>
-    <xhtml:link rel="alternate" hreflang="pl" href="https://sauerland.pl/txt/ausgewahlte"/>
+    <loc>https://gh.sauerland.pl/de/txt/ausgewahlte</loc>
+    <xhtml:link rel="alternate" hreflang="de" href="https://gh.sauerland.pl/de/txt/ausgewahlte"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://gh.sauerland.pl/txt/ausgewahlte"/>
   </url>
   <url>
-    <loc>https://sauerland.pl/de/txt/online</loc>
-    <xhtml:link rel="alternate" hreflang="de" href="https://sauerland.pl/de/txt/online"/>
-    <xhtml:link rel="alternate" hreflang="pl" href="https://sauerland.pl/txt/online"/>
+    <loc>https://gh.sauerland.pl/de/txt/online</loc>
+    <xhtml:link rel="alternate" hreflang="de" href="https://gh.sauerland.pl/de/txt/online"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://gh.sauerland.pl/txt/online"/>
   </url>
   <url>
-    <loc>https://sauerland.pl/de/txt/uber.mich</loc>
-    <xhtml:link rel="alternate" hreflang="de" href="https://sauerland.pl/de/txt/uber.mich"/>
-    <xhtml:link rel="alternate" hreflang="pl" href="https://sauerland.pl/txt/uber.mich"/>
+    <loc>https://gh.sauerland.pl/de/txt/uber.mich</loc>
+    <xhtml:link rel="alternate" hreflang="de" href="https://gh.sauerland.pl/de/txt/uber.mich"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://gh.sauerland.pl/txt/uber.mich"/>
   </url>
   <url>
-    <loc>https://sauerland.pl/de/video</loc>
-    <xhtml:link rel="alternate" hreflang="de" href="https://sauerland.pl/de/video"/>
-    <xhtml:link rel="alternate" hreflang="pl" href="https://sauerland.pl/video"/>
+    <loc>https://gh.sauerland.pl/de/video</loc>
+    <xhtml:link rel="alternate" hreflang="de" href="https://gh.sauerland.pl/de/video"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://gh.sauerland.pl/video"/>
   </url>
   <url>
-    <loc>https://sauerland.pl/files</loc>
+    <loc>https://gh.sauerland.pl/files</loc>
   </url>
   <url>
-    <loc>https://sauerland.pl/images</loc>
-    <xhtml:link rel="alternate" hreflang="de" href="https://sauerland.pl/de/images"/>
-    <xhtml:link rel="alternate" hreflang="pl" href="https://sauerland.pl/images"/>
+    <loc>https://gh.sauerland.pl/images</loc>
+    <xhtml:link rel="alternate" hreflang="de" href="https://gh.sauerland.pl/de/images"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://gh.sauerland.pl/images"/>
   </url>
   <url>
-    <loc>https://sauerland.pl/kontakt</loc>
-    <xhtml:link rel="alternate" hreflang="de" href="https://sauerland.pl/de/kontakt"/>
-    <xhtml:link rel="alternate" hreflang="pl" href="https://sauerland.pl/kontakt"/>
+    <loc>https://gh.sauerland.pl/kontakt</loc>
+    <xhtml:link rel="alternate" hreflang="de" href="https://gh.sauerland.pl/de/kontakt"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://gh.sauerland.pl/kontakt"/>
   </url>
   <url>
-    <loc>https://sauerland.pl/txt</loc>
-    <xhtml:link rel="alternate" hreflang="de" href="https://sauerland.pl/de/txt"/>
-    <xhtml:link rel="alternate" hreflang="pl" href="https://sauerland.pl/txt"/>
+    <loc>https://gh.sauerland.pl/txt</loc>
+    <xhtml:link rel="alternate" hreflang="de" href="https://gh.sauerland.pl/de/txt"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://gh.sauerland.pl/txt"/>
   </url>
   <url>
-    <loc>https://sauerland.pl/txt/000</loc>
-    <xhtml:link rel="alternate" hreflang="de" href="https://sauerland.pl/de/txt/000"/>
-    <xhtml:link rel="alternate" hreflang="pl" href="https://sauerland.pl/txt/000"/>
+    <loc>https://gh.sauerland.pl/txt/000</loc>
+    <xhtml:link rel="alternate" hreflang="de" href="https://gh.sauerland.pl/de/txt/000"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://gh.sauerland.pl/txt/000"/>
   </url>
   <url>
-    <loc>https://sauerland.pl/txt/001</loc>
-    <xhtml:link rel="alternate" hreflang="de" href="https://sauerland.pl/de/txt/001"/>
-    <xhtml:link rel="alternate" hreflang="pl" href="https://sauerland.pl/txt/001"/>
+    <loc>https://gh.sauerland.pl/txt/001</loc>
+    <xhtml:link rel="alternate" hreflang="de" href="https://gh.sauerland.pl/de/txt/001"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://gh.sauerland.pl/txt/001"/>
   </url>
   <url>
-    <loc>https://sauerland.pl/txt/ausgewahlte</loc>
-    <xhtml:link rel="alternate" hreflang="de" href="https://sauerland.pl/de/txt/ausgewahlte"/>
-    <xhtml:link rel="alternate" hreflang="pl" href="https://sauerland.pl/txt/ausgewahlte"/>
+    <loc>https://gh.sauerland.pl/txt/ausgewahlte</loc>
+    <xhtml:link rel="alternate" hreflang="de" href="https://gh.sauerland.pl/de/txt/ausgewahlte"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://gh.sauerland.pl/txt/ausgewahlte"/>
   </url>
   <url>
-    <loc>https://sauerland.pl/txt/online</loc>
-    <xhtml:link rel="alternate" hreflang="de" href="https://sauerland.pl/de/txt/online"/>
-    <xhtml:link rel="alternate" hreflang="pl" href="https://sauerland.pl/txt/online"/>
+    <loc>https://gh.sauerland.pl/txt/online</loc>
+    <xhtml:link rel="alternate" hreflang="de" href="https://gh.sauerland.pl/de/txt/online"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://gh.sauerland.pl/txt/online"/>
   </url>
   <url>
-    <loc>https://sauerland.pl/txt/uber.mich</loc>
-    <xhtml:link rel="alternate" hreflang="de" href="https://sauerland.pl/de/txt/uber.mich"/>
-    <xhtml:link rel="alternate" hreflang="pl" href="https://sauerland.pl/txt/uber.mich"/>
+    <loc>https://gh.sauerland.pl/txt/uber.mich</loc>
+    <xhtml:link rel="alternate" hreflang="de" href="https://gh.sauerland.pl/de/txt/uber.mich"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://gh.sauerland.pl/txt/uber.mich"/>
   </url>
   <url>
-    <loc>https://sauerland.pl/video</loc>
-    <xhtml:link rel="alternate" hreflang="de" href="https://sauerland.pl/de/video"/>
-    <xhtml:link rel="alternate" hreflang="pl" href="https://sauerland.pl/video"/>
+    <loc>https://gh.sauerland.pl/video</loc>
+    <xhtml:link rel="alternate" hreflang="de" href="https://gh.sauerland.pl/de/video"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://gh.sauerland.pl/video"/>
   </url>
 </urlset>
