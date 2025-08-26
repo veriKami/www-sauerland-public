@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="pl">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Podsumowanie Refaktoryzacji Projektu sauerland.pl</title>
+    <meta name="author" content="veriKami">
+    <meta name="copyright" content="veriKami">
+    <meta name="robots" content="noindex, nofollow, noarchive">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism-okaidia.min.css">
+    <style>
+    body {
+      background-color: #f9f9f9;
+      color: #333;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      line-height: 1.6;
+      margin: 0 auto;
+      max-width: 800px;
+      padding: 20px;
+    }
+    h1, h2, h3 {
+      border-bottom: 1px solid #ddd;
+      color: #444;
+      padding-bottom: 10px;
+    }
+    code {
+      background-color: #eee;
+      border-radius: 3px;
+      padding: 2px 5px;
+    }
+    pre {
+      background-color: #2d2d2d;
+      border-radius: 5px;
+      overflow-x: auto;
+      padding: 15px;
+    }
+    .container {
+      background-color: #fff;
+      border-radius: 8px;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+      padding: 20px;
+    }
+    .lang-toggle {
+      margin-bottom: 20px;
+      text-align: center;
+    }
+    .lang-toggle button {
+      background-color: #f0f0f0;
+      border: 1px solid #ccc;
+      cursor: pointer;
+      padding: 10px 20px;
+    }
+    .lang-toggle button.active {
+      background-color: #007bff;
+      border-color: #007bff;
+      color: white;
+    }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="lang-toggle">
+        <button id="btn-pl" __class="active">Polski</button>
+        <button id="btn-de" class="active">Deutsch</button>
+      </div>
+      <div id="content-pl" style="display: none">
+        <h1>Refaktoryzacja projektu sauerland.pl: Przejście z PHP (2012) na Astro (2025)</h1>
+        <p>Proces refaktoryzacji polegał na przepisaniu przestarzałej, monolitycznej aplikacji PHP z 2012 roku na nowoczesną, statyczną stronę internetową przy użyciu frameworka Astro. Głównym celem było unowocześnienie technologii, poprawa wydajności, bezpieczeństwa oraz ułatwienie dalszego rozwoju i zarządzania treścią.</p>
+        <hr>
+        <section style="text-align: center; margin: 20px">Testowa (robocza) wersja znajduje się pod adresem: <a href="http://new.sauerland.pl" target="_blank"><strong>http://new.sauerland.pl</strong></a></section>
+        <hr>
+        <h3>Stan Początkowy: Stara Wersja PHP (<code>___backup_sauerland_2025.07.28</code>)</h3>
+        <ol>
+          <li>
+            <strong>Technologia:</strong><ul>
+              <li>Aplikacja napisana w PHP, z logiką i treścią mocno ze sobą powiązanymi.</li>
+              <li>Brak systemu zarządzania zależnościami (jak <code>composer</code> czy <code>npm</code>).</li>
+            </ul>
+          </li>
+          <li>
+            <strong>Architektura:</strong><ul>
+              <li><strong>Monolityczny plik <code>index.php</code></strong>: Działał jako centralny router, który na podstawie parametrów z adresu URL (<code>?q=...</code>) dołączał (<code>include</code>) odpowiednie pliki z treścią.</li>
+              <li><strong>Routing oparty na <code>.htaccess</code></strong>: Reguły <code>mod_rewrite</code> w pliku <code>.htaccess</code> przekierowywały wszystkie żądania do <code>index.php</code>.</li>
+            </ul>
+          </li>
+          <li>
+            <strong>Zarządzanie Treścią:</strong><ul>
+              <li>Treść była przechowywana w plikach <code>.inc</code> w katalogu <code>content/</code>.</li>
+              <li>Struktura była manualna i oparta na konwencji nazewniczej (np. <code>de.01.inc</code>, <code>pl.01.inc</code>).</li>
+              <li>Brak separacji danych od prezentacji – pliki <code>.inc</code> zawierały bezpośrednio kod HTML.</li>
+            </ul>
+          </li>
+        </ol>
+        <hr>
+        <h3>Stan Obecny: Nowa Wersja Astro (<code>___sauerland_astro_static</code>)</h3>
+        <ol>
+          <li>
+            <strong>Technologia:</strong><ul>
+              <li><strong>Astro</strong>: Nowoczesny generator stron statycznych.</li>
+              <li><strong>Node.js z pnpm</strong>: Zarządzanie zależnościami.</li>
+              <li><strong>TypeScript</strong>: Używany w konfiguracji dla większego bezpieczeństwa typów.</li>
+            </ul>
+          </li>
+          <li>
+            <strong>Architektura:</strong><ul>
+              <li><strong>Komponentowa</strong>: Strona zbudowana z reużywalnych komponentów Astro.</li>
+              <li><strong>Routing oparty na plikach</strong>: Struktura katalogów w <code>src/pages</code> automatycznie definiuje ścieżki URL.</li>
+            </ul>
+          </li>
+          <li>
+            <strong>Zarządzanie Treścią (Content Collections):</strong><ul>
+              <li>Treść przeniesiona do <code>src/content/</code> i zorganizowana w kolekcje (<code>pl</code>, <code>de</code>, <code>uni</code>, <code>txt</code>).</li>
+              <li>Używane są pliki <strong>Markdown (`.md`)</strong> z frontmatter, co zapewnia separację danych od prezentacji.</li>
+              <li>Kolekcje są typowane (`src/content/config.ts`).</li>
+            </ul>
+          </li>
+          <li>
+            <strong>Internacjonalizacja (i18n):</strong><ul>
+              <li>Wykorzystano wbudowany w Astro system i18n.</li>
+              <li>Automatyczne generowanie stron dla różnych języków z odpowiednią strukturą URL.</li>
+            </ul>
+          </li>
+          <li><strong>Zaawansowane Przetwarzanie Markdown:</strong><ul><li>Stworzono dynamiczną wtyczkę <strong>Remark</strong>, która filtruje treść w plikach <code>.md</code> w zależności od języka w URL.</li></ul></li>
+        </ol>
+        <h3>Podsumowanie Refaktoryzacji</h3>
+        <p>Transformacja była kompleksowa i objęła każdy aspekt projektu. W rezultacie nowa strona jest znacznie szybsza, bezpieczniejsza, łatwiejsza w utrzymaniu i gotowa na dalszy rozwój.</p>
+      </div>
+      <div id="content-de" __style="display:none;">
+        <h1>Refactoring des Projekts sauerland.pl: Umstellung von PHP (2012) auf Astro (2025)</h1>
+        <p>Der Refactoring-Prozess umfasste die Neufassung einer veralteten, monolithischen PHP-Anwendung aus dem Jahr 2012 in eine moderne, statische Website unter Verwendung des Astro-Frameworks. Hauptziel war die Modernisierung der Technologie, die Verbesserung von Leistung und Sicherheit sowie die Erleichterung der weiteren Entwicklung und Inhaltsverwaltung.</p>
+        <hr>
+        <section style="text-align: center; margin: 20px">Die Testversion (Arbeitsversion) ist verfügbar unter: <a href="http://new.sauerland.pl" target="_blank"><strong>http://new.sauerland.pl</strong></a></section>
+        <hr>
+        <h3>Ausgangszustand: Alte PHP-Version (<code>___backup_sauerland_2025.07.28</code>)</h3>
+        <ol>
+          <li>
+            <strong>Technologie:</strong><ul>
+              <li>Anwendung in PHP geschrieben, mit starker Kopplung von Logik und Inhalt.</li>
+              <li>Kein Abhängigkeitsmanagementsystem (wie <code>composer</code> oder <code>npm</code>).</li>
+            </ul>
+          </li>
+          <li>
+            <strong>Architektur:</strong><ul>
+              <li><strong>Monolithische <code>index.php</code>-Datei</strong>: Fungierte als zentraler Router, der basierend auf URL-Parametern (<code>?q=...</code>) entsprechende Inhaltsdateien einband (<code>include</code>).</li>
+              <li><strong>Routing basierend auf <code>.htaccess</code></strong>: `mod_rewrite`-Regeln in der <code>.htaccess</code>-Datei leiteten alle Anfragen an <code>index.php</code> weiter.</li>
+            </ul>
+          </li>
+          <li>
+            <strong>Inhaltsverwaltung:</strong><ul>
+              <li>Inhalte wurden in <code>.inc</code>-Dateien im Verzeichnis <code>content/</code> gespeichert.</li>
+              <li>Die Struktur war manuell und basierte auf Namenskonventionen (z. B. <code>de.01.inc</code>, <code>pl.01.inc</code>).</li>
+              <li>Keine Trennung von Datenstruktur und Präsentation – die <code>.inc</code>-Dateien enthielten direkt HTML-Code.</li>
+            </ul>
+          </li>
+        </ol>
+        <hr>
+        <h3>Aktueller Zustand: Neue Astro-Version (<code>___sauerland_astro_static</code>)</h3>
+        <ol>
+          <li>
+            <strong>Technologie:</strong><ul>
+              <li><strong>Astro</strong>: Ein moderner Generator für statische Seiten.</li>
+              <li><strong>Node.js mit pnpm</strong>: Verwaltung von Abhängigkeiten.</li>
+              <li><strong>TypeScript</strong>: Wird in der Konfiguration für höhere Typsicherheit verwendet.</li>
+            </ul>
+          </li>
+          <li>
+            <strong>Architektur:</strong><ul>
+              <li><strong>Komponentenbasiert</strong>: Die Seite ist aus wiederverwendbaren Astro-Komponenten aufgebaut.</li>
+              <li><strong>Dateibasiertes Routing</strong>: Die Verzeichnisstruktur in <code>src/pages</code> definiert automatisch die URL-Pfade.</li>
+            </ul>
+          </li>
+          <li>
+            <strong>Inhaltsverwaltung (Content Collections):</strong><ul>
+              <li>Der Inhalt wurde in <code>src/content/</code> verschoben und in Kollektionen (<code>pl</code>, <code>de</code>, <code>uni</code>, <code>txt</code>) organisiert.</li>
+              <li>Es werden <strong>Markdown-Dateien (`.md`)</strong> mit Frontmatter verwendet, was eine saubere Trennung von Daten und Präsentation gewährleistet.</li>
+              <li>Die Kollektionen sind typisiert (`src/content/config.ts`).</li>
+            </ul>
+          </li>
+          <li>
+            <strong>Internationalisierung (i18n):</strong><ul>
+              <li>Es wurde das in Astro integrierte i18n-System verwendet.</li>
+              <li>Automatische Generierung von Seiten für verschiedene Sprachen mit der entsprechenden URL-Struktur.</li>
+            </ul>
+          </li>
+          <li><strong>Fortgeschrittene Markdown-Verarbeitung:</strong><ul><li>Es wurde ein dynamisches <strong>Remark</strong>-Plugin erstellt, das den Inhalt in <code>.md</code>-Dateien je nach in der URL ausgewählter Sprache filtert.</li></ul></li>
+        </ol>
+        <h3>Zusammenfassung des Refactorings</h3>
+        <p>Die Transformation war umfassend und betraf jeden Aspekt des Projekts. Im Ergebnis ist die neue Seite deutlich schneller, sicherer, einfacher zu warten und bereit für die weitere Entwicklung.</p>
+      </div>
+    </div>
+    <script>
+    const btnPl = document.getElementById("btn-pl");
+    const btnDe = document.getElementById("btn-de");
+    const contentPl = document.getElementById("content-pl");
+    const contentDe = document.getElementById("content-de");
+    btnPl.addEventListener("click", () => {
+      contentPl.style.display = "block";
+      contentDe.style.display = "none";
+      btnPl.classList.add("active");
+      btnDe.classList.remove("active");
+    });
+    btnDe.addEventListener("click", () => {
+      contentPl.style.display = "none";
+      contentDe.style.display = "block";
+      btnDe.classList.add("active");
+      btnPl.classList.remove("active");
+    });
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-core.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/plugins/autoloader/prism-autoloader.min.js"></script>
+    <script defer src="https://static.cloudflareinsights.com/beacon.min.js/vcd15cbe7772f49c399c6a5babf22c1241717689176015" integrity="sha512-ZpsOmlRQV6y907TI0dKBHq9Md29nnaEIPlkf84rnaERnq6zvWvPUqr2ft8M1aS28oN72PdrCzSjY4U6VaAw1EQ==" data-cf-beacon='{"version":"2024.11.0","token":"ab49f45040f24231bd7be462a0f11215","r":1,"server_timing":{"name":{"cfCacheStatus":true,"cfEdge":true,"cfExtPri":true,"cfL4":true,"cfOrigin":true,"cfSpeedBrain":true},"location_startswith":null}}' crossorigin="anonymous"></script>
+  </body>
+</html>
