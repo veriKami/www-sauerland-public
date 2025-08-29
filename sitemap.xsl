@@ -101,8 +101,8 @@
           <table id="sitemap" cellpadding="3">
             <thead>
             <tr>
-              <th width="75%">Sitemap</th>
-              <th width="25%">Last Modified</th>
+              <th width="87%">Sitemap</th>
+              <th width="13%">Last Modified</th>
             </tr>
             </thead>
             <tbody>
@@ -132,8 +132,8 @@
           <table id="sitemap" cellpadding="3">
             <thead>
             <tr>
-              <th _width="85%">URL</th>
-              <th title="Last Modification Time" width="11%">Last Modified</th>
+              <th width="87%">URL</th>
+              <th width="13%">Last Modified</th>
             </tr>
             </thead>
             <tbody>
