@@ -2,6 +2,9 @@
 <?xml-stylesheet type="text/xsl" href="https://gh.sauerland.pl/sitemap.xsl"?>
 <sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <sitemap>
+    <loc>https://gh.sauerland.pl/sitemap-img.xml</loc>
+  </sitemap>
+  <sitemap>
     <loc>https://gh.sauerland.pl/sitemap-pdf.xml</loc>
   </sitemap>
   <sitemap>

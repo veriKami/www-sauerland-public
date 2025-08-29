@@ -87,8 +87,9 @@
       <body>
         <h1>Site Map</h1>
         <div class="expl">
-          ° <a href="/sitemap-index.xml">sitemap-index.xml</a>
+          <a href="/sitemap-index.xml">sitemap-index.xml</a>
           ° <a href="/sitemap-0.xml">sitemap-0.xml</a>
+          ° <a href="/sitemap-img.xml">sitemap-img.xml</a>
           ° <a href="/sitemap-pdf.xml">sitemap-pdf.xml</a>
         </div>
         <!-- -->
