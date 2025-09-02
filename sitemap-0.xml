@@ -267,12 +267,6 @@
     <xhtml:link rel="alternate" hreflang="pl" href="https://gh.sauerland.pl/txt"/>
   </url>
   <url>
-    <loc>https://gh.sauerland.pl/de/txt/__x__</loc>
-    <lastmod>2025-08-27T08:46:15.000Z</lastmod>
-    <xhtml:link rel="alternate" hreflang="de" href="https://gh.sauerland.pl/de/txt/__x__"/>
-    <xhtml:link rel="alternate" hreflang="pl" href="https://gh.sauerland.pl/txt/__x__"/>
-  </url>
-  <url>
     <loc>https://gh.sauerland.pl/de/txt/000</loc>
     <lastmod>2025-08-17T20:56:59.000Z</lastmod>
     <xhtml:link rel="alternate" hreflang="de" href="https://gh.sauerland.pl/de/txt/000"/>
@@ -327,12 +321,6 @@
     <loc>https://gh.sauerland.pl/txt</loc>
     <xhtml:link rel="alternate" hreflang="de" href="https://gh.sauerland.pl/de/txt"/>
     <xhtml:link rel="alternate" hreflang="pl" href="https://gh.sauerland.pl/txt"/>
-  </url>
-  <url>
-    <loc>https://gh.sauerland.pl/txt/__x__</loc>
-    <lastmod>2025-08-27T08:46:15.000Z</lastmod>
-    <xhtml:link rel="alternate" hreflang="de" href="https://gh.sauerland.pl/de/txt/__x__"/>
-    <xhtml:link rel="alternate" hreflang="pl" href="https://gh.sauerland.pl/txt/__x__"/>
   </url>
   <url>
     <loc>https://gh.sauerland.pl/txt/000</loc>
