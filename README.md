@@ -1,6 +1,9 @@
 # 🐧 www-sauerland-public
 
+[![GH Repo](https://img.shields.io/badge/GitHub-Repository-blue?logo=github)](https://github.com/veriKami/www-sauerland-public)
+[![GH Repo](https://img.shields.io/badge/GitHub-Repository-blue?logo=github)](https://github.com/veriKami/www-sauerland-astro)
 [![pages-build-deployment](https://github.com/veriKami/www-sauerland-public/actions/workflows/pages/pages-build-deployment/badge.svg?branch=gh-pages)](https://github.com/veriKami/www-sauerland-public/actions/workflows/pages/pages-build-deployment)
+[![Website](https://img.shields.io/badge/Website-Online-brightgreen)](https://gh.sauerland.pl)
 
 ### Git LFS
 
