@@ -1,1 +1,49 @@
-[![pages-build-deployment](https://github.com/veriKami/www-sauerland-public/actions/workflows/pages/pages-build-deployment/badge.svg?branch=gh-pages)](https://github.com/veriKami/www-sauerland-public/actions/workflows/pages/pages-build-deployment)
+# Wersja Polska (PL) ° [sauerland.pl](https://sauerland.pl)
+
+## 1. Cel i Główny Temat Strony
+
+Ta strona internetowa to oficjalne archiwum dorobku naukowego **prof. dr. hab. Karola Sauerlanda**. Jej głównym celem jest udostępnienie szerokiemu gronu odbiorców jego publikacji, esejów, recenzji i artykułów. Strona stanowi kompendium wiedzy na temat jego wieloletniej pracy badawczej.
+
+## 2. Główny Zasób: Publikacje
+
+Najważniejszą częścią serwisu jest cyfrowa biblioteka tekstów autora, dostępna głównie w formacie PDF w sekcji `Pliki` (/files). Są to zarówno obszerne artykuły naukowe, jak i krótsze formy publicystyczne.
+
+## 3. Kluczowe Obszary Tematyczne i Badawcze
+
+Prace profesora Karola Sauerlanda koncentrują się na kilku głównych obszarach:
+
+- **Literatura i filozofia niemiecka:** Analizy twórczości i myśli kluczowych postaci, takich jak Goethe, Walter Benjamin, Heinrich Heine, Franz Kafka, Bertolt Brecht, Wilhelm Dilthey.
+- **Polsko-niemieckie relacje kulturowe i literackie:** Badanie wzajemnych wpływów, recepcji dzieł i historycznych punktów styku między Polską a Niemcami.
+- **Historia idei i pojęć:** Rozważania nad ewolucją i znaczeniem pojęć w kulturze europejskiej (np. "Wschód-Zachód").
+- **Historia intelektualistów:** Analiza roli i postaw intelektualistów wobec wydarzeń historycznych (np. polski Marzec '68).
+- **Teoria literatury i hermeneutyka:** Prace poświęcone metodologii badań literackich i teorii przekładu.
+
+## 4. Docelowi Odbiorcy
+
+Strona skierowana jest do studentów, badaczy, historyków literatury i filozofii oraz wszystkich osób zainteresowanych myślą niemiecką i polsko-niemieckim dialogiem kulturowym.
+
+<p>&nbsp;</p>
+
+# Deutsche Version (DE) ° [sauerland.pl/de](https://sauerland.pl/de)
+
+## 1. Ziel und Hauptthema der Webseite
+
+Diese Webseite ist das offizielle Archiv des wissenschaftlichen Werks von **Prof. Dr. hab. Karol Sauerland**. Ihr Hauptziel ist es, seine Veröffentlichungen, Essays, Rezensionen und Artikel einem breiten Publikum zugänglich zu machen. Die Seite dient als Kompendium seines langjährigen Schaffens.
+
+## 2. Hauptressource: Veröffentlichungen
+
+Der wichtigste Teil der Webseite ist die digitale Bibliothek der Texte des Autors, die hauptsächlich im PDF-Format unter der Rubrik `Dateien` (/files) verfügbar sind. Dies umfasst sowohl umfangreiche wissenschaftliche Artikel als auch kürzere publizistische Formen.
+
+## 3. Thematische Schwerpunkte und Forschungsbereiche
+
+Die Arbeiten von Professor Karol Sauerland konzentrieren sich auf mehrere Hauptbereiche:
+
+- **Deutsche Literatur und Philosophie:** Tiefgehende Analysen des Schaffens und Denkens von Schlüsselfiguren wie Goethe, Walter Benjamin, Heinrich Heine, Franz Kafka, Bertolt Brecht, Wilhelm Dilthey.
+- **Deutsch-polnische Kultur- und Literaturbeziehungen:** Untersuchung der gegenseitigen Einflüsse, der Werkrezeption und der historischen Berührungspunkte zwischen Polen und Deutschland.
+- **Begriffs- und Ideengeschichte:** Betrachtungen zur Entwicklung und Bedeutung von Begriffen in der europäischen Kultur (z.B. "Ost-West").
+- **Intellektuellengeschichte:** Analyse der Rolle und Haltung von Intellektuellen gegenüber historischen Ereignissen (z.B. der polnische März '68).
+- **Literaturtheorie und Hermeneutik:** Arbeiten zur Methodik der Literaturforschung und zur Übersetzungstheorie.
+
+## 4. Zielgruppe
+
+Die Seite richtet sich an Studierende, Forschende, Literatur- und Philosophiehistoriker sowie an alle, die am deutschen Denken und am deutsch-polnischen Kulturdialog interessiert sind.
