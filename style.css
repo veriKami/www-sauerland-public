@@ -83,6 +83,9 @@ ul.iconostas li {
   margin: 1em 0;
   padding-right: 0.6em;
 }
+img {
+  width: 100%;
+}
 #content {
   padding: 30px;
 }
