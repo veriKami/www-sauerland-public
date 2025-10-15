@@ -411,6 +411,57 @@ a.gray:hover {
   flex-grow: 1;
   overflow: hidden;
 }
+a.dono {
+  border-bottom: 0px solid #aaa;
+}
+a.dono:hover {
+  border: 0px solid #aaa;
+  border-bottom: 0px solid #aaa;
+}
+a.dono img {
+  margin-bottom: 15px;
+  margin-right: 15px;
+  object-fit: cover;
+  width: 100%;
+}
+a.dono img.square {
+  __height: 200px;
+  __width: 300px;
+  object-fit: cover;
+  width: 85%;
+}
+a.dono img.photo {
+  __height: 350px;
+  margin-bottom: 15px;
+  margin-right: 15px;
+  object-fit: cover;
+  width: 420px;
+}
+.donos p {
+  font-size: 110%;
+  padding-left: 50px !important;
+  padding-right: 50px !important;
+}
+.donos .container {
+  __flex-direction: row;
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 50px;
+  width: 100%;
+}
+__.box {
+  __flex: auto;
+  _height: 200px;
+  border: 1px solid #555;
+  font-size: 14px;
+  line-height: 16px;
+  margin: 10px;
+  overflow: hidden;
+  padding: 10px;
+  text-align: center;
+  width: 250px;
+  width: 200px;
+}
 @media screen {
   h1.print {
     display: none;
