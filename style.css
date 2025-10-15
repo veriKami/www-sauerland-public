@@ -390,6 +390,17 @@ a.gray:hover {
   color: #ccc;
   text-decoration: none;
 }
+.notice {
+  border-radius: 4px;
+  margin: 1rem 0;
+  padding: 1rem;
+}
+.translation-notice {
+  background: #fff8e1;
+  border-left: 4px solid #ffc107;
+  margin: 1rem 0;
+  padding: 1rem;
+}
 .layout-wrapper {
   background: #eee;
   box-sizing: border-box;
