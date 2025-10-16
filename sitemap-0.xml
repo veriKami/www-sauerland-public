@@ -353,9 +353,24 @@
   </url>
   <url>
     <loc>https://gh.sauerland.pl/de/video</loc>
-    <lastmod>2025-10-16T11:57:05.000Z</lastmod>
+    <lastmod>2025-10-16T18:19:06.000Z</lastmod>
     <xhtml:link rel="alternate" hreflang="de" href="https://gh.sauerland.pl/de/video"/>
     <xhtml:link rel="alternate" hreflang="pl" href="https://gh.sauerland.pl/video"/>
+  </url>
+  <url>
+    <loc>https://gh.sauerland.pl/de/video/001</loc>
+    <xhtml:link rel="alternate" hreflang="de" href="https://gh.sauerland.pl/de/video/001"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://gh.sauerland.pl/video/001"/>
+  </url>
+  <url>
+    <loc>https://gh.sauerland.pl/de/video/002</loc>
+    <xhtml:link rel="alternate" hreflang="de" href="https://gh.sauerland.pl/de/video/002"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://gh.sauerland.pl/video/002"/>
+  </url>
+  <url>
+    <loc>https://gh.sauerland.pl/de/video/003</loc>
+    <xhtml:link rel="alternate" hreflang="de" href="https://gh.sauerland.pl/de/video/003"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://gh.sauerland.pl/video/003"/>
   </url>
   <url>
     <loc>https://gh.sauerland.pl/files</loc>
@@ -409,8 +424,26 @@
   </url>
   <url>
     <loc>https://gh.sauerland.pl/video</loc>
-    <lastmod>2025-10-16T11:57:05.000Z</lastmod>
+    <lastmod>2025-10-16T18:19:06.000Z</lastmod>
     <xhtml:link rel="alternate" hreflang="de" href="https://gh.sauerland.pl/de/video"/>
     <xhtml:link rel="alternate" hreflang="pl" href="https://gh.sauerland.pl/video"/>
+  </url>
+  <url>
+    <loc>https://gh.sauerland.pl/video/001</loc>
+    <lastmod>2025-10-16T18:22:41.000Z</lastmod>
+    <xhtml:link rel="alternate" hreflang="de" href="https://gh.sauerland.pl/de/video/001"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://gh.sauerland.pl/video/001"/>
+  </url>
+  <url>
+    <loc>https://gh.sauerland.pl/video/002</loc>
+    <lastmod>2025-10-16T18:22:41.000Z</lastmod>
+    <xhtml:link rel="alternate" hreflang="de" href="https://gh.sauerland.pl/de/video/002"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://gh.sauerland.pl/video/002"/>
+  </url>
+  <url>
+    <loc>https://gh.sauerland.pl/video/003</loc>
+    <lastmod>2025-10-16T18:22:41.000Z</lastmod>
+    <xhtml:link rel="alternate" hreflang="de" href="https://gh.sauerland.pl/de/video/003"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://gh.sauerland.pl/video/003"/>
   </url>
 </urlset>
