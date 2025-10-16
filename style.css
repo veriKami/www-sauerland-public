@@ -34,6 +34,9 @@ hr {
   border: 0px dotted #ddd;
   height: 1px;
 }
+blockquote {
+  margin: 0 40px;
+}
 span.icon {
   background: #f8f8f8;
   border: 1px solid #ddd;

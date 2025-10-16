@@ -123,8 +123,31 @@
     <xhtml:link rel="alternate" hreflang="de" href="https://gh.sauerland.pl/de/*/20"/>
   </url>
   <url>
+    <loc>https://gh.sauerland.pl/audio</loc>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://gh.sauerland.pl/audio"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://gh.sauerland.pl/de/audio"/>
+  </url>
+  <url>
+    <loc>https://gh.sauerland.pl/audio/001</loc>
+    <lastmod>2025-10-16T11:55:14.000Z</lastmod>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://gh.sauerland.pl/audio/001"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://gh.sauerland.pl/de/audio/001"/>
+  </url>
+  <url>
+    <loc>https://gh.sauerland.pl/audio/002</loc>
+    <lastmod>2025-10-16T11:55:14.000Z</lastmod>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://gh.sauerland.pl/audio/002"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://gh.sauerland.pl/de/audio/002"/>
+  </url>
+  <url>
+    <loc>https://gh.sauerland.pl/audio/003</loc>
+    <lastmod>2025-10-16T11:55:14.000Z</lastmod>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://gh.sauerland.pl/audio/003"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://gh.sauerland.pl/de/audio/003"/>
+  </url>
+  <url>
     <loc>https://gh.sauerland.pl/baden.badener.disput</loc>
-    <lastmod>2025-08-17T20:56:59.000Z</lastmod>
+    <lastmod>2025-10-16T11:57:05.000Z</lastmod>
     <xhtml:link rel="alternate" hreflang="pl" href="https://gh.sauerland.pl/baden.badener.disput"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://gh.sauerland.pl/de/baden.badener.disput"/>
   </url>
@@ -254,8 +277,28 @@
     <xhtml:link rel="alternate" hreflang="de" href="https://gh.sauerland.pl/de/*/20"/>
   </url>
   <url>
+    <loc>https://gh.sauerland.pl/de/audio</loc>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://gh.sauerland.pl/audio"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://gh.sauerland.pl/de/audio"/>
+  </url>
+  <url>
+    <loc>https://gh.sauerland.pl/de/audio/001</loc>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://gh.sauerland.pl/audio/001"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://gh.sauerland.pl/de/audio/001"/>
+  </url>
+  <url>
+    <loc>https://gh.sauerland.pl/de/audio/002</loc>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://gh.sauerland.pl/audio/002"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://gh.sauerland.pl/de/audio/002"/>
+  </url>
+  <url>
+    <loc>https://gh.sauerland.pl/de/audio/003</loc>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://gh.sauerland.pl/audio/003"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://gh.sauerland.pl/de/audio/003"/>
+  </url>
+  <url>
     <loc>https://gh.sauerland.pl/de/baden.badener.disput</loc>
-    <lastmod>2025-08-17T20:56:59.000Z</lastmod>
+    <lastmod>2025-10-16T11:57:05.000Z</lastmod>
     <xhtml:link rel="alternate" hreflang="pl" href="https://gh.sauerland.pl/baden.badener.disput"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://gh.sauerland.pl/de/baden.badener.disput"/>
   </url>
@@ -267,7 +310,7 @@
   </url>
   <url>
     <loc>https://gh.sauerland.pl/de/kontakt</loc>
-    <lastmod>2025-08-17T20:56:59.000Z</lastmod>
+    <lastmod>2025-10-16T11:57:05.000Z</lastmod>
     <xhtml:link rel="alternate" hreflang="de" href="https://gh.sauerland.pl/de/kontakt"/>
     <xhtml:link rel="alternate" hreflang="pl" href="https://gh.sauerland.pl/kontakt"/>
   </url>
@@ -308,7 +351,7 @@
   </url>
   <url>
     <loc>https://gh.sauerland.pl/de/video</loc>
-    <lastmod>2025-08-17T20:56:59.000Z</lastmod>
+    <lastmod>2025-10-16T11:57:05.000Z</lastmod>
     <xhtml:link rel="alternate" hreflang="de" href="https://gh.sauerland.pl/de/video"/>
     <xhtml:link rel="alternate" hreflang="pl" href="https://gh.sauerland.pl/video"/>
   </url>
@@ -323,7 +366,7 @@
   </url>
   <url>
     <loc>https://gh.sauerland.pl/kontakt</loc>
-    <lastmod>2025-08-17T20:56:59.000Z</lastmod>
+    <lastmod>2025-10-16T11:57:05.000Z</lastmod>
     <xhtml:link rel="alternate" hreflang="de" href="https://gh.sauerland.pl/de/kontakt"/>
     <xhtml:link rel="alternate" hreflang="pl" href="https://gh.sauerland.pl/kontakt"/>
   </url>
@@ -364,7 +407,7 @@
   </url>
   <url>
     <loc>https://gh.sauerland.pl/video</loc>
-    <lastmod>2025-08-17T20:56:59.000Z</lastmod>
+    <lastmod>2025-10-16T11:57:05.000Z</lastmod>
     <xhtml:link rel="alternate" hreflang="de" href="https://gh.sauerland.pl/de/video"/>
     <xhtml:link rel="alternate" hreflang="pl" href="https://gh.sauerland.pl/video"/>
   </url>
