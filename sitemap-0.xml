@@ -3,7 +3,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
   <url>
     <loc>https://gh.sauerland.pl</loc>
-    <lastmod>2025-10-15T12:41:11.000Z</lastmod>
+    <lastmod>2025-10-18T12:30:57.000Z</lastmod>
     <xhtml:link rel="alternate" hreflang="pl" href="https://gh.sauerland.pl/"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://gh.sauerland.pl/de"/>
   </url>
@@ -124,7 +124,7 @@
   </url>
   <url>
     <loc>https://gh.sauerland.pl/audio</loc>
-    <lastmod>2025-10-16T12:43:33.000Z</lastmod>
+    <lastmod>2025-10-18T12:30:57.000Z</lastmod>
     <xhtml:link rel="alternate" hreflang="pl" href="https://gh.sauerland.pl/audio"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://gh.sauerland.pl/de/audio"/>
   </url>
@@ -154,7 +154,7 @@
   </url>
   <url>
     <loc>https://gh.sauerland.pl/de</loc>
-    <lastmod>2025-10-15T12:41:11.000Z</lastmod>
+    <lastmod>2025-10-18T12:30:57.000Z</lastmod>
     <xhtml:link rel="alternate" hreflang="pl" href="https://gh.sauerland.pl/"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://gh.sauerland.pl/de"/>
   </url>
@@ -279,7 +279,7 @@
   </url>
   <url>
     <loc>https://gh.sauerland.pl/de/audio</loc>
-    <lastmod>2025-10-16T12:43:33.000Z</lastmod>
+    <lastmod>2025-10-18T12:30:57.000Z</lastmod>
     <xhtml:link rel="alternate" hreflang="pl" href="https://gh.sauerland.pl/audio"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://gh.sauerland.pl/de/audio"/>
   </url>
@@ -353,7 +353,7 @@
   </url>
   <url>
     <loc>https://gh.sauerland.pl/de/video</loc>
-    <lastmod>2025-10-16T18:19:06.000Z</lastmod>
+    <lastmod>2025-10-18T12:30:57.000Z</lastmod>
     <xhtml:link rel="alternate" hreflang="de" href="https://gh.sauerland.pl/de/video"/>
     <xhtml:link rel="alternate" hreflang="pl" href="https://gh.sauerland.pl/video"/>
   </url>
@@ -424,7 +424,7 @@
   </url>
   <url>
     <loc>https://gh.sauerland.pl/video</loc>
-    <lastmod>2025-10-16T18:19:06.000Z</lastmod>
+    <lastmod>2025-10-18T12:30:57.000Z</lastmod>
     <xhtml:link rel="alternate" hreflang="de" href="https://gh.sauerland.pl/de/video"/>
     <xhtml:link rel="alternate" hreflang="pl" href="https://gh.sauerland.pl/video"/>
   </url>
