@@ -305,6 +305,11 @@
     <xhtml:link rel="alternate" hreflang="de" href="https://gh.sauerland.pl/de/baden.badener.disput"/>
   </url>
   <url>
+    <loc>https://gh.sauerland.pl/de/files</loc>
+    <xhtml:link rel="alternate" hreflang="de" href="https://gh.sauerland.pl/de/files"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://gh.sauerland.pl/files"/>
+  </url>
+  <url>
     <loc>https://gh.sauerland.pl/de/images</loc>
     <lastmod>2025-08-17T20:56:59.000Z</lastmod>
     <xhtml:link rel="alternate" hreflang="de" href="https://gh.sauerland.pl/de/images"/>
@@ -374,6 +379,8 @@
   </url>
   <url>
     <loc>https://gh.sauerland.pl/files</loc>
+    <xhtml:link rel="alternate" hreflang="de" href="https://gh.sauerland.pl/de/files"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://gh.sauerland.pl/files"/>
   </url>
   <url>
     <loc>https://gh.sauerland.pl/images</loc>
