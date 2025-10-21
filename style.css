@@ -315,7 +315,7 @@ dl.year dd {
   margin: 0;
 }
 a {
-  word-break: break-word;
+  word-break: break-all;
 }
 .main a {
   border-bottom: 1px dotted #aac;
