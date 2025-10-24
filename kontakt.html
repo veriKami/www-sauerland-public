@@ -39,6 +39,117 @@
       });
     });
     </script>
+    <style>
+    _[data-astro-cid-tn4srbwr] [data-astro-cid-tn4srbwr] {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+    _body[data-astro-cid-tn4srbwr] {
+      background: linear-gradient(135deg, #667eea, #764ba2);
+      color: #333;
+      font-family: Segoe UI, Tahoma, Geneva, Verdana, sans-serif;
+      line-height: 1.6;
+      min-height: 100vh;
+      padding: 20px;
+    }
+    .container[data-astro-cid-tn4srbwr] [data-astro-cid-tn4srbwr] {
+      box-sizing: border-box;
+    }
+    .container[data-astro-cid-tn4srbwr] {
+      margin: 30px auto 60px 40px;
+      max-width: 500px;
+    }
+    .form-card[data-astro-cid-tn4srbwr] {
+      _background: white;
+      _box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+      _padding: 30px;
+      border-radius: 15px;
+    }
+    .logo[data-astro-cid-tn4srbwr] {
+      margin-bottom: 30px;
+      text-align: center;
+    }
+    .logo[data-astro-cid-tn4srbwr] h1[data-astro-cid-tn4srbwr] {
+      color: #333;
+      font-size: 2rem;
+      font-weight: 300;
+    }
+    .form-group[data-astro-cid-tn4srbwr] {
+      margin-bottom: 25px;
+    }
+    label[data-astro-cid-tn4srbwr] {
+      color: #555;
+      display: block;
+      font-weight: 500;
+      margin-bottom: 8px;
+    }
+    input[data-astro-cid-tn4srbwr], textarea[data-astro-cid-tn4srbwr] {
+      _font-size: 16px;
+      border: 2px solid #e1e5e9;
+      border-radius: 8px;
+      padding: 12px 16px;
+      transition: all 0.3s ease;
+      width: 100%;
+    }
+    input[data-astro-cid-tn4srbwr]:focus, textarea[data-astro-cid-tn4srbwr]:focus {
+      border-color: #667eea;
+      box-shadow: 0 0 0 3px #667eea1a;
+      outline: none;
+    }
+    textarea[data-astro-cid-tn4srbwr] {
+      font-family: inherit;
+      height: 220px;
+      resize: vertical;
+    }
+    .btn[data-astro-cid-tn4srbwr] {
+      background: linear-gradient(135deg, #667eea, #764ba2);
+      border: none;
+      border-radius: 8px;
+      color: #fff;
+      cursor: pointer;
+      font-size: 16px;
+      font-weight: 500;
+      padding: 15px 30px;
+      transition: transform 0.2s ease;
+      width: 100%;
+    }
+    .btn[data-astro-cid-tn4srbwr]:hover {
+      transform: translateY(-2px);
+    }
+    .message[data-astro-cid-tn4srbwr] {
+      border-radius: 8px;
+      display: none;
+      margin-bottom: 20px;
+      padding: 15px;
+      text-align: center;
+    }
+    .success[data-astro-cid-tn4srbwr] {
+      background: #d4edda;
+      border: 1px solid #c3e6cb;
+      color: #155724;
+    }
+    .error[data-astro-cid-tn4srbwr] {
+      background: #f8d7da;
+      border: 1px solid #f5c6cb;
+      color: #721c24;
+    }
+    .loading[data-astro-cid-tn4srbwr] {
+      opacity: 0.7;
+      pointer-events: none;
+    }
+    .turnstile-container[data-astro-cid-tn4srbwr] {
+      display: flex;
+      justify-content: center;
+      margin: 20px 0;
+    }
+    .turnstile-error[data-astro-cid-tn4srbwr] {
+      color: #dc3545;
+      display: none;
+      margin: 10px 0 30px;
+      text-align: center;
+    }
+    </style>
   </head>
   <body>
     <button class="hamburger-button" aria-label="Open menu"><span class="hamburger-icon"></span></button>
@@ -105,15 +216,29 @@
           <h1 class="print">Prof. dr hab. Karol Sauerland</h1>
           <hr class="print">
           <div class="main">
-            <main>
-              <div>
-                <h1>Prof. dr hab. Karol Sauerland</h1>
-                <blockquote><p>ul. Bohaterów Warszawy 11/21<br> 02-495 Warszawa<br> Tel. (+48) 22 667 49 80<br></p></blockquote>
-                <blockquote><p>sauerland@uw.edu.pl</p></blockquote>
+            <div data-astro-cid-tn4srbwr>
+              <h1>Prof. dr hab. Karol Sauerland</h1>
+              <blockquote><p>ul. Bohaterów Warszawy 11/21<br> 02-495 Warszawa<br> Tel. (+48) 22 667 49 80<br></p></blockquote>
+              <blockquote><p>sauerland@uw.edu.pl</p></blockquote>
+            </div>
+            <div class="container" data-astro-cid-tn4srbwr>
+              <div class="form-card" data-astro-cid-tn4srbwr>
+                <div id="messageContainer" class="message" data-astro-cid-tn4srbwr></div>
+                <form id="contactForm" data-astro-cid-tn4srbwr>
+                  <div class="form-group" data-astro-cid-tn4srbwr><label for="name" data-astro-cid-tn4srbwr>Imię i nazwisko *</label><input type="text" id="name" name="name" required data-astro-cid-tn4srbwr></div>
+                  <div class="form-group" data-astro-cid-tn4srbwr><label for="email" data-astro-cid-tn4srbwr>Adres email *</label><input type="email" id="email" name="email" required data-astro-cid-tn4srbwr></div>
+                  <div class="form-group" data-astro-cid-tn4srbwr><label for="messageText" data-astro-cid-tn4srbwr>Wiadomość *</label><textarea id="messageText" name="message" required data-astro-cid-tn4srbwr></textarea></div>
+                  <button type="submit" class="btn" id="submitBtn" disabled data-astro-cid-tn4srbwr><span id="btnText" data-astro-cid-tn4srbwr>Wyślij Wiadomość</span><span id="btnSpinner" style="display: none" data-astro-cid-tn4srbwr>Wysyłanie...</span></button>
+                  <div class="turnstile-container" data-astro-cid-tn4srbwr>
+                    <div class="cf-turnstile" data-siteke_="0x4AAAAAAB8RIQAG_f70iAgH" data-theme="light" data-callback="turnstileSuccess" data-error-callback="turnstileError" data-expired-callback="turnstileExpired" data-astro-cid-tn4srbwr><div id="turnstileError" class="turnstile-error" data-astro-cid-tn4srbwr></div></div>
+                    <script src="https://challenges.cloudflare.com/turnstile/v0/api.js" async defer></script>
+                    <script src="/lib/form.js" data-lang="pl"></script>
+                  </div>
+                </form>
               </div>
-            </main>
+            </div>
           </div>
-          <footer><div id="copyright">Copyright © 2012 // 2025 <a href="/kontakt">Karol Sauerland</a>. Some rights reserved.<br> Coded by ° <a href="http://verikami.com" target="_blank">veriKami</a> // <a href="https://www.linkedin.com/in/verikami" target="_blank">Kami Weronika Amelia</a>. Online since: 12.12.2012.<br> Revision: 2.2.0 (Kalliópē) 1.2.5 (Petöfi). Updated: <time pubdate>21.10.2025</time>.<br></div></footer>
+          <footer><div id="copyright">Copyright © 2012 // 2025 <a href="/kontakt">Karol Sauerland</a>. Some rights reserved.<br> Coded by ° <a href="http://verikami.com" target="_blank">veriKami</a> // <a href="https://www.linkedin.com/in/verikami" target="_blank">Kami Weronika Amelia</a>. Online since: 12.12.2012.<br> Revision: 2.2.0 (Kalliópē) 1.2.5 (Petöfi). Updated: <time pubdate>24.10.2025</time>.<br></div></footer>
           <script>
           document.getElementById("copyright").style.display = "none";
           setTimeout(() => document.getElementById("copyright").style.display = "block", 1111);
